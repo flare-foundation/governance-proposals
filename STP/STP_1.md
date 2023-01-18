@@ -1,12 +1,12 @@
 # STP-1: Reduce FTSO vote power cap to 2.5%
 
-| Type         | Songbird test proposal |
-| :----------- | :----------------------|
-| Author       | Flare Foundation       |
-| Created      | 16-Dec-2022            |
-| Status       | Draft                  |
-| Threshold    | 75%					|
-| Majority     | 50%                    |
+| Type      | Songbird test proposal |
+| :-------- | :--------------------- |
+| Author    | Flare Foundation       |
+| Created   | 16-Dec-2022            |
+| Status    | Draft                  |
+| Threshold | 75%                    |
+| Majority  | 50%                    |
 
 ## Brief Description
 
@@ -89,7 +89,7 @@ Each provider's share of the reward then equals its group weight divided by the 
 
 ## Link to Code Repository
 
-Only a function call to `setGovernanceParameters` will be made on the `FtsoManager` contract ([Explorer link](https://songbird-explorer.flare.network/address/0xbfA12e4E1411B62EdA8B035d71735667422A6A9e)), where the first two parameters (`_maxVotePowerNatThresholdFraction` and `_maxVotePowerAssetThresholdFraction`) will be set to 40, meaning that the vote power cap will be set at 1/40th of the total vote power (i.e. 2.5%). 
+Only a function call to `setGovernanceParameters` will be made on the `FtsoManager` contract ([Explorer link](https://songbird-explorer.flare.network/address/0xbfA12e4E1411B62EdA8B035d71735667422A6A9e)), where the first two parameters (`_maxVotePowerNatThresholdFraction` and `_maxVotePowerAssetThresholdFraction`) will be set to 40, meaning that the vote power cap will be set at 1/40th of the total vote power (i.e. 2.5%).
 
 ## Proposed Implementation Date Range
 

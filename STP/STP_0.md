@@ -24,13 +24,13 @@ The SIP governance module will become active after the launch of Flare. The prop
 
 ### STP purpose
 
-The purpose of the STP structure is to allow governance to be exercised by Songbird token holders over changes that are extremely unpopular whilst, at the same time, not limiting the utility of Songbird for testing. In order to achieve this STP’s will be implemented automatically unless they are rejected with a high threshold. 
+The purpose of the STP structure is to allow governance to be exercised by Songbird token holders over changes that are extremely unpopular whilst, at the same time, not limiting the utility of Songbird for testing. In order to achieve this STP’s will be implemented automatically unless they are rejected with a high threshold.
 
 ### Pre Flare launch
 
-Prior to the launch of Flare the simplified Songbird governance process will be as follows: 
+Prior to the launch of Flare the simplified Songbird governance process will be as follows:
 
-1) An STP will be uploaded by the foundation to [this](https://github.com/flare-foundation/STPs) repo. 
+1) An STP will be uploaded by the foundation to [this](https://github.com/flare-foundation/STPs) repo.
 
 2) Voters may delegate their votes at any time up to the deadline. The vote power for calculation will be determined at a random chosen block per proposal.
 
@@ -42,9 +42,9 @@ Post the launch of Flare the procedure will be identical from the vantage point 
 
 ### Free float definition
 
-All of the SGB that is NOT held by the Flare Foundation.
+All the SGB that is NOT held by the Flare Foundation.
 
-## Proposal Strucuture
+## Proposal Structure
 
 A valid STP Proposal will be structured as follows:
 
@@ -65,4 +65,3 @@ g) Proposed implementation date range.
 h) Voting contract details.
 
 i) Deadline for voting.
-

@@ -1,3 +1,7 @@
+---
+nav_order: 0
+---
+
 # Flare Governance Proposals Repository
 
 This is the repository where the text of all Flare governance proposals is published.

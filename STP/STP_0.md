@@ -1,3 +1,7 @@
+---
+nav_order: 20000
+---
+
 # STP-0: STP Purpose and Guidelines
 
 | Type         | Songbird test proposal |

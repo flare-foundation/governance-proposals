@@ -1,3 +1,7 @@
+---
+nav_order: 10001
+---
+
 # FIP.01: Widen FLR distribution and reduce inflation
 
 | Type      | Flare Improvement Proposal |

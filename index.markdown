@@ -8,6 +8,12 @@ To see the current state of a proposal or cast your vote [visit the Flare Portal
 
 To learn more about the governance process [visit the documentation](https://docs.flare.network/tech/governance).
 
+## Flare Improvement Proposals (FIP)
+
+| Number | Title                                                       |
+| -----: | :---------------------------------------------------------- |
+|      1 | [Widen FLR distribution and reduce inflation](FIP/FIP_1.md) |
+
 ## Songbird Test Proposals (STP)
 
 | Number | Title                                              |

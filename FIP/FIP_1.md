@@ -8,7 +8,7 @@ nav_order: 10001
 | :-------- | :------------------------- |
 | Author    | Flare Foundation           |
 | Created   | 18-Jan-2023                |
-| Status    | Draft                      |
+| Status    | Final                      |
 | Threshold | 0%                         |
 | Majority  | 50%                        |
 

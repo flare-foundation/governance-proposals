@@ -20,7 +20,8 @@ To learn more about the governance process [visit the documentation](https://doc
 
 ## Songbird Test Proposals (STP)
 
-| Number | Title                                              |
-| -----: | :------------------------------------------------- |
-|      0 | [STP Purpose and Guidelines](STP/STP_0.md)         |
-|      1 | [Reduce FTSO vote power cap to 2.5%](STP/STP_1.md) |
+| Number | Title                                                           |
+| -----: | :-------------------------------------------------------------- |
+|      0 | [STP Purpose and Guidelines](STP/STP_0.md)                      |
+|      1 | [Reduce FTSO vote power cap to 2.5%](STP/STP_1.md)              |
+|      2 | [Add a secondary band to FTSO reward calculation](STP/STP_2.md) |

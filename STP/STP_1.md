@@ -2,7 +2,7 @@
 nav_order: 20001
 ---
 
-# STP-1: Reduce FTSO vote power cap to 2.5%
+# STP.01: Reduce FTSO vote power cap to 2.5%
 
 | Type      | Songbird test proposal |
 | :-------- | :--------------------- |

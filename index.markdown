@@ -17,6 +17,7 @@ To learn more about the governance process [visit the documentation](https://doc
 | Number | Title                                                       |
 | -----: | :---------------------------------------------------------- |
 |      1 | [Widen FLR distribution and reduce inflation](FIP/FIP_1.md) |
+|      2 | [Add an FTSO Management Group](FIP/FIP_2.md)                |
 
 ## Songbird Test Proposals (STP)
 
@@ -25,3 +26,10 @@ To learn more about the governance process [visit the documentation](https://doc
 |      0 | [STP Purpose and Guidelines](STP/STP_0.md)                      |
 |      1 | [Reduce FTSO vote power cap to 2.5%](STP/STP_1.md)              |
 |      2 | [Add a secondary band to FTSO reward calculation](STP/STP_2.md) |
+|      3 | [Add an FTSO Management Group](STP/STP_3.md)                    |
+
+<style>
+    table thead tr th:first-child {
+        width: 50px;
+    }
+</style>

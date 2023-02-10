@@ -2,7 +2,7 @@
 nav_order: 20002
 ---
 
-# STP-2: Add a secondary band to FTSO reward calculation
+# STP.02: Add a secondary band to FTSO reward calculation
 
 | Type      | Songbird Test Proposal |
 | :-------- | :--------------------- |

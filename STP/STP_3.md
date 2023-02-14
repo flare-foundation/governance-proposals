@@ -8,7 +8,7 @@ nav_order: 20003
 | :-------- | :--------------------- |
 | Author    | Flare Foundation       |
 | Created   | 24-Jan-2022            |
-| Revision  | 1                      |
+| Revision  | 2                      |
 | Status    | Draft                  |
 | Threshold | 75%                    |
 | Majority  | 50%                    |
@@ -38,10 +38,10 @@ This section describes how the members of the FTSO management group are chosen.
     Requests from addresses that do not qualify as upstanding will be reverted.
 
     An address is considered upstanding if ALL the following conditions are met:
-    1. It corresponds to an FTSO data provider that has been receiving FTSO rewards for the last 20 reward epochs.
+    1. It corresponds to an FTSO data provider that has been receiving FTSO rewards for the last 10 reward epochs.
         This condition implies it has been actively submitting good enough data to earn rewards.
         An initial [KYC](https://en.wikipedia.org/wiki/Know_your_customer) process will allow providers to skip this requirement, since not enough reward epochs will have elapsed since the time this proposal is implemented.
-    2. It has not been chilled for at least 20 rewards epochs.
+    2. It has not been chilled for at least 10 rewards epochs.
     3. It has not been removed from the management group in the last 7 days.
 
 2. Any address can request a group member to be removed.
@@ -137,3 +137,12 @@ The proposal will be accepted unless it proves to be extremely unpopular with th
 ## 7. Deadline for Voting
 
 One week after the proposal is published in [the Flare Portal](https://portal.flare.network/).
+
+## 8. Revision History
+
+|  Revision | Changes                                                                                       |
+| --------: | :-------------------------------------------------------------------------------------------- |
+| [1][rev1] | Initial document.                                                                             |
+|         2 | A data provider needs to receive rewards for 10 reward epochs instead of 20 (Clause 2.1.1.a). A data provider must not have been chilled for the past 10 reward epochs instead of 20 (Clause 2.1.1.b). |
+
+[rev1]: https://github.com/flare-foundation/governance-proposals/blob/db80e7/STP/STP_3.md

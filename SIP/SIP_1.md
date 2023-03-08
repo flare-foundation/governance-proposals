@@ -30,7 +30,7 @@ The list of contracts to be deployed on Songbird can be found in the [next secti
 
 3. **Add Personal Delegation Accounts**: PDAs can temporarily receive and store rewards to track which funds are from rewards, for example, for personal or tax purposes. This functionality is already available on Flare and is [documented here](https://docs.flare.network/tech/personal-delegation-account/). This proposal will bring this functionality to Songbird too.
 
-4. **Unclaimed FTSO reward burning**: FTSO delegation rewards that have not been claimed in 90 days are currently redistributed in the following reward epoch on Songbird, whereas on Flare these unclaimed rewards are burned. This proposal will align both networks and burn unclaimed FTSO rewards on Songbird too, which has the added benefit of reducing inflation.
+4. **Unclaimed FTSO reward burning**: FTSO delegation rewards that have not been claimed in 90 days are currently redistributed in the following reward epoch on Songbird, whereas on Flare these unclaimed rewards are burned. This proposal will align both networks and burn unclaimed FTSO rewards on Songbird too, which has the added benefit of reducing inflation. This will not affect the length of the Songbird FTSO reward epoch, which continues to be 7 days.
 
 Please note that the above effects are already present on the Flare network.
 

@@ -1,5 +1,5 @@
 ---
-nav_order: 20001
+nav_order: 30001
 ---
 
 # STP.01: Reduce FTSO vote power cap to 2.5%

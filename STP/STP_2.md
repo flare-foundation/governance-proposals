@@ -1,5 +1,5 @@
 ---
-nav_order: 20002
+nav_order: 30002
 ---
 
 # STP.02: Add a secondary band to FTSO reward calculation

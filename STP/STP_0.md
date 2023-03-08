@@ -1,5 +1,5 @@
 ---
-nav_order: 20000
+nav_order: 30000
 ---
 
 # STP.00: STP Purpose and Guidelines

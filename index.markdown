@@ -14,12 +14,24 @@ To learn more about the governance process [visit the documentation](https://doc
 
 ## Flare Improvement Proposals (FIP)
 
+Proposals aimed at improving the Flare network.
+
 | Number | Title                                                       |
 | -----: | :---------------------------------------------------------- |
 |      1 | [Widen FLR distribution and reduce inflation](FIP/FIP_1.md) |
 |      2 | [Add an FTSO Management Group](FIP/FIP_2.md)                |
 
+## Songbird Improvement Proposals (SIP)
+
+Proposals aimed at improving the Songbird network.
+
+| Number | Title                                                    |
+| -----: | :------------------------------------------------------- |
+|      1 | [Align Songbird and Flare Smart Contracts](SIP/SIP_1.md) |
+
 ## Songbird Test Proposals (STP)
+
+Proposals aimed at improving the Flare network by being tested first on the Songbird network.
 
 | Number | Title                                                           |
 | -----: | :-------------------------------------------------------------- |

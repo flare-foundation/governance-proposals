@@ -8,6 +8,7 @@ nav_order: 20001
 | :-------- | :---------------------------- |
 | Author    | Flare Foundation              |
 | Created   | 27-Feb-2023                   |
+| Revision  | 2                             |
 | Status    | Draft                         |
 | Threshold | 0%                            |
 | Majority  | 50%                           |
@@ -30,7 +31,11 @@ The list of contracts to be deployed on Songbird can be found in the [next secti
 
 3. **Add Personal Delegation Accounts**: PDAs can temporarily receive and store rewards to track which funds are from rewards, for example, for personal or tax purposes. This functionality is already available on Flare and is [documented here](https://docs.flare.network/tech/personal-delegation-account/). This proposal will bring this functionality to Songbird too.
 
-4. **Unclaimed FTSO reward burning**: FTSO delegation rewards that have not been claimed in 90 days are currently redistributed in the following reward epoch on Songbird, whereas on Flare these unclaimed rewards are burned. This proposal will align both networks and burn unclaimed FTSO rewards on Songbird too, which has the added benefit of reducing inflation. This will not affect the length of the Songbird FTSO reward epoch, which continues to be 7 days.
+4. **Unclaimed FTSO reward burning**: FTSO delegation rewards that have not been claimed in 90 days are currently redistributed in the following reward epoch on Songbird, whereas on Flare these unclaimed rewards are burned. This proposal will align both networks and burn unclaimed FTSO rewards on Songbird too, which has the added benefit of reducing inflation.
+
+   This change will not affect the length of the Songbird FTSO reward epoch, which continues to be 7 days.
+
+   This change will not affect unclaimed rewards from previous epochs, which will still be claimable through the current `FtsoRewardManager` contract until they expire.
 
 Please note that the above effects are already present on the Flare network.
 
@@ -41,6 +46,11 @@ The smart contracts deployed on Songbird will use the same source code as the on
 The exact contracts deployed and their source code links are:
 
 * [`FtsoRewardManager`](https://gitlab.com/flarenetwork/flare-smart-contracts/-/blob/flare_network_deployed_code/contracts/tokenPools/implementation/FtsoRewardManager.sol)
+
+    Applications should start using the new address once the new contract is deployed, since the current `FtsoRewardManager` will stop accruing rewards.
+    Use the `FlareContractRegistry` contract to retrieve addresses [as explained in the documentation](https://docs.flare.network/dev/reference/contracts).
+
+    Applications should also continue checking the current `FtsoRewardManager` for unclaimed rewards from previous epochs.
 
 * [`ClaimSetupManager`](https://gitlab.com/flarenetwork/flare-smart-contracts/-/blob/flare_network_deployed_code/contracts/claiming/implementation/ClaimSetupManager.sol)
 
@@ -61,3 +71,12 @@ To pass, the proposal requires a simple majority of votes in favor of it.
 ## 6. Deadline for Voting
 
 One week after the proposal is published in [the Flare Portal](https://portal.flare.network/).
+
+## 7. Revision History
+
+|  Revision | Changes                                              |
+| --------: | :--------------------------------------------------- |
+| [1][rev1] | Initial document.                                    |
+|         2 | Clarify effects on the `FtsoRewardManager` contract. |
+
+[rev1]: https://github.com/flare-foundation/governance-proposals/blob/e9e390/SIP/SIP_1.md

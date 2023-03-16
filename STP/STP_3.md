@@ -1,5 +1,6 @@
 ---
 nav_order: 30003
+title: STP.03
 ---
 
 # STP.03: Add an FTSO Management Group

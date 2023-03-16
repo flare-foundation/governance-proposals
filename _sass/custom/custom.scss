@@ -1,0 +1,11 @@
+/* Make code blocks more compact */
+pre {
+    line-height: 1;
+}
+
+/* Separating line for each type of proposal in the TOC */
+.nav-list-item a[href$="FIP_1.html"],
+.nav-list-item a[href$="SIP_1.html"],
+.nav-list-item a[href$="STP_0.html"] {
+    border-top: 1px solid #eeebee;
+}

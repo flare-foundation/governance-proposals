@@ -1,5 +1,6 @@
 ---
 nav_order: 10001
+title: FIP.01
 ---
 
 # FIP.01: Widen FLR distribution and reduce inflation

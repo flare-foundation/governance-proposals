@@ -1,5 +1,6 @@
 ---
 nav_order: 20001
+title: SIP.01
 ---
 
 # SIP.01: Align Songbird and Flare Smart Contracts

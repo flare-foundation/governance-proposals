@@ -1,5 +1,6 @@
 ---
 nav_order: 10002
+title: FIP.02
 ---
 
 # FIP.02: Add an FTSO Management Group

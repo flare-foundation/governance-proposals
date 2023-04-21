@@ -65,7 +65,7 @@ The FTSO management group members propose FTSO data providers to be chilled and 
 1. **Discussion**
 
     A public discussion should happen before a formal chill proposal is submitted.
-    1. A group member (the proponent) creates a new thread on the [Flare FTSO Self-Policing Forum](https://community.flare.network) proposing to chill a misbehaving FTSO data provider (the defendant).
+    1. A group member (the proponent) creates a new thread on the [Flare FTSO Self-Policing Forum](https://forum.flare.network) proposing to chill a misbehaving FTSO data provider (the defendant).
         This forum is public, but only group members can post on it.
         Defendant data providers can also join by invitation from the group.
     2. The chill proposal must contain the reasons, the C-chain address of the accused data provider, and some kind of evidence.
@@ -114,7 +114,7 @@ The FTSO management group members propose FTSO data providers to be chilled and 
 
 ## 3. Link to Code Repository
 
-A web forum will be available at the address <https://community.flare.network>, hosted by the Flare Foundation.
+A web forum will be available at the address <https://forum.flare.network>, hosted by the Flare Foundation.
 
 A new contract called [`PollingFtso`](https://gitlab.com/flarenetwork/flare-smart-contracts/-/blob/698-polling-ftso-providers/contracts/governance/implementation/PollingFtso.sol) will be deployed to take care of voting on chill proposals.
 

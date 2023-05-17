@@ -39,6 +39,7 @@ Proposals aimed at improving the Flare network by being tested first on the Song
 |      1 | [Reduce FTSO vote power cap to 2.5%](STP/STP_1.md)              |
 |      2 | [Add a secondary band to FTSO reward calculation](STP/STP_2.md) |
 |      3 | [Add an FTSO Management Group](STP/STP_3.md)                    |
+|      4 | [Update FTSO price pairs](STP/STP_4.md)                         |
 
 <style>
     table thead tr th:first-child {

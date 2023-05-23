@@ -41,6 +41,8 @@ The Flare Foundation is working to overcome these limitations.
 
 Once these calls are made, the `FtsoRegistry` contract will reflect the new list of price pairs, and the FTSO data providers can start submitting them.
 
+Note that the _indices_ associated with the removed pairs, as returned by `FtsoRegistry.getSupportedIndices` for example, will not be used anymore and will remain unused. This means that the rest of the existing pairs will keep their current indices and the added pairs will receive indices from 12 onwards.
+
 The `FtsoAdded` event is fired from the `FtsoManager` every time a price pair is added or removed, and can be used by data providers to start submitting the new pairs at exactly the right block height. Failure to do so will result in reverted submissions.
 
 [Instructions to retrieve the addresses of the above contracts](https://docs.flare.network/dev/getting-started/contract-addresses/).

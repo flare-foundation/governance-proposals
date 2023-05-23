@@ -47,12 +47,11 @@ The `FtsoAdded` event is fired from the `FtsoManager` every time a price pair is
 
 ### 2.1 Secondary Reward Band
 
-[STP.02](./STP_2.md) added a secondary reward band with a width such that a fixed percentage of all FTSO data providers gets rewarded.
+[STP.02](./STP_2.md) introduced a secondary reward band to benefit more FTSO data providers. The width of this band is chosen for each price pair to reward a fixed percentage of all providers.
 
-However, right after this proposal adds the new price pairs there will not be enough information to calculate their secondary band widths, so these pairs will initially have their secondary reward bands disabled.
+However, immediately after the new price pairs are added by this proposal, enough information about them will not be available to calculate their secondary band widths. As a result, initially the secondary reward bands for these pairs will be disabled.
 
-Once a few reward epochs have elapsed and enough submissions have been analyzed the secondary reward bands will be enabled for the new pairs.
-This is expected to take approximately 2 weeks.
+In approximately 2 weeks, after a few reward epochs have passed and enough submissions have been analyzed, secondary reward bands for the new pairs will be enabled.
 
 ## 3. Link to Code Repository
 

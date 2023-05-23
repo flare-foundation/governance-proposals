@@ -45,6 +45,15 @@ The `FtsoAdded` event is fired from the `FtsoManager` every time a price pair is
 
 [Instructions to retrieve the addresses of the above contracts](https://docs.flare.network/dev/getting-started/contract-addresses/).
 
+### 2.1 Secondary Reward Band
+
+[STP.02](./STP_2.md) added a secondary reward band with a width such that a fixed percentage of all FTSO data providers gets rewarded.
+
+However, right after this proposal adds the new price pairs there will not be enough information to calculate their secondary band widths, so these pairs will initially have their secondary reward bands disabled.
+
+Once a few reward epochs have elapsed and enough submissions have been analyzed the secondary reward bands will be enabled for the new pairs.
+This is expected to take approximately 2 weeks.
+
 ## 3. Link to Code Repository
 
 There is no new code involved. Only governance calls to modify the network's configuration.

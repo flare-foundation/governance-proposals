@@ -4,7 +4,7 @@ nav_order: 0
 
 # Repository Index
 
-This is the repository where the text of all Flare governance proposals is published.
+This is the repository where the text of all [Flare](https://flare.network) governance proposals is published.
 
 Click on any of the proposals listed below to access the full text.
 

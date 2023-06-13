@@ -5,13 +5,17 @@ title: STP.02
 
 # STP.02: Add a secondary band to FTSO reward calculation
 
-| Type      | Songbird Test Proposal |
-| :-------- | :--------------------- |
-| Author    | Flare Foundation       |
-| Created   | 20-Jan-2022            |
-| Status    | Final                  |
-| Threshold | 75%                    |
-| Majority  | 50%                    |
+| Type                | Songbird Test Proposal                      |
+| :------------------ | :------------------------------------------ |
+| Author              | Flare Foundation                            |
+| Created             | 20-Jan-2022                                 |
+| Status              | Final                                       |
+| Threshold Condition | 75% (required) 7.06% (obtained)             |
+| Majority Condition  | 50% (required) 5.22% (obtained)             |
+| Voting Outcome      | [**Accepted**][ProposalLink] on 16-Feb-2023 |
+| Timeline            | 21-Feb-2023 Deployment started on Coston.<br> 24-Feb-2023 Deployment started on Songbird.<br>3-Mar-2023 Deployment complete. |
+
+[ProposalLink]: https://portal.flare.network/proposal/view/99877686589051291159439816214444308681891669617969610362053207962914539941917?chainId=19
 
 ## Brief Description
 

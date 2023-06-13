@@ -5,13 +5,16 @@ title: FIP.01
 
 # FIP.01: Widen FLR distribution and reduce inflation
 
-| Type      | Flare Improvement Proposal |
-| :-------- | :------------------------- |
-| Author    | Flare Foundation           |
-| Created   | 18-Jan-2023                |
-| Status    | Final                      |
-| Threshold | 0%                         |
-| Majority  | 50%                        |
+| Type               | Flare Improvement Proposal                  |
+| :----------------- | :------------------------------------------ |
+| Author             | Flare Foundation                            |
+| Created            | 18-Jan-2023                                 |
+| Status             | Final                                       |
+| Majority Condition | 50% (required) 93.78% (obtained)            |
+| Voting Outcome     | [**Accepted**][ProposalLink] on 27-Jan-2023 |
+| Timeline           | 22-Feb-2023 Deployment started on Coston2.<br> 23-Feb-2023 Deployment started on Flare.<br>16-Mar-2023 Deployment complete. |
+
+[ProposalLink]: https://portal.flare.network/proposal/view/31313223399225215467886651717691514407244212421129328237186875197531473335173
 
 ## Brief Description
 

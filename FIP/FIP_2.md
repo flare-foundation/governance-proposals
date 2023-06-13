@@ -5,14 +5,17 @@ title: FIP.02
 
 # FIP.02: Add an FTSO Management Group
 
-| Type      | Flare Improvement Proposal |
-| :-------- | :------------------------- |
-| Author    | Flare Foundation           |
-| Created   | 24-Jan-2022                |
-| Revision  | 1                          |
-| Status    | Draft                      |
-| Threshold | 0%                         |
-| Majority  | 50%                        |
+| Type               | Flare Improvement Proposal                  |
+| :----------------- | :------------------------------------------ |
+| Author             | Flare Foundation                            |
+| Created            | 24-Jan-2022                                 |
+| Revision           | 1                                           |
+| Status             | Draft                                       |
+| Majority Condition | 50% (required) 74.60% (obtained)            |
+| Voting Outcome     | [**Accepted**][ProposalLink] on 06-Mar-2023 |
+| Timeline           | 16-Mar-2023 Deployment started on Coston2.<br> 22-Mar-2023 Deployment started on Flare.<br>4-Apr-2023 Deployment complete. |
+
+[ProposalLink]: https://portal.flare.network/proposal/view/69648011017705329136474870894283807954424628818699103324276605104614185715563
 
 ## 1. Brief Description
 

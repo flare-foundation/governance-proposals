@@ -5,14 +5,17 @@ title: SIP.01
 
 # SIP.01: Align Songbird and Flare Smart Contracts
 
-| Type      | Songbird Improvement Proposal |
-| :-------- | :---------------------------- |
-| Author    | Flare Foundation              |
-| Created   | 27-Feb-2023                   |
-| Revision  | 2                             |
-| Status    | Draft                         |
-| Threshold | 0%                            |
-| Majority  | 50%                           |
+| Type               | Songbird Improvement Proposal               |
+| :----------------- | :------------------------------------------ |
+| Author             | Flare Foundation                            |
+| Created            | 27-Feb-2023                                 |
+| Revision           | 2                                           |
+| Status             | Draft                                       |
+| Majority Condition | 50% (required) 98.4 % (obtained)            |
+| Voting Outcome     | [**Accepted**][ProposalLink] on 28-Mar-2023 |
+| Timeline           | 31-Mar-2023 Deployment started on Coston.<br> 4-Apr-2023 Deployment started on Songbird.<br>19-Apr-2023 Deployment complete. |
+
+[ProposalLink]: https://portal.flare.network/proposal/view/87665912177119419850930771002070337111617509938363329917483826669642835249215?chainId=19
 
 ## 1. Brief Description
 

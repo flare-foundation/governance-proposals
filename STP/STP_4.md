@@ -5,13 +5,17 @@ title: STP.04
 
 # STP.04: Update FTSO price pairs
 
-| Type      | Songbird Test Proposal |
-| :-------- | :--------------------- |
-| Author    | Flare Foundation       |
-| Created   | 17-May-2023            |
-| Status    | Draft                  |
-| Threshold | 75%                    |
-| Majority  | 50%                    |
+| Type                | Songbird Test Proposal                      |
+| :------------------ | :------------------------------------------ |
+| Author              | Flare Foundation                            |
+| Created             | 17-May-2023                                 |
+| Status              | Draft                                       |
+| Threshold Condition | 75% (required) 2.39% (obtained)             |
+| Majority Condition  | 50% (required) 0.80% (obtained)             |
+| Voting Outcome      | [**Accepted**][ProposalLink] on 05-Jun-2023 |
+| Timeline            | 7-Jun-2023 Deployment started on Coston.    |
+
+[ProposalLink]: https://portal.flare.network/proposal/view/66778465481645690887041505836796293365286885579605118369844165722336569178460?chainId=19
 
 ## 1. Brief Description
 

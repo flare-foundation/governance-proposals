@@ -5,14 +5,18 @@ title: STP.03
 
 # STP.03: Add an FTSO Management Group
 
-| Type      | Songbird Test Proposal |
-| :-------- | :--------------------- |
-| Author    | Flare Foundation       |
-| Created   | 24-Jan-2022            |
-| Revision  | 2                      |
-| Status    | Draft                  |
-| Threshold | 75%                    |
-| Majority  | 50%                    |
+| Type                | Songbird Test Proposal                      |
+| :------------------ | :------------------------------------------ |
+| Author              | Flare Foundation                            |
+| Created             | 24-Jan-2022                                 |
+| Revision            | 2                                           |
+| Status              | Draft                                       |
+| Threshold Condition | 75% (required) 1.88% (obtained)             |
+| Majority Condition  | 50% (required) 13.03% (obtained)            |
+| Voting Outcome      | [**Accepted**][ProposalLink] on 06-Mar-2023 |
+| Timeline            | 17-Mar-2023 Deployment started on Coston.<br> 22-Mar-2023 Deployment started on Songbird.<br>4-Apr-2023 Deployment complete. |
+
+[ProposalLink]: https://portal.flare.network/proposal/view/103532022545436934523427401446964676946623468656052499154170952430975064643615?chainId=19
 
 ## 1. Brief Description
 

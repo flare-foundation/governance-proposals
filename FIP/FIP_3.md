@@ -1,25 +1,21 @@
 ---
-nav_order: 30002
-title: STP.02
+nav_order: 10003
+title: FIP.03
 ---
 
-# STP.02: Add a secondary band to FTSO reward calculation
+# FIP.03: Add a secondary band to FTSO reward calculation
 
-| Type                | Songbird Test Proposal                      |
-| :------------------ | :------------------------------------------ |
-| Author              | Flare Foundation                            |
-| Created             | 20-Jan-2022                                 |
-| Status              | Final                                       |
-| Threshold Condition | 75% (required) 7.06% (obtained)             |
-| Majority Condition  | 50% (required) 5.22% (obtained)             |
-| Voting Outcome      | [**Accepted**][ProposalLink] on 16-Feb-2023 |
-| Timeline            | 21-Feb-2023 Deployment started on Coston.<br> 24-Feb-2023 Deployment started on Songbird.<br>3-Mar-2023 Deployment complete. |
+| Type      | Flare Improvement Proposal |
+| :-------- | :------------------------- |
+| Author    | Flare Foundation           |
+| Created   | 13-June-2023               |
+| Status    | Draft                      |
+| Threshold | 0%                         |
+| Majority  | 50%                        |
 
-[ProposalLink]: https://portal.flare.network/proposal/view/99877686589051291159439816214444308681891669617969610362053207962914539941917?chainId=19
+## 1. Brief Description
 
-## Brief Description
-
-The Flare Time Series Oracle (FTSO) is a smart contract running on the Songbird network that provides continuous estimations for different types of data. It does so in a decentralized manner (no single party is in control of the process) and securely (it takes a lot of effort to disrupt the process).
+The Flare Time Series Oracle (FTSO) is a smart contract running on the Flare network that provides continuous estimations for different types of data. It does so in a decentralized manner (no single party is in control of the process) and securely (it takes a lot of effort to disrupt the process).
 
 To ensure decentralization and security, a set of independent data providers retrieves data from external sources, like centralized and decentralized exchanges, and supplies the data to the FTSO system. This information is then weighted according to each provider's voting power, and the median is calculated to produce the final estimate.
 
@@ -27,7 +23,11 @@ The current FTSO system rewards data submissions that are close to the median pr
 
 **This proposal adds a second, wider reward band aiming at increasing the number of data providers that get rewarded, while still giving a higher allocation to submissions closer to the vote-power-weighted median value.**
 
-## Technical Description
+A [version of this proposal for Songbird](../STP/STP_2.md) was implemented in March 2023. Since then, the Flare Analytics Team conducted [a study to evaluate its impact on the system](https://flare.network/wp-content/uploads/Flare-Analytics-Report-02-Impact-of-the-secondary-FTSO-reward-band.pdf). As explained in the report, results show that the secondary reward band significantly bolsters decentralization by increasing the percentage of rewarded data providers without negatively impacting the quality of the data.
+
+This proposal successfully illustrates the central purpose of the Songbird network, where the experiment to test the effects of another reward band was run before the band was added on the Flare network.
+
+## 2. Technical Description
 
 The current FTSO system is described in the [Flare White Paper](https://flare.network/wp-content/uploads/Flare-White-Paper-v2.pdf), and a high-level summary can be found in the [FTSO technical documentation page](https://docs.flare.network/tech/ftso/).
 
@@ -49,7 +49,7 @@ Therefore, the Flare Foundation wants to improve the current situation by implem
 This proposal maintains the current rewarding mechanism and renames it to _primary reward band_.
 However, to achieve the aforementioned goals, a _secondary reward band_ will be added which is described next.
 
-### Secondary Reward Band
+### 2.1 Secondary Reward Band
 
 For each asset, a secondary reward band is defined as a percentage _d_ around the median price.
 This percentage is initially fixed for each asset and is defined in [Annex A](#annex-a) of this proposal.
@@ -60,7 +60,7 @@ This new band is not meant to be a reward for every submitter, though: Even thou
 
 Both reward bands are independent, so if a submission falls within both bands, it receives both rewards.
 
-### Reward Splitting between Primary and Secondary Bands
+### 2.2 Reward Splitting between Primary and Secondary Bands
 
 To avoid sudden changes that affect the stability of the system, the secondary reward band will initially receive 30% of all FTSO rewards, whereas the primary reward band will receive the remaining 70%.
 
@@ -68,55 +68,55 @@ In choosing these percentages, the Flare Foundation considered the current serve
 
 Depending on the evolution of the system, these values might be revised later through the submission of another proposal.
 
-## Link to Code Repository
+## 3. Link to Code Repository
 
 In the source code the primary and secondary bands are called the _IQR_ (for Inter-Quartile) and the _elastic_ bands respectively, since these were the working names used during development.
 
-A number of smart contracts, including the [`FTSOManager`](https://gitlab.com/flarenetwork/flare-smart-contracts/-/blob/636-songbird-upgrade/contracts/ftso/implementation/FtsoManager.sol), the [`FtsoRegistry`](https://gitlab.com/flarenetwork/flare-smart-contracts/-/blob/636-songbird-upgrade/contracts/utils/implementation/FtsoRegistry.sol), and all [`FTSO`](https://gitlab.com/flarenetwork/flare-smart-contracts/-/blob/636-songbird-upgrade/contracts/ftso/implementation/Ftso.sol) contracts will be redeployed.
-The new code can be found in [this repository branch](https://gitlab.com/flarenetwork/flare-smart-contracts/-/tree/636-songbird-upgrade).
+A number of smart contracts, including the [`FtsoManager`](https://gitlab.com/flarenetwork/flare-smart-contracts/-/blob/master/contracts/ftso/implementation/FtsoManager.sol) and all [`FTSO`](https://gitlab.com/flarenetwork/flare-smart-contracts/-/blob/master/contracts/ftso/implementation/Ftso.sol) contracts will be redeployed.
+The new code can be found in [this repository branch](https://gitlab.com/flarenetwork/flare-smart-contracts/-/tree/master/contracts).
 
-Calculations regarding the secondary reward band can be found in [the FTSO contract, starting on line 1078](https://gitlab.com/flarenetwork/flare-smart-contracts/-/blob/636-songbird-upgrade/contracts/ftso/implementation/Ftso.sol#L1078).
+Calculations regarding the secondary reward band can be found in [the FTSO contract, starting on line 1038](https://gitlab.com/flarenetwork/flare-smart-contracts/-/blob/master/contracts/ftso/implementation/Ftso.sol#L1038).
 
 Once these contracts have been redeployed, all other contracts containing their addresses will be updated too.
 
-The [`PriceFinalized`](https://gitlab.com/flarenetwork/flare-smart-contracts/-/blob/636-songbird-upgrade/contracts/userInterfaces/IFtso.sol#L30) event in the `IFtso` interface has also been updated to include information regarding the secondary band.
+The [`PriceFinalized`](https://gitlab.com/flarenetwork/flare-smart-contracts/-/blob/master/contracts/userInterfaces/IFtso.sol#L25) event in the `IFtso` interface has also been updated to include information regarding the secondary band.
 
 Then, the following governance calls will happen:
 
-* [`FTSOManager.setGovernanceParameters()`](https://gitlab.com/flarenetwork/flare-smart-contracts/-/blob/636-songbird-upgrade/contracts/ftso/implementation/FtsoManager.sol#L360) will be called to set the `_elasticBandRewardBIPS` parameter to 3000, meaning that the secondary reward band will receive 30% of the total FTSO rewards, and the primary band will receive the remaining 70%.
+* [`FTSOManager.setGovernanceParameters()`](https://gitlab.com/flarenetwork/flare-smart-contracts/-/blob/master/contracts/ftso/implementation/FtsoManager.sol#L391) will be called to set the `_elasticBandRewardBIPS` parameter to 3000, meaning that the secondary reward band will receive 30% of the total FTSO rewards, and the primary band will receive the remaining 70%.
 
-* [`FTSOManager.setElasticBandWidthPPMFtsos()`](https://gitlab.com/flarenetwork/flare-smart-contracts/-/blob/636-songbird-upgrade/contracts/ftso/implementation/FtsoManager.sol#L413) will be called to set the band width for each asset to the **Proposed _d_** values specified in [Annex A](#annex-a) of this proposal.
+* [`FTSOManager.setElasticBandWidthPPMFtsos()`](https://gitlab.com/flarenetwork/flare-smart-contracts/-/blob/master/contracts/ftso/implementation/FtsoManager.sol#L444) will be called to set the band width for each asset to the **Proposed _d_** values specified in [Annex A](#annex-a) of this proposal.
 
-## Proposed Implementation Date Range
+## 4. Proposed Implementation Date Range
 
-At the start of the next reward epoch after the voting ends the new contracts will be deployed and tested on [the Coston network](https://docs.flare.network/dev/reference/network-configs/).
+At the start of the next reward epoch after the voting ends the new contracts will be deployed and tested on [the Coston2 network](https://docs.flare.network/dev/reference/network-configs/).
 
-Then the proposal will be implemented on the Songbird network.
+Then the proposal will be implemented on the Flare network.
 
-## Voting Details
+## 5. Voting Details
 
-The proposal will be accepted unless it proves to be extremely unpopular with the community. It will therefore be rejected only if a majority (>50%) of the votes cast are against it, with the additional threshold condition that at least 75% of all possible votes are cast.
+To pass, the proposal requires a simple majority of votes in favor of it.
 
-## Deadline for Voting
+## 6. Deadline for Voting
 
 One week after the proposal is published in [the Flare Portal](https://portal.flare.network/).
 
-## Annex A
+## 7. Annex A
 
 | Asset  | Primary _d_ | Primary Recipients % | Proposed Secondary _d_ | Estimated Secondary Recipients % |
 | :----- | ----------: | :------------------- | ---------------------: | :------------------------------- |
-| `XRP`  |     0.0055% | 25.6%                |                 0.015% | 49.2%                            |
-| `LTC`  |     0.0065% | 27.3%                |                 0.020% | 52.6%                            |
-| `XLM`  |     0.0079% | 26.3%                |                 0.020% | 50.3%                            |
-| `DOGE` |     0.0069% | 25.6%                |                 0.020% | 51.4%                            |
-| `ADA`  |     0.0062% | 26.1%                |                 0.020% | 51.4%                            |
-| `ALGO` |     0.0094% | 26.6%                |                 0.020% | 48.2%                            |
-| `BCH`  |     0.0069% | 27.7%                |                 0.020% | 51.0%                            |
-| `DGB`  |     0.0214% | 31.2%                |                 0.050% | 51.7%                            |
-| `BTC`  |     0.0036% | 25.1%                |                 0.010% | 47.4%                            |
-| `ETH`  |     0.0042% | 25.2%                |                 0.015% | 52.4%                            |
-| `FIL`  |     0.0080% | 27.6%                |                 0.020% | 48.1%                            |
-| `SGB`  |     0.0329% | 32.7%                |                 0.050% | 45.0%                            |
+| `XRP`  |     0.0023% | 22.4%                |                 0.005% | 57.1%                            |
+| `LTC`  |     0.0019% | 26.1%                |                 0.005% | 53.2%                            |
+| `XLM`  |     0.0065% | 26.7%                |                 0.015% | 71.9%                            |
+| `DOGE` |     0.0047% | 32.4%                |                 0.005% | 59.4%                            |
+| `ADA`  |     0.0028% | 22.6%                |                 0.010% | 68.1%                            |
+| `ALGO` |     0.0062% | 24.7%                |                 0.010% | 52.5%                            |
+| `BCH`  |     0.0033% | 27.4%                |                 0.010% | 60.0%                            |
+| `DGB`  |     0.0347% | 35.4%                |                 0.050% | 66.0%                            |
+| `BTC`  |     0.0009% | 24.0%                |                 0.005% | 64.6%                            |
+| `ETH`  |     0.0009% | 24.2%                |                 0.005% | 64.9%                            |
+| `FIL`  |     0.0024% | 26.7%                |                 0.010% | 66.6%                            |
+| `FLR`  |     0.0241% | 28.2%                |                 0.040% | 73.0%                            |
 
 * **Primary _d_**: Average width of the primary band resulting from [the mechanism currently in use](https://docs.flare.network/tech/ftso/).
 * **Primary Recipients %**: Average percentage of data providers which currently receive rewards.

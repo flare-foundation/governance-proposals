@@ -41,6 +41,7 @@ Proposals aimed at improving the Flare network by being tested first on the Song
 |      2 | [Add a secondary band to FTSO reward calculation](STP/STP_2.md) |
 |      3 | [Add an FTSO Management Group](STP/STP_3.md)                    |
 |      4 | [Update FTSO price pairs](STP/STP_4.md)                         |
+|      5 | [Inflation Updates](STP/STP_5.md)                               |
 
 <style>
     table thead tr th:first-child {

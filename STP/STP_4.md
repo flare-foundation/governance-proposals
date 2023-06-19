@@ -9,7 +9,7 @@ title: STP.04
 | :------------------ | :------------------------------------------ |
 | Author              | Flare Foundation                            |
 | Created             | 17-May-2023                                 |
-| Status              | Draft                                       |
+| Status              | Final                                       |
 | Threshold Condition | 75% (required) 2.39% (obtained)             |
 | Majority Condition  | 50% (required) 0.80% (obtained)             |
 | Voting Outcome      | [**Accepted**][ProposalLink] on 05-Jun-2023 |

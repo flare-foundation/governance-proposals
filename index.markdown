@@ -16,11 +16,12 @@ To learn more about the governance process [visit the documentation](https://doc
 
 Proposals aimed at improving the Flare network.
 
-| Number | Title                                                          |
-| -----: | :------------------------------------------------------------- |
-|      1 | [Widen FLR distribution and reduce inflation](FIP/FIP_1.md)    |
-|      2 | [Add an FTSO Management Group](FIP/FIP_2.md)                   |
-|      3 | [Add a secondary band to FTSO reward calculation](FIP/FIP_3.md)|
+| Number | Title                                                           |
+| -----: | :-------------------------------------------------------------- |
+|      1 | [Widen FLR distribution and reduce inflation](FIP/FIP_1.md)     |
+|      2 | [Add an FTSO Management Group](FIP/FIP_2.md)                    |
+|      3 | [Add a secondary band to FTSO reward calculation](FIP/FIP_3.md) |
+|      4 | [Update FTSO price pairs](FIP/FIP_4.md)                         |
 
 ## Songbird Improvement Proposals (SIP)
 

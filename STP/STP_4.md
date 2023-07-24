@@ -10,10 +10,10 @@ title: STP.04
 | Author              | Flare Foundation                            |
 | Created             | 17-May-2023                                 |
 | Status              | Final                                       |
-| Threshold Condition | 75% (required) 2.39% (obtained)             |
-| Majority Condition  | 50% (required) 0.80% (obtained)             |
+| Threshold Condition | 75% (required to reject) 2.39% (obtained)   |
+| Majority Condition  | 50% (required to reject) 0.80% (obtained)   |
 | Voting Outcome      | [**Accepted**][ProposalLink] on 05-Jun-2023 |
-| Timeline            | 7-Jun-2023 Deployed on Coston.<br>22-Jun-2023 Deployed on Songbird. |
+| Timeline            | 7-Jun-2023 Deployment started on Coston.<br>15-Jun-2023 Deployment started on Songbird<br>22-Jun-2023 Deployment complete. |
 
 [ProposalLink]: https://portal.flare.network/proposal/view/66778465481645690887041505836796293365286885579605118369844165722336569178460?chainId=19
 

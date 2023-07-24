@@ -5,13 +5,12 @@ title: FIP.04
 
 # FIP.04: Update FTSO price pairs
 
-| Type                | Flare Improvement Proposal |
-| :------------------ | :------------------------- |
-| Author              | Flare Foundation           |
-| Created             | 19-Jun-2023                |
-| Status              | Draft                      |
-| Threshold           | 0% (required)              |
-| Majority Condition  | 50% (required)             |
+| Type               | Flare Improvement Proposal |
+| :----------------- | :------------------------- |
+| Author             | Flare Foundation           |
+| Created            | 19-Jun-2023                |
+| Status             | Draft                      |
+| Majority Condition | 50% (required)             |
 
 ## 1. Brief Description
 

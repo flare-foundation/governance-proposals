@@ -5,11 +5,17 @@ title: STP.05
 
 # STP.05: Inflation Updates
 
-| Type         | Songbird Test Proposal |
-| :----------- | :----------------------|
-| Author       | Flare Foundation       |
-| Created      | 28-Apr-2023            |
-| Status       | Draft                  |
+| Type                | Songbird Test Proposal                      |
+| :------------------ | :------------------------------------------ |
+| Author              | Flare Foundation                            |
+| Created             | 28-Apr-2023                                 |
+| Status              | Final                                       |
+| Threshold Condition | 75% (required to reject) 1.66% (obtained)   |
+| Majority Condition  | 50% (required to reject) 0.35% (obtained)   |
+| Voting Outcome      | [**Accepted**][ProposalLink] on 03-Jul-2023 |
+| Timeline            | 12-Jul-2023 Deployment started on Coston.   |
+
+[ProposalLink]: https://portal.flare.network/proposal/view/86986707598029556313330355529395772870755361418487059291222730976661664120502?chainId=19
 
 ## 1. Brief Description
 

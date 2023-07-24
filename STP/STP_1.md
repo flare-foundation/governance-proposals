@@ -10,8 +10,8 @@ title: STP.01
 | Author              | Flare Foundation                           |
 | Created             | 16-Dec-2022                                |
 | Status              | Deployment Complete                        |
-| Threshold Condition | 75% (required) 10.48% (obtained)           |
-| Majority Condition  | 50% (required) 1.93% (obtained)            |
+| Threshold Condition | 75% (required to reject) 10.48% (obtained) |
+| Majority Condition  | 50% (required to reject) 1.93% (obtained)  |
 | Voting Outcome      | [**Accepted**][ProposalLink] on 3-Jan-2023 |
 | Timeline            | Parameters not updated on Coston.<br> 7-Jan-2023 Parameters updated on Songbird. |
 

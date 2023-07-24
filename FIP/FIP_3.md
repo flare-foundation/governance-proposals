@@ -5,13 +5,17 @@ title: FIP.03
 
 # FIP.03: Add a secondary band to FTSO reward calculation
 
-| Type      | Flare Improvement Proposal |
-| :-------- | :------------------------- |
-| Author    | Flare Foundation           |
-| Created   | 13-June-2023               |
-| Status    | Draft                      |
-| Threshold | 0%                         |
-| Majority  | 50%                        |
+| Type               | Flare Improvement Proposal                  |
+| :----------------- | :------------------------------------------ |
+| Author             | Flare Foundation                            |
+| Created            | 13-June-2023                                |
+| Status             | Draft                                       |
+| Threshold          | 0% (required)                               |
+| Majority Condition | 50% (required)                              |
+| Voting Outcome     | [**Accepted**][ProposalLink] on 30-Jun-2023 |
+| Timeline           | Deployed on Coston2 on 12-Jul-2023.<br>Deployed on Flare on 20-Jul-2023. |
+
+[ProposalLink]: https://portal.flare.network/proposal/view/102346860651209103299352271877494040880208493959912687607164289066303939599680?chainId=14
 
 ## 1. Brief Description
 

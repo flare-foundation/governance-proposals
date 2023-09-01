@@ -9,6 +9,7 @@ title: FIP.05
 | :----------------- | :------------------------- |
 | Author             | Flare Foundation           |
 | Created            | 16-Aug-2023                |
+| Revision           | 2                          |
 | Status             | Draft                      |
 | Majority Condition | 50% (required)             |
 
@@ -123,13 +124,14 @@ The yearly inflation is used to reward FTSO data providers and validators in the
 Staking rewards will:
 
 * Take into account validator uptime, which can be publicly monitored, and existing validator security measures.
+    Uptime must be above 80% to receive rewards.
 * Take into account staked amount, including self-bond and delegations.
 * Require that the FTSO data provider is constantly rewarded for providing good enough prices.
 * Be manually calculated off-chain using a public script and then distributed on-chain.
 
 ## 3. Link to Code Repository
 
-_To be announced._
+[GitHub Pull Request #18](https://github.com/flare-foundation/go-flare/pull/18) on the `flare-foundation/go-flare` repository.
 
 ## 4. Proposed Implementation Date Range
 
@@ -153,3 +155,12 @@ To pass, the proposal requires a simple majority of votes in favor of it.
 > The FTSO management group will operate under the proposed conditions only until a staking mechanism for data providers is implemented.
 
 However, the management group has proved to be such a useful tool that it is proposed to **continue its operation**, as an additional security measure.
+
+## 8. Revision History
+
+|  Revision | Changes                                                                                               |
+| --------: | :---------------------------------------------------------------------------------------------------- |
+| [1][rev1] | Initial document.                                                                                     |
+|    [2](#) | Set minimum uptime to receive rewards to 80% (Clause 2.3).<br>Add link to code repository (Clause 3). |
+
+[rev1]: https://github.com/flare-foundation/governance-proposals/blob/f62238/FIP/FIP_5.md

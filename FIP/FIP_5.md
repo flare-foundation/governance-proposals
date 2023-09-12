@@ -5,13 +5,16 @@ title: FIP.05
 
 # FIP.05: Update Services, Limits, and Rewards Required for Staking
 
-| Type               | Flare Improvement Proposal |
-| :----------------- | :------------------------- |
-| Author             | Flare Foundation           |
-| Created            | 16-Aug-2023                |
-| Revision           | 2                          |
-| Status             | Final                      |
-| Majority Condition | 50% (required)             |
+| Type               | Flare Improvement Proposal                 |
+| :----------------- | :----------------------------------------- |
+| Author             | Flare Foundation                           |
+| Created            | 16-Aug-2023                                |
+| Revision           | 2                                          |
+| Status             | Final                                      |
+| Majority Condition | 50% (required)                             |
+| Voting Outcome     | [**Accepted**][ProposalLink] on 8-Sep-2023 |
+
+[ProposalLink]: https://portal.flare.network/proposal/view/115140506966436016229428851010197993705384354938653006064424080138950501877188?chainId=14
 
 ## 1. Brief Description
 

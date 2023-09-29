@@ -13,6 +13,7 @@ title: FIP.05
 | Document Status    | Final                                      |
 | Majority Condition | 50% (required)                             |
 | Voting Outcome     | [**Accepted**][ProposalLink] on 8-Sep-2023 |
+| Timeline           | 22-Sep-2023 Deployed on Coston2.<br>25-Sep-2023 Deployed on Flare.|
 
 [ProposalLink]: https://portal.flare.network/proposal/view/115140506966436016229428851010197993705384354938653006064424080138950501877188?chainId=14
 

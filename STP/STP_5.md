@@ -13,7 +13,7 @@ title: STP.05
 | Threshold Condition | 75% (required to reject) 1.66% (obtained)   |
 | Majority Condition  | 50% (required to reject) 0.35% (obtained)   |
 | Voting Outcome      | [**Accepted**][ProposalLink] on 03-Jul-2023 |
-| Timeline            | 12-Jul-2023 Deployment started on Coston.   |
+| Timeline            | 12-Jul-2023 Deployed on Coston.<br>14-Sep-2023 Deployed on Songbird.|
 
 [ProposalLink]: https://portal.flare.network/proposal/view/86986707598029556313330355529395772870755361418487059291222730976661664120502?chainId=19
 

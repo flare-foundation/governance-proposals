@@ -9,7 +9,7 @@ title: FIP.02
 | :----------------- | :------------------------------------------ |
 | Author             | Flare Foundation                            |
 | Created            | 24-Jan-2022                                 |
-| Status             | Final                                       |
+| Document Status    | Final                                       |
 | Majority Condition | 50% (required) 74.60% (obtained)            |
 | Voting Outcome     | [**Accepted**][ProposalLink] on 06-Mar-2023 |
 | Timeline           | 16-Mar-2023 Deployment started on Coston2.<br> 22-Mar-2023 Deployment started on Flare.<br>4-Apr-2023 Deployment complete. |

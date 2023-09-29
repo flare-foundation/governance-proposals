@@ -3,13 +3,13 @@ nav_order: 10004
 title: FIP.04
 ---
 
-# FIP.04: Update FTSO price pairs
+# FIP.04: Update FTSO Price Pairs
 
 | Type               | Flare Improvement Proposal                 |
 | :----------------- | :----------------------------------------- |
 | Author             | Flare Foundation                           |
 | Created            | 19-Jun-2023                                |
-| Status             | Final                                      |
+| Document Status    | Final                                      |
 | Majority Condition | 50% (required) 94.52% (obtained)           |
 | Voting Outcome     | [**Accepted**][ProposalLink] on 7-Aug-2023 |
 | Timeline           | 8-Aug-2023 Deployment started on Coston2.<br>8-Aug-2023 Deployment started on Flare<br>24-Aug-2023 Deployment complete. |

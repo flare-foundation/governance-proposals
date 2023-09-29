@@ -9,7 +9,7 @@ title: STP.05
 | :------------------ | :------------------------------------------ |
 | Author              | Flare Foundation                            |
 | Created             | 28-Apr-2023                                 |
-| Status              | Final                                       |
+| Document Status     | Final                                       |
 | Threshold Condition | 75% (required to reject) 1.66% (obtained)   |
 | Majority Condition  | 50% (required to reject) 0.35% (obtained)   |
 | Voting Outcome      | [**Accepted**][ProposalLink] on 03-Jul-2023 |

@@ -3,13 +3,13 @@ nav_order: 30004
 title: STP.04
 ---
 
-# STP.04: Update FTSO price pairs
+# STP.04: Update FTSO Price Pairs
 
 | Type                | Songbird Test Proposal                      |
 | :------------------ | :------------------------------------------ |
 | Author              | Flare Foundation                            |
 | Created             | 17-May-2023                                 |
-| Status              | Final                                       |
+| Document Status     | Final                                       |
 | Threshold Condition | 75% (required to reject) 2.39% (obtained)   |
 | Majority Condition  | 50% (required to reject) 0.80% (obtained)   |
 | Voting Outcome      | [**Accepted**][ProposalLink] on 05-Jun-2023 |

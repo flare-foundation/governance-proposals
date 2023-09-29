@@ -10,7 +10,7 @@ title: SIP.01
 | Author             | Flare Foundation                            |
 | Created            | 27-Feb-2023                                 |
 | Revision           | 2                                           |
-| Status             | Draft                                       |
+| Document Status    | Final                                       |
 | Majority Condition | 50% (required) 98.4 % (obtained)            |
 | Voting Outcome     | [**Accepted**][ProposalLink] on 28-Mar-2023 |
 | Timeline           | 31-Mar-2023 Deployment started on Coston.<br> 4-Apr-2023 Deployment started on Songbird.<br>19-Apr-2023 Deployment complete. |

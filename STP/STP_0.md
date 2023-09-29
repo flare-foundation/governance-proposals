@@ -10,9 +10,7 @@ title: STP.00
 | Author             | Flare Foundation        |
 | Created            | 21-Nov-2021             |
 | Revision           | 2                       |
-| Status             | Final                   |
-| Songbird Timeline  | 4-Nov-2022 Deployment started on Coston.<br> 29-Nov-2022 Deployment started on Songbird.<br>29-Nov-2022 Deployment complete. |
-| Flare Timeline     | 29-Nov-2022 Deployment started on Coston2.<br> 28-Dec-2022 Deployment started on Flare.<br>5-Jan-2023 Deployment complete. |
+| Document Status    | Final                   |
 
 ## 1. Brief Description
 
@@ -67,12 +65,13 @@ To create a new STP, copy and paste the template below, provide details in the a
 ```markdown
 # STP.*proposal-number*: *proposal-title*
 
-| Type         | Songbird Test Proposal |
-| :----------- | :----------------------|
-| Author       | Flare Foundation       |
-| Created      | *dd-mm-yyyy*           |
-| Revision     | *revision-number*      |
-| Status       | *status-type*          |
+| Type            | Songbird Test Proposal |
+| :-------------  | :----------------------|
+| Author          | Flare Foundation       |
+| Created         | *dd-mm-yyyy*           |
+| Revision        | *revision-number*      |
+| Document Status | *status-type*          |
+| Timeline        | *dd-mm-yyyy* Deployment started on Coston.<br> *dd-mm-yyyy* Deployment started on Songbird.<br>*dd-mm-yyyy* Deployment complete. |
 
 ## 1. Brief Description
 ## 2. Technical Description

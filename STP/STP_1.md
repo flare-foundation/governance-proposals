@@ -3,13 +3,13 @@ nav_order: 30001
 title: STP.01
 ---
 
-# STP.01: Reduce FTSO vote power cap to 2.5%
+# STP.01: Reduce FTSO Vote Power Cap to 2.5%
 
 | Type                | Songbird test proposal                     |
 | :------------------ | :----------------------------------------- |
 | Author              | Flare Foundation                           |
 | Created             | 16-Dec-2022                                |
-| Status              | Deployment Complete                        |
+| Document Status     | Final                                      |
 | Threshold Condition | 75% (required to reject) 10.48% (obtained) |
 | Majority Condition  | 50% (required to reject) 1.93% (obtained)  |
 | Voting Outcome      | [**Accepted**][ProposalLink] on 3-Jan-2023 |

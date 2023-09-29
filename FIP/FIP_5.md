@@ -10,7 +10,7 @@ title: FIP.05
 | Author             | Flare Foundation                           |
 | Created            | 16-Aug-2023                                |
 | Revision           | 2                                          |
-| Status             | Final                                      |
+| Document Status    | Final                                      |
 | Majority Condition | 50% (required)                             |
 | Voting Outcome     | [**Accepted**][ProposalLink] on 8-Sep-2023 |
 

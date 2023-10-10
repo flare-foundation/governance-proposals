@@ -27,6 +27,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://proposals.flare.network" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: FlareNetworks
 github_username:  flare-foundation
+ga_tracking: GTM-WX2D2TR # Google Analytics
 
 # Build settings
 remote_theme: just-the-docs/just-the-docs

@@ -29,9 +29,10 @@ Proposals aimed at improving the Flare network.
 
 Proposals aimed at improving the Songbird network.
 
-| Number | Title                                                    |
-| -----: | :------------------------------------------------------- |
-|      1 | [Align Songbird and Flare Smart Contracts](SIP/SIP_1.md) |
+| Number | Title                                                                    |
+| -----: | :----------------------------------------------------------------------- |
+|      1 | [Align Songbird and Flare Smart Contracts](SIP/SIP_1.md)                 |
+|      2 | [Calibrate the State Connector's performance and security](SIP/SIP_2.md) |
 
 ## Songbird Test Proposals (STP)
 

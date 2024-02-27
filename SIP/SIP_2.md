@@ -8,7 +8,7 @@ title: SIP.02
 | Type               | Songbird Improvement Proposal |
 | :----------------- | :---------------------------- |
 | Author             | Flare Foundation              |
-| Created            | 14-Feb-2023                   |
+| Created            | 14-Feb-2024                   |
 | Document Status    | Draft                         |
 | Majority Condition | 50% (required)                |
 

@@ -5,13 +5,16 @@ title: STP.06
 
 # STP.06: Add Support for the Flare Systems Protocol and FTSO Scaling
 
-| Type                | Songbird Test Proposal   |
-| :------------------ | :----------------------- |
-| Author              | Flare Foundation         |
-| Created             | 14-Feb-2024              |
-| Document Status     | Draft                    |
-| Threshold Condition | 75% (required to reject) |
-| Majority Condition  | 50% (required to reject) |
+| Type                | Songbird Test Proposal                     |
+| :------------------ | :----------------------------------------- |
+| Author              | Flare Foundation                           |
+| Created             | 14-Feb-2024                                |
+| Document Status     | Final                                      |
+| Threshold Condition | 75% (required to reject) 4.97% (obtained)  |
+| Majority Condition  | 50% (required to reject) 0.04% (obtained)  |
+| Voting Outcome      | [**Accepted**][ProposalLink] on 5-Mar-2024 |
+
+[ProposalLink]: https://portal.flare.network/proposal/view/82514277240463534589368273110530915447147494013795342291494100646671193711544?chainId=19
 
 ## 1. Brief Description
 
@@ -92,7 +95,7 @@ During these phases, current and upgraded data providers will coexist.
 * During the **trial phase**, reward allocation will not change:
 current data providers will continue to receive all the FTSO rewards, whereas upgraded data providers will receive no rewards.
 
-* During the **beta phase**, the Flare Foundation will update the `Inflation` contract so that current data providers will receive 50% of the of the total reward allocation for the FTSO, and upgraded data providers will receive the other 50%.
+* During the **beta phase**, the Flare Foundation will update the `Inflation` contract so that current data providers will receive 50% of the total reward allocation for the FTSO, and upgraded data providers will receive the other 50%.
 At this time, all data providers will be able to claim their rewards.
 
 * During the **deprecation phase**, the Flare Foundation will update the `Inflation` contract again so that only upgraded data providers will receive rewards.
@@ -155,9 +158,9 @@ Because these updates will be conveniently packaged together, the network will u
 
 If the vote passes, the following actions will be taken:
 
-| Change                  | Date              |
-| :---------------------- | :---------------- |
-| Hard fork Songbird      | March 15, 2024    |
+| Change             | Date           |
+| :----------------- | :------------- |
+| Hard fork Songbird | March 15, 2024 |
 
 ## 5. Voting Details
 

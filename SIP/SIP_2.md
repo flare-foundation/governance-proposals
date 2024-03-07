@@ -5,12 +5,15 @@ title: SIP.02
 
 # SIP.02: Calibrate the State Connector's performance and security
 
-| Type               | Songbird Improvement Proposal |
-| :----------------- | :---------------------------- |
-| Author             | Flare Foundation              |
-| Created            | 14-Feb-2024                   |
-| Document Status    | Draft                         |
-| Majority Condition | 50% (required)                |
+| Type               | Songbird Improvement Proposal              |
+| :----------------- | :----------------------------------------- |
+| Author             | Flare Foundation                           |
+| Created            | 14-Feb-2024                                |
+| Document Status    | Final                                      |
+| Majority Condition | 50% (required) 99.94 % (obtained)          |
+| Voting Outcome     | [**Accepted**][ProposalLink] on 5-Mar-2024 |
+
+[ProposalLink]: https://portal.flare.network/proposal/view/68535016228735825437750592054365271257284277348266129395901601942532869598046?chainId=19
 
 ## 1. Brief Description
 

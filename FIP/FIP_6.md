@@ -91,7 +91,7 @@ During these phases, current and upgraded data providers will coexist.
 * During the **trial phase**, reward allocation will not change:
 current data providers will continue to receive all the FTSO rewards, whereas upgraded data providers will receive no rewards.
 
-* During the **beta phase**, the Flare Foundation will update the `Inflation` contract so that current data providers will receive 50% of the of the total reward allocation for the FTSO, and upgraded data providers will receive the other 50%.
+* During the **beta phase**, the Flare Foundation will update the `Inflation` contract so that current data providers will receive 50% of the total reward allocation for the FTSO, and upgraded data providers will receive the other 50%.
 At this time, all data providers will be able to claim their rewards.
 
 * During the **deprecation phase**, the Flare Foundation will update the `Inflation` contract again so that only upgraded data providers will receive rewards.

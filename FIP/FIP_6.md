@@ -5,12 +5,15 @@ title: FIP.06
 
 # FIP.06: Add Support for the Flare Systems Protocol and FTSO Scaling
 
-| Type               | Flare Improvement Proposal                                         |
-| :----------------- | :----------------------------------------------------------------- |
-| Author             | Flare Foundation                                                   |
-| Created            | 14-Feb-2024                                                        |
-| Document Status    | Draft                                                              |
-| Majority Condition | 50% (required)                                                     |
+| Type               | Flare Improvement Proposal                 |
+| :----------------- | :----------------------------------------- |
+| Author             | Flare Foundation                           |
+| Created            | 14-Feb-2024                                |
+| Document Status    | Final                                      |
+| Majority Condition | 50% (required) 98.21% (obtained)           |
+| Voting Outcome     | [**Accepted**][ProposalLink] on 8-Mar-2024 |
+
+[ProposalLink]: https://portal.flare.network/proposal/view/64253204413974185185784418261369523201247900689731278954098789423008112071719?chainId=14
 
 ## 1. Brief Description
 
@@ -154,9 +157,9 @@ Because these updates will be conveniently packaged together, the network will u
 
 If the vote passes, the following actions will be taken:
 
-| Change             | Date           |
-| :----------------- | :------------- |
-| Hard fork Flare    | March 26, 2024 |
+| Change          | Date           |
+| :-------------- | :------------- |
+| Hard fork Flare | March 26, 2024 |
 
 ## 5. Voting Details
 

@@ -1,0 +1,68 @@
+include:
+  - template: Jobs/SAST.latest.gitlab-ci.yml
+  - template: Jobs/Secret-Detection.latest.gitlab-ci.yml
+
+
+##
+## TESTS
+##
+
+sast:
+  needs: []
+
+secret_detection:
+  needs: []
+
+
+
+
+##
+## GITLAB PAGES SETUP
+##
+
+pages:
+  needs: []
+  image: jekyll/jekyll
+  stage: deploy
+  environment:
+    name: production
+    url: https://${CI_PROJECT_ROOT_NAMESPACE}.gitlab.io/docs-team/governance-proposals/
+    action: start
+  variables:
+    GIT_DEPTH: 0
+    BASEURL: /docs-team/governance-proposals/
+  cache:
+    key:
+      files:
+      - requirements.txt
+    paths:
+    - .jekyll-cache
+  before_script:
+  - if [ -d "public" ]; then echo "Directory ./public exists while it should not as it is used for docs artifacts" && exit 1; fi
+  - apk add yq
+  - |
+    yq eval -i '.url = strenv(CI_ENVIRONMENT_URL)' _config.yml
+    yq eval -i '.baseurl = strenv(BASEURL)' _config.yml
+  - cat _config.yml
+  script:
+  - jekyll build
+  artifacts:
+    expire_in: 3 days
+    paths:
+    - public
+  rules:
+  - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+
+jekyll-preview:
+  extends: pages
+  stage: build
+  environment:
+    name: review/$CI_COMMIT_REF_SLUG
+    url: https://${CI_PROJECT_ROOT_NAMESPACE}.gitlab.io/-/docs-team/governance-proposals/-/jobs/$CI_JOB_ID/artifacts/public/index.html
+  variables:
+    BASEURL: /-/docs-team/governance-proposals/-/jobs/$CI_JOB_ID/artifacts/public/
+  rules:
+  - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+    when: never
+  - if: $CI_MERGE_REQUEST_IID == null
+  - if: $CI_MERGE_REQUEST_IID != null

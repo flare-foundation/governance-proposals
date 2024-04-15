@@ -47,7 +47,7 @@ pages:
   script:
   - jekyll build
   artifacts:
-    expire_in: 3 days
+    expire_in: 30 days
     paths:
     - public
   rules:

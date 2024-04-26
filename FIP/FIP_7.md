@@ -15,15 +15,15 @@ title: FIP.07
 ## 1. Brief Description
 
 [Flare's FTSO system](https://docs.flare.network/tech/ftso), including its [Scalability upgrade](./FIP_6.md), gathers input from several data providers before producing an outcome, which results in safe values but with a low throughput.
-This proposal introduces FTSO Fast Updates, a protocol that allows a smaller number of randomly-selected data providers to submit a separate stream of updates each block, resulting in a much higher rate.
-These "stream values" do not affect the regular FTSO results (henceforth called "anchor values"), which continue to be produced in the same way and at the same rate.
+This proposal introduces FTSO Fast Updates, a protocol that allows a smaller number of randomly-selected data providers to submit a separate stream of updates in each block, resulting in a much higher rate.
+The values from this separate stream (stream values) do not affect the regular FTSO results (anchor values), which continue to be produced in the same way and at the same rate.
 
-The downside of the increased throughput is diminished stability of the fast updates, because of the smaller number of data providers participating in each update (typically one).
-However, the following reasons limit the extent of this drawback:
+The downside of the increased throughput is diminished stability of the fast updates, because a smaller number of data providers, typically one, are participating in each update.
+However, the following circumstances limit the extent of this drawback:
 
-* The providers of each update are randomly selected each block, making it very hard to take advantage of a submission to manipulate prices.
+* The providers of each update are randomly selected in each block, making it very difficult to take advantage of a submission to manipulate prices.
 * Subsequent updates are submitted by different providers and will likely correct any error introduced by previous submissions.
-* Each time an anchor value is produced the fast updates latch to it, correcting any possible previous deviations.
+* Each time an anchor value is produced the fast updates reset to it, correcting any possible previous deviations.
 
 This proposal rewards fast update submissions from the same FTSO reward pool as submissions of anchor values.
 Since this is a change in the way the current FTSO system works, a governance vote is necessary.
@@ -32,14 +32,14 @@ The following sections describe in more detail the proposed changes.
 
 ## 2. Technical Description
 
-The FTSO version 2 was introduced in a [whitepaper](https://flare.network/wp-content/uploads/FTSOv2.pdf) which describes both the FTSO Scalability protocol voted on [FIP.06](./FIP_6.md), and the FTSO Fast Updates protocol proposed in this FIP.
-This FIP highlights the features of the fast updates protocol that affect the current FTSO system and therefore require a governance vote.
-For the technical details, please refer to the whitepaper.
+The FTSO version 2 was introduced in a [whitepaper](https://flare.network/wp-content/uploads/FTSOv2.pdf), which describes both the FTSO Scalability protocol voted on [FIP.06](./FIP_6.md), and the FTSO Fast Updates protocol proposed in this FIP.
+This FIP highlights the features of the Fast Updates protocol that affect the current FTSO system and therefore require a governance vote.
+For the technical details, please refer to the [whitepaper](https://flare.network/wp-content/uploads/FTSOv2.pdf).
 
 ### 2.1 Changes to FTSO Rewarding
 
-As of [FIP.05](./FIP_5.md), 70% of the network's yearly inflation is reserved for rewarding FTSO data providers.
-[FIP.06](./FIP_6.md) further refines how these FTSO rewards are split among participants in the FTSO Scaling protocol.
+As of [FIP.05](./FIP_5.md), 70% of the Flare network's yearly inflation is reserved for rewarding FTSO data providers.
+[FIP.06](./FIP_6.md) further refined how these FTSO rewards are split among participants in the FTSO Scaling protocol.
 FIP.07 proposes to split the total FTSO rewards evenly between participants in FTSO Scaling and FTSO Fast Updates.
 
 To be clear, this FIP proposes that the total FTSO rewards, amounting to 70% of the network's yearly inflation, are divided in the following manner:
@@ -53,7 +53,7 @@ These additional rewards are pooled together and evenly distributed among provid
 ### 2.2 Deployment Strategy
 
 Enabling the FTSO Fast Updates protocol does not require a hard fork of the network.
-Instead, the new contracts listed in section 3 below will be deployed, and the inflation allocation updated as previously described.
+Instead, the new contracts listed in the next section will be deployed, and the inflation allocation updated as previously described.
 
 During the 90 days following the deployment, the Flare Foundation may change some of the system's parameters to fine-tune it.
 

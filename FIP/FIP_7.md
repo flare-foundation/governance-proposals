@@ -50,6 +50,8 @@ To be clear, this FIP proposes that the total FTSO rewards, amounting to 70% of 
 Additionally, consumers of the FTSO data feeds can choose to offer additional rewards to increase the rate and magnitude of the fast updates, resulting in better volatility protection.
 These additional rewards are pooled together and evenly distributed among providers, allowing more frequent updates to be submitted, and their value to be bigger so that they can better adjust to sudden value changes.
 
+All rewards for the FTSO Fast Updates protocol are evenly distributed among all data feeds.
+
 ### 2.2 Deployment Strategy
 
 Enabling the FTSO Fast Updates protocol does not require a hard fork of the network.

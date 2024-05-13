@@ -80,10 +80,10 @@ During the 90 days following the deployment, the Flare Foundation may change som
 
 If the vote passes, the following actions will be taken:
 
-| Change                                | Date        |
-| :------------------------------------ | :---------- |
-| Deploy on the Songbird network        | 22-May-2024 |
-| No more configuration changes allowed | 20-Aug-2024 |
+| Change                                | Date                     |
+| :------------------------------------ | :----------------------- |
+| Deploy on the Songbird network        | Early June               |
+| No more configuration changes allowed | 90 days after deployment |
 
 ## 5. Voting Details
 

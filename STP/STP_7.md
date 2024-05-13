@@ -24,7 +24,7 @@ However, the following circumstances limit the extent of this drawback:
 
 * The providers of each update are randomly selected in each block, making it very difficult to take advantage of a submission to manipulate prices.
 * Subsequent updates are submitted by different providers and will likely correct any error introduced by previous submissions.
-* Each time an anchor value is produced the fast updates reset to it, correcting any possible previous deviations.
+* Providers of fast updates are rewarded if their submissions are close enough to the anchor values, keeping both streams aligned.
 
 This proposal rewards fast update submissions from the same FTSO reward pool as submissions of anchor values.
 Since this is a change in the way the current FTSO system works, a governance vote is necessary.

@@ -91,5 +91,5 @@ An STP is rejection-based, meaning that it is accepted unless certain conditions
 
 ## 6. Deadline for Voting
 
-* **Notice period**: TBD
-* **Voting period**: TBD
+* **Notice period**: 13-May-2024 to 17-May-2024
+* **Voting period**: 20-May-2024 to 26-May-2024

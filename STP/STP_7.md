@@ -62,17 +62,17 @@ During the 90 days following the deployment, the Flare Foundation may change som
 
 ## 3. Links to Code Repositories and Contracts
 
-* [`FastUpdater`](https://gitlab.com/flarenetwork/flare-smart-contracts-v2/-/blob/fast_updates/contracts/fastUpdates/implementation/FastUpdater.sol?ref_type=heads)
+* [`FastUpdater`](https://github.com/flare-foundation/flare-smart-contracts-v2/tree/main/contracts/fastUpdates/implementation/FastUpdater.sol?ref_type=heads)
 
     Entry point for providers submitting fast updates.
     This contract will be registered with the Flare daemon, [the `Submission` contract](./FIP_6.md#211-the-submission-contract), and [the Flare Contract Registry](https://docs.flare.network/dev/getting-started/contract-addresses/#retrieval-from-blockchain).
 
-* [`FastUpdateIncentiveManager`](https://gitlab.com/flarenetwork/flare-smart-contracts-v2/-/blob/fast_updates/contracts/fastUpdates/implementation/FastUpdateIncentiveManager.sol?ref_type=heads)
+* [`FastUpdateIncentiveManager`](https://github.com/flare-foundation/flare-smart-contracts-v2/tree/main/contracts/fastUpdates/implementation/FastUpdateIncentiveManager.sol?ref_type=heads)
 
     Entry point for consumers of the FTSO data feeds willing to provide additional rewards to increase volatility protection.
     This contract will be registered with [the Flare Contract Registry](https://docs.flare.network/dev/getting-started/contract-addresses/#retrieval-from-blockchain).
 
-* [`FastUpdatesConfiguration`](https://gitlab.com/flarenetwork/flare-smart-contracts-v2/-/blob/fast_updates/contracts/fastUpdates/implementation/FastUpdatesConfiguration.sol?ref_type=heads)
+* [`FastUpdatesConfiguration`](https://github.com/flare-foundation/flare-smart-contracts-v2/tree/main/contracts/fastUpdates/implementation/FastUpdatesConfiguration.sol?ref_type=heads)
 
     System configuration, only accessible by governance, including, for example, the supported data feeds.
 

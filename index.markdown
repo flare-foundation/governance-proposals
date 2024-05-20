@@ -48,6 +48,7 @@ Proposals aimed at improving the Flare network by being tested first on the Song
 |      5 | [Inflation Updates](STP/STP_5.md)                                           |
 |      6 | [Add Support for the Flare Systems Protocol and FTSO Scaling](STP/STP_6.md) |
 |      7 | [Add Support for FTSO Fast Updates](STP/STP_7.md)                           |
+|      8 | [Update FTSO Data Feeds and Define Process to Add New Ones](STP/STP_8.md)   |
 
 <style>
     table thead tr th:first-child {

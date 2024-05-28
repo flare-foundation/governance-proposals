@@ -19,7 +19,7 @@ This proposal starts making use of this increased capacity.
 
 The purpose of this proposal is twofold:
 
-1. Add 19 more cryptocurrency prices to the current list of 19 data feeds.
+1. Add 19 more cryptocurrency prices to the current list of 18 data feeds.
 2. Define a process for the future inclusion of more data feeds, including automatic monitoring and community requests.
 
 The following sections describe in more detail the proposed changes.

@@ -16,7 +16,7 @@ title: FIP.09
 
 Since its launch in July 2022, the Flare mainnet ecosystem has grown significantly.
 The original 20 billion `$FLR` tokens allocated to the [incentive pool](https://flare.network/tokenomics-flr-updated/) for bringing sustainable value to Flare remains fully intact.
-With the advent of DEXs, lending protocols, and other dapps that will launch in the coming months, the Flare ecosystem has been deemed suitably mature such that a targeted FLR emission program using a modest portion of the Incentive Pool could have a markedly positive impact on further ecosystem growth and broader Flare community expansion.
+With the advent of the decentralized exchange (DEX), lending protocols, and other dapps that might launch in the coming months, the Flare ecosystem has been deemed suitably mature such that a targeted `$FLR` emission program using a modest portion of the incentive pool could have a markedly positive impact on further ecosystem growth and broader Flare community expansion.
 Therefore, this proposal by the Flare Foundation seeks to introduce a `$FLR` emissions budget and a framework to deploy a small portion of the incentive pool to attract and support builders and liquidity on Flare mainnet.
 
 If this proposal is accepted, the Flare Foundation will:
@@ -26,7 +26,7 @@ If this proposal is accepted, the Flare Foundation will:
 
 ## 2. Technical Description
 
-The monthly maximum of `$FLR` emissions will be distributed according to the following monthly schedule.
+The monthly maximum of `$FLR` emissions will be distributed according to the following schedule.
 At all times, monthly `$FLR` emissions proposed will account for a notably small portion of the projected emissions modeled on the [Flare tokenomics page](https://flare.network/tokenomics-flr-updated/).
 
 | Date           | `$FLR` emissions |
@@ -46,11 +46,11 @@ At all times, monthly `$FLR` emissions proposed will account for a notably small
 
 ### 2.1 The Emissions Committee
 
-The responsibility for directing emissions toward dapps and protocols building on Flare will be vested in an Emissions Committee. 
+The responsibility for directing emissions toward dapps and protocols building on Flare will be vested in an Emissions Committee.
 
 The Committee will allocate `$FLR` emissions to dapps and protocols at its discretion, while adhering to the proposed rules and maximum monthly `$FLR` emissions limits, as detailed in the [emissions schedule](#2-technical-description).
 The Committee will have the authority to decide the form and distribution of the emissions, such as whether they are available in `$FLR` or a wrapped version of `$FLR` with vesting periods.
-If a vesting schedule is applied to the distribution mechanisms for `$FLR` emissions, measures will be taken for emissions beneficiaries to wrap and delegate awarded `$FLR` in order to benefit from the FlareDrop and FTSO delegation rewards.
+If a vesting schedule is applied to the distribution mechanisms for `$FLR` emissions, measures will be taken for emissions beneficiaries to wrap and delegate awarded `$FLR` in order to benefit from the [FlareDrop](https://docs.flare.network/dev/reference/the-flaredrop/) and [FTSO delegation rewards](https://docs.flare.network/tech/ftso/#rewards).
 
 The Committee will have the discretion to allocate up to the maximum unique monthly `$FLR` emission amounts in the schedule.
 If the full amount for any unique month is not allocated during that specified month, the Committee will have the discretion to either reallocate unspent funds to a future program or burn the `$FLR`.
@@ -102,7 +102,7 @@ Protocol emissions can be composed of both the native blockchain currency and a 
 They can help to ensure a more targeted distribution of rewards to enable application growth and to support an efficient ecosystem during the product-launch phase.
 
 By providing liquidity to protocols and participating in other emission-incentivized activities on the blockchain, stakeholders can receive rewards.
-These rewards may be used to provide additional security to the network via wrapping, delegation, and staking, which can help ensure the expansion of a blockchain network and thereby, an ecosystem that functions more efficiently.
+These rewards may be used to provide additional security to the network via [wrapping](https://docs.flare.network/user/wrapping-tokens/), [delegation](https://docs.flare.network/user/delegation/managing-delegations/), and [staking](https://docs.flare.network/user/staking/), which can help ensure the expansion of a blockchain network and thereby, an ecosystem that functions more efficiently.
 
 ### 7.2 FAQs
 

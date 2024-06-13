@@ -15,7 +15,7 @@ title: FIP.09
 ## 1. Brief Description
 
 Since its launch in July 2022, the Flare mainnet ecosystem has grown significantly.
-The original 20 billion `$FLR` tokens allocated to the [incentive pool](https://flare.network/tokenomics-flr-updated/) for bringing sustainable value to Flare remains fully intact.
+However, the original 20 billion `$FLR` tokens allocated to the [incentive pool](https://flare.network/tokenomics-flr-updated/) for bringing sustainable value to Flare remains fully intact.
 With the advent of the decentralized exchange (DEX), lending protocols, and other dapps that might launch in the coming months, the Flare ecosystem has been deemed suitably mature such that a targeted `$FLR` emission program using a modest portion of the incentive pool could have a markedly positive impact on further ecosystem growth and broader Flare community expansion.
 Therefore, this proposal by the Flare Foundation seeks to introduce a `$FLR` emissions budget and a framework to deploy a small portion of the incentive pool to attract and support builders and liquidity on Flare mainnet.
 

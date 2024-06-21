@@ -16,7 +16,7 @@ title: FIP.09
 
 Since its launch in July 2022, the Flare mainnet ecosystem has grown significantly.
 Importantly, this growth has been achieved without using any of the original 20 billion `$FLR` tokens allocated to the incentive pool.
-Decentralized exchanges (DEXs), lending protocols, and other dapps have launched and are anticipated to launch more frequently over the coming months.
+Decentralized exchanges (DEXs), lending protocols, and other dApps have launched and are anticipated to launch more frequently over the coming months.
 Coupled with FAssets and the launch of other bridges, the Flare ecosystem is now considered suitably mature such that a targeted `$FLR` emissions program could help to further accelerate sustainable ecosystem growth and community expansion.
 This proposal by the Flare Foundation seeks to introduce a `$FLR` emissions budget and a framework to deploy a small portion of the incentive pool to attract and support builders and liquidity on Flare.
 
@@ -46,18 +46,18 @@ This amount has been calculated to equal a total of approximately 510,000,000 `$
 
 ### 2.1 The Emissions Committee
 
-The responsibility for directing emissions toward dapps and protocols building on Flare will be vested in an Emissions Committee.
+The responsibility for directing emissions toward dApps and protocols building on Flare will be vested in an Emissions Committee.
 
-The Committee will have the discretion to allocate `$FLR` emissions to dapps and protocols, while adhering to the proposed rules and maximum monthly `$FLR` emissions limits, as detailed in the [emissions schedule](#2-technical-description).
+The Committee will have the discretion to allocate `$FLR` emissions to dApps and protocols, while adhering to the proposed rules and maximum monthly `$FLR` emissions limits, as detailed in the [emissions schedule](#2-technical-description).
 The Committee will have the authority to decide the form and distribution of the emissions, such as whether they are available in `$FLR` or a wrapped version of `$FLR` with vesting periods.
-If a vesting schedule is applied to the distribution mechanisms for `$FLR` emissions, measures will be taken for emissions beneficiaries to receive [FlareDrop](https://docs.flare.network/dev/reference/the-flaredrop/) rewards after claiming from dapps directly or vai the [Flare Portal](https://portal.flare.network/)
+If a vesting schedule is applied to the distribution mechanisms for `$FLR` emissions, measures will be taken for emissions beneficiaries to receive [FlareDrop](https://docs.flare.network/tech/the-flaredrop/) rewards after claiming from dApps directly or via the [Flare Portal](https://portal.flare.network/)
 
 The Committee will have the discretion to allocate up to the maximum unique monthly `$FLR` emission amounts in the schedule.
 If the full amount for any unique month is not allocated during that specified month, the Committee will have the discretion to either reallocate unspent funds to a future program or burn the `$FLR`.
 After the `$FLR` emissions schedule and any associated vesting distribution mechanisms are complete, the Committee will have the discretion to either burn or reallocate the undistributed and unclaimed `$FLR` emissions to a future incentive program.
 
 Beneficiaries of emissions are solely responsible for claiming their rewards on a monthly basis.
-[FlareDrop](https://docs.flare.network/dev/reference/the-flaredrop/) rewards begin to accrue to portions of `$FLR` rewards upon claiming.
+[FlareDrop](https://docs.flare.network/tech/the-flaredrop/) rewards begin to accrue to portions of `$FLR` rewards upon claiming.
 
 ### 2.2 Emissions Committee Reporting Requirements and Limitations
 
@@ -65,7 +65,7 @@ To ensure transparency and accountability, the Emissions Committee will be requi
 If the Committee fails to act in the Flare community’s interest, a governance proposal can be initiated via Songbird and then Flare to defund and dissolve the Committee.
 In this case, the emissions schedule will be terminated and the Committee will not receive the `$FLR` emissions tokens that were allocated for the remaining months in the schedule.
 
-All Committee-directed `$FLR` emissions must support dapps on Flare mainnet, and the committee will establish monitoring mechanisms to verify that dapps are properly distributing emissions across their qualifying participating user base.
+All Committee-directed `$FLR` emissions must support dApps on Flare mainnet, and the committee will establish monitoring mechanisms to verify that dApps are properly distributing emissions across their qualifying participating user base.
 The Committee will be restricted from allocating more than 33% of the quarterly budget to any single protocol.
 Furthermore, the Committee will require that all members disclose to the Committee their investments in projects under review for emissions to avoid conflicts of interest.
 
@@ -105,37 +105,37 @@ These rewards may be used to provide additional security to the network via [wra
 
 ### 7.2 FAQs
 
-* _What distribution mechanisms are being considered and how would a vested distribution schedule for `$FLR` work?_
+1. _What distribution mechanisms are being considered and how would a vested distribution schedule for `$FLR` work?_
 
   Flare has worked with a tokenomics design team to determine the most efficient way to distribute `$FLR` emissions and maximize community participation.
   A smart contract-based `$FLR` distribution schedule will be deployed involving a linear vesting schedule whereby monthly emissions will be redeemable on a time-locked basis.
   According to this schedule, each of the unique monthly `$FLR` emissions distributions will be unlocked for users to redeem in equally sized tranches over a total period of 12 months.
   Therefore, the total length of the program, from the first emission to the final month of claiming, is projected to run for 24 months.
   Users may redeem the maximum amount of any portion of a month’s allocated `$FLR` distribution immediately after receipt, although doing so will incur a 50% redemption penalty for that month’s earned emissions.
-  Portions of awarded emissions claimed from dapps will begin to accrue FlareDrop rewards proportional to claim amounts.
+  Portions of awarded emissions claimed from dApps will begin to accrue FlareDrop rewards proportional to claim amounts.
   The distribution mechanism is designed to smooth rewards, maintain user participation, and help to mitigate any adverse token dynamics that could result from monthly emissions distribution in full.
 
-* _When would I receive my `$FLR` emissions, and how can I claim them?_
+2. _When would I receive my `$FLR` emissions, and how can I claim them?_
 
-  `$FLR` emissions will be made available for users on a monthly basis by the participating dapps.
-  Each month, qualifying dapps can award `$FLR` emissions to users in proportion to their use of protocols according to qualifying actions and parameters.
-  Parameters will be set and communicated at the discretion of the dapps.
-  Dapps will have a grace period of one extra month to distribute allocated rewards for any given month, at which point the rewards for the given month for that dapp may be revoked by the Committee.
+  `$FLR` emissions will be made available for users on a monthly basis by the participating dApps.
+  Each month, qualifying dApps can award `$FLR` emissions to users in proportion to their use of protocols according to qualifying actions and parameters.
+  Parameters will be set and communicated at the discretion of the dApps.
+  Dapps will have a grace period of one extra month to distribute allocated rewards for any given month, at which point the rewards for the given month for that dApp may be revoked by the Committee.
   Users may redeem `$FLR` emissions by using the [Flare Portal](https://portal.flare.network/) after claiming and be sure to complete their final redemption before the end of the program, which is projected to finish 24 months after its launch on July 6, 2024.
 
-* _How will I know how much `$FLR` I have and how do I wrap and delegate it?_
+3. _How will I know how much `$FLR` I have and how do I wrap and delegate it?_
 
-  `$FLR` emissions eligibility and quantity will be visible via dapps and the [Flare Portal](https://portal.flare.network/).
-  To check, connect to the Portal using the same wallet address you used to participate participate in dapps on Flare mainnet.
+  `$FLR` emissions eligibility and quantity will be visible via dApps and the [Flare Portal](https://portal.flare.network/).
+  To check, connect to the Portal using the same wallet address you used to participate participate in dApps on Flare mainnet.
   The Portal may be used to claim emissions, at which point FlareDrop rewards will begin to accrue.
   The Portal may also be used to redeem emissions for `$FLR`, whereby the full amount of `$FLR` may be redeemed with a 50% penalty according to the elapsed time of the linear 12-month vesting schedule.
 
-* _Why are only 510,000,000 `$FLR` tokens being allocated from a total incentive pool of 20,000,000,000 tokens?_
+4. _Why are only 510,000,000 `$FLR` tokens being allocated from a total incentive pool of 20,000,000,000 tokens?_
 
-  Flare is targeting 0.51% of the total token supply initially by way of incentivizing the use of community dapps and protocols launching on Flare mainnet.
+  Flare is targeting 0.51% of the total token supply initially by way of incentivizing the use of community dApps and protocols launching on Flare mainnet.
   This allocation provides headroom to launch alternative emissions programs, including any FAsset incentive initiatives, and to expand any protocol incentives beyond the end of the FlareDrop schedules.
 
-* _Can we vote to launch another round of incentives to coincide with the end of the FlareDrop?_
+5. _Can we vote to launch another round of incentives to coincide with the end of the FlareDrop?_
 
- The bicameral Songbird and Flare governance system set in the [blog](https://medium.com/flarenetwork/flare-governance-and-the-role-of-songbird-4579c9891b47) proposes that the Flare community may submit proposals it deems appropriate to encourage builders and users to participate on Flare mainnet.
- The governance system is currently in development for deployment on Songbird over the coming weeks and will facilitate the proposal of alternative incentive programs in addition to any proposals to dissolve or amend the Emissions Committee.
+  The bicameral Songbird and Flare governance system set in the [blog](https://medium.com/flarenetwork/flare-governance-and-the-role-of-songbird-4579c9891b47) proposes that the Flare community may submit proposals it deems appropriate to encourage builders and users to participate on Flare mainnet.
+  The governance system is currently in development for deployment on Songbird over the coming weeks and will facilitate the proposal of alternative incentive programs in addition to any proposals to dissolve or amend the Emissions Committee.

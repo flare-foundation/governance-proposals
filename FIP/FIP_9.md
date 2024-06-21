@@ -109,8 +109,10 @@ These rewards may be used to provide additional security to the network via [wra
 
     Flare has worked with a tokenomics design team to determine the most efficient way to distribute `$FLR` emissions and maximize community participation.
     A smart contract-based `$FLR` distribution schedule will be deployed involving a linear vesting schedule whereby monthly emissions will be redeemable on a time-locked basis.
+
     According to this schedule, each of the unique monthly `$FLR` emissions distributions will be unlocked for users to redeem in equally sized tranches over a total period of 12 months.
     Therefore, the total length of the program, from the first emission to the final month of claiming, is projected to run for 24 months.
+
     Users may redeem the maximum amount of any portion of a month’s allocated `$FLR` distribution immediately after receipt, although doing so will incur a 50% redemption penalty for that month’s earned emissions.
     Portions of awarded emissions claimed from dApps will begin to accrue FlareDrop rewards proportional to claim amounts.
     The distribution mechanism is designed to smooth rewards, maintain user participation, and help to mitigate any adverse token dynamics that could result from monthly emissions distribution in full.
@@ -120,6 +122,7 @@ These rewards may be used to provide additional security to the network via [wra
      `$FLR` emissions will be made available for users on a monthly basis by the participating dApps.
     Each month, qualifying dApps can award `$FLR` emissions to users in proportion to their use of protocols according to qualifying actions and parameters.
     Parameters will be set and communicated at the discretion of the dApps.
+
     DApps will have a grace period of one extra month to distribute allocated rewards for any given month, at which point the rewards for the given month for that dApp may be revoked by the Committee.
     Users may redeem `$FLR` emissions by using the [Flare Portal](https://portal.flare.network/) after claiming and be sure to complete their final redemption before the end of the program, which is projected to finish 24 months after its launch on July 6, 2024.
 
@@ -127,6 +130,7 @@ These rewards may be used to provide additional security to the network via [wra
 
     `$FLR` emissions eligibility and quantity will be visible via dApps and the [Flare Portal](https://portal.flare.network/).
     To check, connect to the Portal using the same wallet address you used to participate participate in dApps on Flare mainnet.
+
     The Portal may be used to claim emissions, at which point FlareDrop rewards will begin to accrue.
     The Portal may also be used to redeem emissions for `$FLR`, whereby the full amount of `$FLR` may be redeemed with a 50% penalty according to the elapsed time of the linear 12-month vesting schedule.
 
@@ -138,4 +142,5 @@ These rewards may be used to provide additional security to the network via [wra
 5. _Can we vote to launch another round of incentives to coincide with the end of the FlareDrop?_
 
     The bicameral Songbird and Flare governance system set in the [blog](https://medium.com/flarenetwork/flare-governance-and-the-role-of-songbird-4579c9891b47) proposes that the Flare community may submit proposals it deems appropriate to encourage builders and users to participate on Flare mainnet.
+
     The governance system is currently in development for deployment on Songbird over the coming weeks and will facilitate the proposal of alternative incentive programs in addition to any proposals to dissolve or amend the Emissions Committee.

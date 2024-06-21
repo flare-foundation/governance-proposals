@@ -67,6 +67,7 @@ If the full amount for any unique month is not allocated during that specified m
 After the `$FLR` emissions schedule and any associated vesting distribution mechanisms are complete, the Committee will have the discretion to either burn or reallocate the undistributed and unclaimed `$FLR` emissions to a future incentive program.
 
 Beneficiaries of emissions are solely responsible for claiming their rewards on a monthly basis.
+Rewards can be claimed at any time.
 [FlareDrop](https://docs.flare.network/tech/the-flaredrop/) rewards begin to accrue to portions of `$FLR` rewards upon claiming.
 
 ### 2.2 Emissions Committee Reporting Requirements and Limitations
@@ -134,7 +135,7 @@ These rewards may be used to provide additional security to the network via [wra
     Parameters will be set and communicated at the discretion of the dApps.
 
     DApps will have a grace period of one extra month to distribute allocated rewards for any given month, at which point the rewards for the given month for that dApp may be revoked by the Committee.
-    Users may redeem `$FLR` emissions by using the [Flare Portal](https://portal.flare.network/) after claiming and be sure to complete their final redemption before the end of the program, which is projected to finish 24 months after its launch on July 6, 2024.
+    Users may redeem `$FLR` emissions by using new functionality for emissions to be added to the [Flare Portal](https://portal.flare.network/) after claiming and be sure to complete their final redemption before the end of the program, which is projected to finish 24 months after its launch on July 6, 2024.
 
 3. _How will I know how much `$FLR` I have and how do I wrap and delegate it?_
 

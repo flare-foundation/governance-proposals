@@ -50,7 +50,7 @@ The responsibility for directing emissions toward dApps and protocols building o
 
 The Committee will have the discretion to allocate `$FLR` emissions to dApps and protocols, while adhering to the proposed rules and maximum monthly `$FLR` emissions limits, as detailed in the [emissions schedule](#2-technical-description).
 The Committee will have the authority to decide the form and distribution of the emissions, such as whether they are available in `$FLR` or a wrapped version of `$FLR` with vesting periods.
-If a vesting schedule is applied to the distribution mechanisms for `$FLR` emissions, measures will be taken for emissions beneficiaries to receive [FlareDrop](https://docs.flare.network/tech/the-flaredrop/) rewards after claiming from dApps directly or via the [Flare Portal](https://portal.flare.network/)
+If a vesting schedule is applied to the distribution mechanisms for `$FLR` emissions, measures will be taken for emissions beneficiaries to receive [FlareDrop](https://docs.flare.network/tech/the-flaredrop/) rewards after claiming from dApps directly or via the [Flare Portal](https://portal.flare.network/).
 
 The Committee will have the discretion to allocate up to the maximum unique monthly `$FLR` emission amounts in the schedule.
 If the full amount for any unique month is not allocated during that specified month, the Committee will have the discretion to either reallocate unspent funds to a future program or burn the `$FLR`.

@@ -37,7 +37,7 @@ The actual amount may vary.
 
 Each of the monthly emissions will be split among the beneficiaries.
 To receive their allocations in full, beneficiaries must wait 12 months to claim them.
-Claims can be made before the 12-month period has elapsed, but beneficiaries will lose 50% of their allocation.
+However, beneficiaries who want to claim before the 12-month period has elapsed can do so, but they will lose 50% of their allocation.
 
 | Date           | `$FLR` emissions |
 | :------------- | :--------------- |

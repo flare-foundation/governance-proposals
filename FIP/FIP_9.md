@@ -18,7 +18,7 @@ Since its launch in July 2022, the Flare mainnet ecosystem has grown significant
 Importantly, this growth has been achieved without using any of the original 20 billion `$FLR` tokens allocated to the incentive pool.
 Decentralized exchanges (DEXs), lending protocols, and other dApps have launched and are anticipated to launch more frequently over the coming months.
 Coupled with FAssets and the launch of other bridges, the Flare ecosystem is now considered suitably mature such that a targeted `$FLR` emissions program could help to further accelerate sustainable ecosystem growth and community expansion.
-This proposal by the Flare Foundation seeks to introduce a `$FLR` emissions budget and a framework to deploy a small portion of the incentive pool to attract and support builders and liquidity on Flare.
+This proposal by the Flare Foundation seeks to introduce a `$FLR` emissions budget and a framework to deploy a small portion of the incentive pool to attract builders and support liquidity on Flare.
 
 If this proposal is accepted, the Flare Foundation will allocate approximately 510,000,000 `$FLR` of the total 20,000,000,000 `$FLR` incentive pool to an emissions schedule as detailed below.
 

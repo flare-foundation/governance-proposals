@@ -67,7 +67,7 @@ If the full amount for any unique month is not allocated during that specified m
 After the `$FLR` emissions schedule and any associated vesting distribution mechanisms are complete, the Committee will have the discretion to either burn or reallocate the undistributed and unclaimed `$FLR` emissions to a future incentive program.
 
 Beneficiaries of emissions are solely responsible for claiming their rewards on a monthly basis.
-Rewards can be claimed at any time.
+Rewards do not expire.
 [FlareDrop](https://docs.flare.network/tech/the-flaredrop/) rewards begin to accrue to portions of `$FLR` rewards upon claiming.
 
 ### 2.2 Emissions Committee Reporting Requirements and Limitations

@@ -20,14 +20,24 @@ Decentralized exchanges (DEXs), lending protocols, and other dApps have launched
 Coupled with FAssets and the launch of other bridges, the Flare ecosystem is now considered suitably mature such that a targeted `$FLR` emissions program could help to further accelerate sustainable ecosystem growth and community expansion.
 This proposal by the Flare Foundation seeks to introduce a `$FLR` emissions budget and a framework to deploy a small portion of the incentive pool to attract and support builders and liquidity on Flare.
 
-If this proposal is accepted, the Flare Foundation will allocate 510,000,000 `$FLR` of the total 20,000,000,000 `$FLR` incentive pool to an emissions schedule as detailed below.
+If this proposal is accepted, the Flare Foundation will allocate approximately 510,000,000 `$FLR` of the total 20,000,000,000 `$FLR` incentive pool to an emissions schedule as detailed below.
 
 ## 2. Technical Description
 
 The monthly maximum of `$FLR` emissions will be distributed according to the following schedule.
 At all times, monthly `$FLR` emissions proposed will account for a notably small portion of the projected emissions modeled on the [Flare tokenomics page](https://flare.network/tokenomics-flr-updated/).
-Given the design of the [incentive pool contract](https://flare.network/fip01/) and the deliberate constraints against withdrawing large portions of `$FLR` tokens at any time, this FIP proposes two 1/12 tranches of 6.8% of the total circulating supply to be withdrawn over the first two months of the schedule, July and August 2024.
+Given the design of the [incentive pool contract](https://flare.network/fip01/) and the coded constraint to allocate the lower of either 3% per annum (calculated by available supply) or 10% of the pool per annum, this FIP proposes two 1/12 tranches of 6.8% of the total circulating supply to be withdrawn over the first two months of the schedule, July and August 2024, to cover the projected emissions for the total schedule.
 This amount has been calculated to equal a total of approximately 510,000,000 `$FLR` to be made available as part of the proposed emissions schedule.
+
+### 2.1 Emissions Schedule
+
+The following table shows the proposed emissions schedule.
+The amounts are the most accurate approximate estimations, given the dynamic circulating supply and coded withdrawal requirements of the incentive pool contract.
+The actual amount may vary.
+
+Each of the monthly emissions will be split among the beneficiaries.
+To receive their allocations in full, beneficiaries must wait 12 months to claim them.
+Claims can be made before the 12-month period has elapsed, but beneficiaries will lose 50% of their allocation.
 
 | Date           | `$FLR` emissions |
 | :------------- | :--------------- |

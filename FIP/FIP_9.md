@@ -108,7 +108,7 @@ The Emissions Committee will be comprised of these members:
     He is heavily involved in regulatory policy and serves as a fellow of the Digital Economy Initiative and the Adam Smith Institute.
     He is also on the global advisory board of AWR Lloyd, a Hong Kong-based investment bank.
 
-* **Into the Block**
+* **IntoTheBlock**
 
     The IntoTheBlock Institutional DeFi platform is a multi-product offering for crypto-native companies and investors to access DeFi with proper alpha intelligence, automation, security, and risk management.
     The platform is used by a large percentage of the largest crypto institutions and DeFi protocols in the market.
@@ -167,7 +167,7 @@ These rewards may be used to provide additional security to the network via [wra
 3. _How will I know how much `$FLR` I have and how do I wrap and delegate it?_
 
     `$FLR` emissions eligibility and quantity will be visible via dApps and the [Flare Portal](https://portal.flare.network/).
-    To check, connect to the Portal using the same wallet address you used to participate participate in dApps on Flare mainnet.
+    To check, connect to the Portal using the same wallet address you used to participate in dApps on Flare mainnet.
 
     The Portal may be used to claim emissions, at which point FlareDrop rewards will begin to accrue.
     The Portal may also be used to redeem emissions for `$FLR`, whereby the full amount of `$FLR` may be redeemed with a 50% penalty according to the elapsed time of the linear 12-month vesting schedule.

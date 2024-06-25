@@ -8,7 +8,7 @@ title: FIP.09
 | Type               | Flare Improvement Proposal |
 | :----------------- | :------------------------- |
 | Author             | Flare Foundation           |
-| Created            | 21-Jun-2024                |
+| Created            | 25-Jun-2024                |
 | Document Status    | Draft                      |
 | Majority Condition | 50% (required to reject)   |
 
@@ -20,7 +20,7 @@ Decentralized exchanges (DEXs), lending protocols, and other dApps have launched
 Coupled with FAssets and the launch of other bridges, the Flare ecosystem is now considered suitably mature such that a targeted `$FLR` emissions program could help to further accelerate sustainable ecosystem growth and community expansion.
 This proposal by the Flare Foundation seeks to introduce a `$FLR` emissions budget and a framework to deploy a small portion of the incentive pool to attract builders and support liquidity on Flare.
 
-If this proposal is accepted, the Flare Foundation will allocate approximately 510,000,000 `$FLR` of the total 20,000,000,000 `$FLR` incentive pool to an emissions schedule as detailed below.
+If this proposal is accepted, the Flare Foundation will allocate approximately 510,000,000 `$FLR` of the total 20,000,000,000 `$FLR` incentive pool to an [emissions schedule](#21-emissions-schedule) as detailed below.
 
 ## 2. Technical Description
 
@@ -57,6 +57,7 @@ However, beneficiaries who want to claim before the 12-month period has elapsed 
 ### 2.1 The Emissions Committee
 
 The responsibility for directing emissions toward dApps and protocols building on Flare will be vested in an Emissions Committee.
+The Committee will initially launch with six members but may expand in size and change members upon majority approval from the Committee.
 
 The Committee will have the discretion to allocate `$FLR` emissions to dApps and protocols, while adhering to the proposed rules and maximum monthly `$FLR` emissions limits, as detailed in the [emissions schedule](#2-technical-description).
 The Committee will have the authority to decide the form and distribution of the emissions, such as whether they are available in `$FLR` or a wrapped version of `$FLR` with vesting periods.
@@ -84,13 +85,26 @@ Furthermore, the Committee will require that all members disclose to the Committ
 
 The Emissions Committee will be comprised of these members:
 
-* Hugo Phillion: CEO and cofounder of Flare Network and Flare Labs
-* Gabe: CIO, Flare Network
-* Dhruv: DeFi Analyst, Flare Network
-* Into the Block: 
+* Hugo Phillion: Cofounder of Flare Network, CEO of Flare Labs
+  With prior experience as a derivatives trader managing portfolios for major funds, Hugo later pursued studies in machine learning at University College London, where he met Flare’s other co-founders.
+* Gabe: CIO of Flare Network
+  Seasoned finance professional with 20-plus years of experience including hedge funds, real estate, and venture capital investing.
+  Gabe has been a Flare advisor since 2017 when he met the founding team through an NYC-based accelerator.
+  He joined as full-time chief investment officer in 2023.
+* Dhruv: DeFi Analyst at Flare Network
+  Prior to joining Flare Network, Dhruv worked at a Bitcoin custody firm that focused on helping Bitcoin miners understand the complexities of UTXOs and broadcasting transaction.
+  Now at Flare, he is focused on growing the DeFi ecosystem by fostering strategic partnerships and building relationships with capital partners.
+* Toby Norfolk-Thompson: Founder of Trident Digital
+  Toby set up Trident Digital, a digital asset lender and DeFi firm in 2023 having previously served as the CIO of Matrixport and Coinbase.
+  He spent 18 years in senior fixed income trading and structuring roles at Barclays and has been heavily involved in decentralized finance since 2016, investing in a range of fintech and decentralized finance firms besides Flare, such at Cleartoken (UK clearing house project), Singularity (Egyptian payments platform) and Preyus, a private banking platform.
+  He is heavily involved in regulatory policy and serves as a fellow of the Digital Economy Initiative and the Adam Smith Institute.
+  He is also on the global advisory board of AWR Lloyd, a Hong Kong-based investment bank.
+* Into the Block
+  The IntoTheBlock Institutional DeFi platform is a multi-product offering for crypto-native companies and investors to access DeFi with proper alpha intelligence, automation, security, and risk management.
+  The platform is used by a large percentage of the largest crypto institutions and DeFi protocols in the market.
 * Quantdesign: A leading tokenomics and mechanism design firm.
-It uses data to design more effective incentives for blockchain projects and ecosystems.
-It has helped Flare develop the protocol emissions strategy outlined in this proposal and will continue to remain involved in the process as a member of the Committee.
+  It uses data to design more effective incentives for blockchain projects and ecosystems.
+  It has helped Flare develop the protocol emissions strategy outlined in this proposal and will continue to remain involved in the process as a member of the Committee.
 
 ## 4. Proposed Implementation Date Range
 
@@ -102,7 +116,7 @@ To pass, the proposal requires a simple majority of votes in favor of it.
 
 ## 6. Deadline for Voting
 
-* **Notice period**: 22-June-2024 to 27-June-2024
+* **Notice period**: 25-June-2024 to 27-June-2024
 * **Voting period**: 28-June-2024 to 4-July-2024
 
 ## 7. Appendix

@@ -32,12 +32,13 @@ This amount has been calculated to equal a total of approximately 510,000,000 `$
 ### 2.1 Emissions Schedule
 
 The following table shows the proposed emissions schedule.
-The amounts are the most accurate approximate estimations, given the dynamic circulating supply and coded withdrawal requirements of the incentive pool contract.
+The amounts are the most accurate estimations, given the dynamic circulating supply and coded withdrawal requirements of the incentive pool contract.
 The actual amount may vary.
 
 Each of the monthly emissions will be split among the beneficiaries.
 To receive their allocations in full, beneficiaries must wait 12 months to claim them.
 However, beneficiaries who want to claim before the 12-month period has elapsed can do so, but they will lose 50% of their allocation.
+During this 12-month period, beneficiaries will still accrue FlareDrop rewards, which they can claim.
 
 | Date           | `$FLR` emissions |
 | :------------- | :--------------- |
@@ -85,26 +86,38 @@ Furthermore, the Committee will require that all members disclose to the Committ
 
 The Emissions Committee will be comprised of these members:
 
-* Hugo Phillion: Cofounder of Flare Network, CEO of Flare Labs
-  With prior experience as a derivatives trader managing portfolios for major funds, Hugo later pursued studies in machine learning at University College London, where he met Flare’s other co-founders.
-* Gabe: CIO of Flare Network
-  Seasoned finance professional with 20-plus years of experience including hedge funds, real estate, and venture capital investing.
-  Gabe has been a Flare advisor since 2017 when he met the founding team through an NYC-based accelerator.
-  He joined as full-time chief investment officer in 2023.
-* Dhruv: DeFi Analyst at Flare Network
-  Prior to joining Flare Network, Dhruv worked at a Bitcoin custody firm that focused on helping Bitcoin miners understand the complexities of UTXOs and broadcasting transaction.
-  Now at Flare, he is focused on growing the DeFi ecosystem by fostering strategic partnerships and building relationships with capital partners.
-* Toby Norfolk-Thompson: Founder of Trident Digital
-  Toby set up Trident Digital, a digital asset lender and DeFi firm in 2023 having previously served as the CIO of Matrixport and Coinbase.
-  He spent 18 years in senior fixed income trading and structuring roles at Barclays and has been heavily involved in decentralized finance since 2016, investing in a range of fintech and decentralized finance firms besides Flare, such at Cleartoken (UK clearing house project), Singularity (Egyptian payments platform) and Preyus, a private banking platform.
-  He is heavily involved in regulatory policy and serves as a fellow of the Digital Economy Initiative and the Adam Smith Institute.
-  He is also on the global advisory board of AWR Lloyd, a Hong Kong-based investment bank.
-* Into the Block
-  The IntoTheBlock Institutional DeFi platform is a multi-product offering for crypto-native companies and investors to access DeFi with proper alpha intelligence, automation, security, and risk management.
-  The platform is used by a large percentage of the largest crypto institutions and DeFi protocols in the market.
-* Quantdesign: A leading tokenomics and mechanism design firm.
-  It uses data to design more effective incentives for blockchain projects and ecosystems.
-  It has helped Flare develop the protocol emissions strategy outlined in this proposal and will continue to remain involved in the process as a member of the Committee.
+* **Hugo Phillion: Cofounder of Flare Network, CEO of Flare Labs**
+
+    With prior experience as a derivatives trader managing portfolios for major funds, Hugo later pursued studies in machine learning at University College London, where he met Flare’s other co-founders.
+
+* **Gabe Bassin: CIO of Flare Network**
+
+    Seasoned finance professional with 20-plus years of experience including hedge funds, real estate, and venture capital investing.
+    Gabe has been a Flare advisor since 2017 when he met the founding team through an NYC-based accelerator.
+    He joined as full-time chief investment officer in 2023.
+
+* **Dhruv Shah: DeFi Analyst at Flare Network**
+
+    Prior to joining Flare Network, Dhruv worked at a Bitcoin custody firm that focused on helping Bitcoin miners understand the complexities of UTXOs and broadcasting transactions.
+    Now at Flare, he is focused on growing the DeFi ecosystem by fostering strategic partnerships and building relationships with capital partners.
+
+* **Toby Norfolk-Thompson: Founder of Trident Digital**
+
+    Toby set up Trident Digital, a digital asset lender and DeFi firm in 2023 having previously served as the CIO of Matrixport and Coinbase.
+    He spent 18 years in senior fixed income trading and structuring roles at Barclays and has been heavily involved in decentralized finance since 2016, investing in a range of fintech and decentralized finance firms besides Flare, such at Cleartoken (UK clearing house project), Singularity (Egyptian payments platform) and Preyus, a private banking platform.
+    He is heavily involved in regulatory policy and serves as a fellow of the Digital Economy Initiative and the Adam Smith Institute.
+    He is also on the global advisory board of AWR Lloyd, a Hong Kong-based investment bank.
+
+* **Into the Block**
+
+    The IntoTheBlock Institutional DeFi platform is a multi-product offering for crypto-native companies and investors to access DeFi with proper alpha intelligence, automation, security, and risk management.
+    The platform is used by a large percentage of the largest crypto institutions and DeFi protocols in the market.
+
+* **Quantdesign**
+
+    Quantdesign is a leading tokenomics and mechanism design firm.
+    It uses data to design more effective incentives for blockchain projects and ecosystems.
+    It has helped Flare develop the protocol emissions strategy outlined in this proposal and will continue to remain involved in the process as a member of the Committee.
 
 ## 4. Proposed Implementation Date Range
 

@@ -5,12 +5,15 @@ title: FIP.07
 
 # FIP.07: Add Support for FTSO Fast Updates
 
-| Type               | Flare Improvement Proposal |
-| :----------------- | :------------------------- |
-| Author             | Flare Foundation           |
-| Created            | 27-May-2024                |
-| Document Status    | Draft                      |
-| Majority Condition | 50% (required to reject)   |
+| Type               | Flare Improvement Proposal                   |
+| :----------------- | :------------------------------------------- |
+| Author             | Flare Foundation                             |
+| Created            | 27-May-2024                                  |
+| Document Status    | Final                                        |
+| Majority Condition | 50% (required) 96.11% (obtained)             |
+| Voting Outcome     | [**Accepted**][ProposalLink] on 11-June-2024 |
+
+[ProposalLink]: https://portal.flare.network/proposal/view/72973297397784418527152464822021856775820006809063056756120976518354833053867?chainId=14
 
 ## 1. Brief Description
 

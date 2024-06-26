@@ -5,13 +5,16 @@ title: STP.07
 
 # STP.07: Add Support for FTSO Fast Updates
 
-| Type                | Songbird Test Proposal   |
-| :------------------ | :----------------------- |
-| Author              | Flare Foundation         |
-| Created             | 9-Apr-2024               |
-| Document Status     | Draft                    |
-| Threshold Condition | 75% (required to reject) |
-| Majority Condition  | 50% (required to reject) |
+| Type                | Songbird Test Proposal                      |
+| :------------------ | :------------------------------------------ |
+| Author              | Flare Foundation                            |
+| Created             | 9-Apr-2024                                  |
+| Document Status     | Final                                       |
+| Threshold Condition | 75% (required to reject) 4.09% (obtained)   |
+| Majority Condition  | 50% (required to reject) 1.25% (obtained)   |
+| Voting Outcome      | [**Accepted**][ProposalLink] on 18-May-2024 |
+
+[ProposalLink]: https://portal.flare.network/proposal/view/67891611286238844029510585260290521669085080484578017675206872866625518390282?chainId=19
 
 ## 1. Brief Description
 

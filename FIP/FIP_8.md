@@ -5,12 +5,15 @@ title: FIP.08
 
 # FIP.08: Update FTSO Data Feeds and Define Process to Add New Ones
 
-| Type               | Flare Improvement Proposal |
-| :----------------- | :------------------------- |
-| Author             | Flare Foundation           |
-| Created            | 28-May-2024                |
-| Document Status    | Draft                      |
-| Majority Condition | 50% (required to reject)   |
+| Type               | Flare Improvement Proposal                   |
+| :----------------- | :------------------------------------------- |
+| Author             | Flare Foundation                             |
+| Created            | 28-May-2024                                  |
+| Document Status    | Final                                        |
+| Majority Condition | 50% (required) 95.62% (obtained)             |
+| Voting Outcome     | [**Accepted**][ProposalLink] on 18-June-2024 |
+
+[ProposalLink]: https://portal.flare.network/proposal/view/72674715984384929252996842574865832595187106708113970001344533821402192274312?chainId=14
 
 ## 1. Brief Description
 

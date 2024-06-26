@@ -5,13 +5,16 @@ title: STP.08
 
 # STP.08: Update FTSO Data Feeds and Define Process to Add New Ones
 
-| Type                | Songbird Test Proposal   |
-| :------------------ | :----------------------- |
-| Author              | Flare Foundation         |
-| Created             | 16-May-2024              |
-| Document Status     | Draft                    |
-| Threshold Condition | 75% (required to reject) |
-| Majority Condition  | 50% (required to reject) |
+| Type                | Songbird Test Proposal                      |
+| :------------------ | :------------------------------------------ |
+| Author              | Flare Foundation                            |
+| Created             | 16-May-2024                                 |
+| Document Status     | Final                                       |
+| Threshold Condition | 75% (required to reject) 2.16% (obtained)   |
+| Majority Condition  | 50% (required to reject) 2.33% (obtained)   |
+| Voting Outcome      | [**Accepted**][ProposalLink] on 31-May-2024 |
+
+[ProposalLink]: https://portal.flare.network/proposal/view/40055455082342880642274074914243181709056532103430872681892272191633034754038?chainId=19
 
 ## 1. Brief Description
 

@@ -9,7 +9,7 @@ title: SIP.03
 | :----------------- | :------------------------------------------ |
 | Author             | Flare Foundation                            |
 | Created            | 4-Jul-2024                                  |
-| Document Status    | In progress                                 |
+| Document Status    | Draft                                 |
 | Majority Condition | 50% (required) xx.x % (obtained)            |
 | Voting Outcome     | [**Accepted**][ProposalLink] on dd-Jul-2024 |
 
@@ -37,19 +37,17 @@ The goal of the fork is to:
 
 ## 2. Technical Description
 
-### 2.1 Align Songbird and Flare Code
+### 2.1 Who Can Be Validators
 
-Currently on the Songbird network, node IDs of validators run by Flare are hard-coded in the validator code.
-The transfer of funds from the C-chain (where smart contracts are held) to the P-chain (where rewards are managed) is also disabled.
+Currently, node IDs of validators run by Flare are hard-coded in the Songbird validator code, so that only validators run by Flare can secure the Songbird network.
 
-### 2.2 Who Can Be Validators
+If this proposal is accepted, the hard-coded node IDs will be removed, and the underlying proof-of-stake consensus will be enabled, so that nodes will need to be staked to validate.
 
-Because the node IDs are hard-coded, only validators run by Flare can secure the Songbird network.
-Moreover, without the ability to transfer funds from the C-chain to the P-chain, staking on validators is not possible.
+### 2.2 Align Songbird and Flare Code
 
-If this proposal is accepted, the Songbird network will be forked and the transfer of funds from the C-chain to the P-Chain will be allowed and staking on validators will be possible.
+Currently on the Songbird network, the transfer of funds from the C-chain (where smart contracts are held) to the P-chain (where rewards are managed) is disabled.
 
-<!--Question 3: How will the hard-coded node IDs be changed? A new variable?-->
+If this proposal is accepted, the transfer of funds from the C-chain to the P-Chain will be allowed and staking on validators will be possible, resulting in a fork.
 
 ### 2.3 Staking on Songbird Validators
 
@@ -57,17 +55,17 @@ If this proposal is accepted, staking parameters will be set to the equivalent o
 P-chain rewards will be set to 0 immediately and rewarding will initially be done manually via grants.
 Later, the same mechanism as on Flare will be implemented on the C-chain.
 
-|                         | Proposed on Coston    | Proposed on Songbird | Currently on Flare    |
-| :---------------------- | :-------------------- | :------------------- | :-------------------- |
-| Min self-bond           | 100,000 `$CFLR`       | 1,000,000 `$SGB`     | 1,000,000 `$FLR`      |
-| Max total stake         | 1,000,000,000 `$CFLR` | 200,000,000 `$SGB`   | 200,000,000 `$SGB`    |
-| Min delegation          | 10,000 `$CFLR`        | 50,000 `$SGB`        | 50,000 `$SGB`         |
-| Min validator duration  | 24 hours              | 60 days              | 60 days               |
-| Max validator duration  | 365 days              | 365 days             |                       |
-| Min delegation duration | 1 hour                | 14 days              | 14 days               |
-| Delegation factor       | 15                    | 15                   | 15                    |
+|                         | Proposed for Coston   | Proposed for Songbird | Currently on Flare    |
+| :---------------------- | :-------------------- | :-------------------- | :-------------------- |
+| Min self-bond           | 100,000 `$CFLR`       | 1,000,000 `$SGB`      | 1,000,000 `$FLR`      |
+| Max total stake         | 1,000,000,000 `$CFLR` | 200,000,000 `$SGB`    | 200,000,000 `$SGB`    |
+| Min delegation          | 10,000 `$CFLR`        | 50,000 `$SGB`         | 50,000 `$SGB`         |
+| Min validator duration  | 24 hours              | 60 days               | 60 days               |
+| Max validator duration  | 365 days              | 365 days              |                       |
+| Min delegation duration | 1 hour                | 14 days               | 14 days               |
+| Delegation factor       | 15                    | 15                    | 15                    |
 
-<!--Question 5: [FIP.05](https://proposals.flare.network/FIP/FIP_5.html) does not give a maximum validator duration. Do we have one for Flare? What is it?-->
+<!--Question 5: [FIP.05](https://proposals.flare.network/FIP/FIP_5.html) does not give a maximum validator duration. Do we have one for Flare? What is it? Ask Marko.-->
 
 ### 3. Link to Code Repository
 

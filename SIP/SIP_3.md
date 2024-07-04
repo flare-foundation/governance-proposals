@@ -103,4 +103,4 @@ To pass, this proposal requires a simple majority of votes in favor of it.
 * **Notice period:** 09-Jul-2024 to 15-Jul-2024
 * **Voting period:** 16-Jul-2024 to 22-Jul-2024
 
-<!--Looks like I have to update the repo index page as well, yes? When do I do that? Right after we publish?-->
+<!--Question 8: Looks like I have to update the repo index page as well, yes? When do I do that? Right after we publish?-->

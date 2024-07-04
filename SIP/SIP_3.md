@@ -81,7 +81,7 @@ Audit report is available at: [FYEO Secure Code Assessment of Flare Songbird] (h
 Both Coston (Songbird's testing network) and the Songbird network itself will need to be forked.
 Changes to the code include two important timestamps:
 
-* Enable transfer of funds from C-chain to P-chain at time **T0**. All nodes must be upgraded up to T0.
+* Enable transfer of funds from the C-chain to the P-chain at time **T0**. All nodes must be upgraded up to T0.
 * Enable staking from a proposed time, which should be **T0 + approximately 14 days**.
 
 Proposed fork times for T0 and T1 are:

@@ -46,13 +46,13 @@ The transfer of funds from the C-chain (where smart contracts are held) to the P
 Because the node IDs are hard-coded, only validators run by Flare can secure the Songbird network.
 Moreover, without the ability to transfer funds from the C-chain to the P-chain, staking on validators is not possible.
 
-If this proposal is accepted, the Songbird network will be forked and the transfer of funds from the C-chain to the P-Chain will be allowed.
+If this proposal is accepted, the Songbird network will be forked and the transfer of funds from the C-chain to the P-Chain will be allowed and staking on validators will be possible.
 
 <!--How will the hard-coded node IDs be changed? A new variable?-->
 
 ### 2.3 Staking on Songbird Validators
 
-If this proposal is accepted, staking parameters will be set to the equivalent of those on Flare network.
+If this proposal is accepted, staking parameters will be set to the equivalent of those on the Flare network.
 P-chain rewards will be set to 0 immediately and rewarding will initially be done manually via grants.
 Later, the same mechanism as on Flare will be implemented on the C-chain.
 
@@ -95,7 +95,7 @@ Proposed fork times for T0 and T1 are:
 
 ### 5. Voting Details
 
-To pass, the proposal requires a simple majority of votes in favor of it.
+To pass, this proposal requires a simple majority of votes in favor of it.
 
 ### 6. Deadline for Voting
 

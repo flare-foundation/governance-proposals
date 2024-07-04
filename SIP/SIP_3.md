@@ -13,7 +13,7 @@ title: SIP.03
 | Majority Condition | 50% (required) xx.x % (obtained)            |
 | Voting Outcome     | [**Accepted**][ProposalLink] on dd-Jul-2024 |
 
-<!--Created? This file or publication of the proposal?
+<!--Created? This file or publication of the proposal (maybe 09 Jul, see below)?
 Status: In progress? Change to Final when done.
 Majority Condition: Need %age after the vote.
 Voting Outcome: Need outcome, link, and date.-->

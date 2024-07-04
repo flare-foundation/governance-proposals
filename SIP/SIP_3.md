@@ -18,7 +18,7 @@ Status: In progress? Change to Final when done.
 Majority Condition: Need %age after the vote.
 Voting Outcome: Need outcome, link, and date.-->
 
-[ProposalLink]: 
+[ProposalLink]:
 <!--Add link-->
 
 ## 1. Brief Description

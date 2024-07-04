@@ -13,7 +13,8 @@ title: SIP.03
 | Majority Condition | 50% (required) xx.x % (obtained)            |
 | Voting Outcome     | [**Accepted**][ProposalLink] on dd-Jul-2024 |
 
-<!--Created? This file or publication of the proposal (maybe 09 Jul, see below)?
+<!--Question 1: How do we handle tracking info that we can't know until we all agree to publish it?
+Created? This file or publication of the proposal (maybe 09 Jul, see below)?
 Status: In progress? Change to Final when done.
 Majority Condition: Need %age after the vote.
 Voting Outcome: Need outcome, link, and date.-->
@@ -30,7 +31,7 @@ The goal of the fork is to:
 * Use the same code on Songbird as Flare to make upgrades to more recent Avalanche versions easier.
 * Decentralize the network by allowing anybody to become a validator and to stake on any validator.
 
-<!--What can I safely say to explain why we would want to remain current with Avalanche versions. Some possibilities from our doc include:
+<!--Question 2: What can I safely say to explain why we would want to remain current with Avalanche versions. Some possibilities from our doc include:
 - "All Flare networks are a fork of the Avalanche project, which runs the Ethereum Virtual Machine."
 - "Validators agree on the state of the ledger using a consensus algorithm that varies for each blockchain [Does "each blockchain" refer to Coston, Songbird, and Flare?]. For example, Flare uses the Snowman++ consensus protocol from Avalanche." [Does this update put them in sync?]-->
 
@@ -48,7 +49,7 @@ Moreover, without the ability to transfer funds from the C-chain to the P-chain,
 
 If this proposal is accepted, the Songbird network will be forked and the transfer of funds from the C-chain to the P-Chain will be allowed and staking on validators will be possible.
 
-<!--How will the hard-coded node IDs be changed? A new variable?-->
+<!--Question 3: How will the hard-coded node IDs be changed? A new variable?-->
 
 ### 2.3 Staking on Songbird Validators
 
@@ -66,7 +67,7 @@ Later, the same mechanism as on Flare will be implemented on the C-chain.
 | Min delegation duration | 1 hour                | 14 days              | 14 days               |
 | Delegation factor       | 15                    | 15                   | 15                    |
 
-<!--[FIP.05](https://proposals.flare.network/FIP/FIP_5.html) does not give a maximum validator duration. Do we have one for Flare? What is it?-->
+<!--Question 5: [FIP.05](https://proposals.flare.network/FIP/FIP_5.html) does not give a maximum validator duration. Do we have one for Flare? What is it?-->
 
 ### 3. Link to Code Repository
 
@@ -74,7 +75,7 @@ Here is the source code repository: [Go-Flare](https://github.com/flare-foundati
 
 Audit report is available at: [FYEO Secure Code Assessment of Flare Songbird] (https://x.com/goFYEO/status/1792599813743161479).
 
-<!--Should I add this to our Security Audit page?-->
+<!--Question 6: Should I add this to our Security Audit page?-->
 
 ### 4. Proposed Implementation Date Range
 
@@ -91,7 +92,7 @@ Proposed fork times for T0 and T1 are:
 | T0     | 23-Jul-2024 | 20-Aug-2024 |
 | T1     | 30-Jul-2024 | 03-Sep-2024 |
 
-<!--I surmised the dates below from the proposed T0 and T1, giving 7 days to each period, which means we'd have to be ready by Monday EOD to publish.-->
+<!--Question 7: This is another part of question 1. I surmised the dates below from the proposed T0 and T1, giving 7 days to each period, which means we'd have to be ready by Monday EOD to publish.-->
 
 ### 5. Voting Details
 
@@ -102,4 +103,4 @@ To pass, this proposal requires a simple majority of votes in favor of it.
 * **Notice period:** 09-Jul-2024 to 15-Jul-2024
 * **Voting period:** 16-Jul-2024 to 22-Jul-2024
 
-<!--Looks like I have to update the repo index page as well.-->
+<!--Looks like I have to update the repo index page as well, yes? When do I do that? Right after we publish?-->

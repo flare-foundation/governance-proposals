@@ -71,7 +71,7 @@ Later, the same mechanism as on Flare will be implemented on the C-chain.
 
 Here is the source code repository: [Go-Flare](https://github.com/flare-foundation/go-flare/tree/songbird-support).
 
-Audit report is available at: [FYEO Secure Code Assessment of Flare Songbird] (https://x.com/goFYEO/status/1792599813743161479).
+Audit report is available at: [FYEO Secure Code Assessment of Flare Songbird](https://x.com/goFYEO/status/1792599813743161479).
 
 <!--Question 6: Should I add this to our Security Audit page?-->
 

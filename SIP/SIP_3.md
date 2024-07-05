@@ -3,7 +3,7 @@ nav_order: 20003
 title: SIP.03
 ---
 
-# SIP.3: Songbird Decentralization and Code Upgrade
+# SIP.03: Songbird Decentralization and Code Upgrade
 
 | Type               | Songbird Improvement Proposal               |
 | :----------------- | :------------------------------------------ |

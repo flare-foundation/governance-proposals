@@ -13,27 +13,20 @@ title: SIP.03
 | Majority Condition | 50% (required) xx.x % (obtained)            |
 | Voting Outcome     | [**Accepted**][ProposalLink] on dd-Jul-2024 |
 
-<!--Question 1: How do we handle tracking info that we can't know until we all agree to publish it?
-Created? This file or publication of the proposal (maybe 09 Jul, see below)?
-Status: In progress? Change to Final when done.
-Majority Condition: Need %age after the vote.
-Voting Outcome: Need outcome, link, and date.-->
+<!--Update Status to Final, Majority Condition obtained, and Voting Outcome, and date.-->
 
 [ProposalLink]:
 <!--Add link-->
 
 ## 1. Brief Description
 
-The Songbird network is currently centralized, because all of its validators are run by Flare, and its validator code is lagging behind the Flare and Avalanche networks.
+The Songbird network is currently centralized, because all of its validators are run by Flare.
+Flare leverages the Avalanche network's consensus mechanism, and Songbird's validator code is lagging behind both the Flare and Avalanche networks.
 This proposal updates the Songbird validator code, effectively forking the Songbird network.
 The goal of the fork is to:
 
 * Use the same code on Songbird as Flare to make upgrades to more recent Avalanche versions easier.
 * Decentralize the network by allowing anybody to become a validator and to stake on any validator.
-
-<!--Question 2: What can I safely say to explain why we would want to remain current with Avalanche versions. Some possibilities from our doc include:
-- "All Flare networks are a fork of the Avalanche project, which runs the Ethereum Virtual Machine."
-- "Validators agree on the state of the ledger using a consensus algorithm that varies for each blockchain [Does "each blockchain" refer to Coston, Songbird, and Flare?]. For example, Flare uses the Snowman++ consensus protocol from Avalanche." [Does this update put them in sync?]-->
 
 ## 2. Technical Description
 
@@ -41,7 +34,7 @@ The goal of the fork is to:
 
 Currently, node IDs of validators run by Flare are hard-coded in the Songbird validator code, so that only validators run by Flare can secure the Songbird network.
 
-If this proposal is accepted, the hard-coded node IDs will be removed, and the underlying proof-of-stake consensus will be enabled, so that nodes will need to be staked to validate.
+If this proposal is accepted, the hard-coded node IDs will be removed, and the underlying Proof-of-Stake consensus will be enabled, so that nodes will need to be staked to validate.
 
 ### 2.2 Align Songbird and Flare Code
 
@@ -65,13 +58,13 @@ Later, the same mechanism as on Flare will be implemented on the C-chain.
 | Min delegation duration | 1 hour                | 14 days               | 14 days               |
 | Delegation factor       | 15                    | 15                    | 15                    |
 
-<!--Question 5: [FIP.05](https://proposals.flare.network/FIP/FIP_5.html) does not give a maximum validator duration. Do we have one for Flare? What is it? Ask Marko.-->
+<!--Question 5: [FIP.05](https://proposals.flare.network/FIP/FIP_5.html) does not give a maximum validator duration. Do we have one for Flare? What is it? I [asked Marko](https://flarenetworks.slack.com/archives/C02NURDPAQZ/p1720166986299229) July 5 .-->
 
 ### 3. Link to Code Repository
 
 Here is the source code repository: [Go-Flare](https://github.com/flare-foundation/go-flare/tree/songbird-support).
 
-Audit report is available at: [FYEO Secure Code Assessment of Flare Songbird](https://x.com/goFYEO/status/1792599813743161479).
+The audit report for these changes is available at: [FYEO Secure Code Assessment of Flare Songbird](https://x.com/goFYEO/status/1792599813743161479).
 
 <!--Question 6: Should I add this to our Security Audit page?-->
 

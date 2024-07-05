@@ -58,7 +58,7 @@ Later, the same mechanism as on Flare will be implemented on the C-chain.
 | Min delegation duration | 1 hour                | 14 days               | 14 days               |
 | Delegation factor       | 15                    | 15                    | 15                    |
 
-<!--Question 5: [FIP.05](https://proposals.flare.network/FIP/FIP_5.html) does not give a maximum validator duration. Do we have one for Flare? What is it? I [asked Marko](https://flarenetworks.slack.com/archives/C02NURDPAQZ/p1720166986299229) July 5 .-->
+<!--Question: [FIP.05](https://proposals.flare.network/FIP/FIP_5.html) does not give a maximum validator duration. Do we have one for Flare? What is it? I [asked Marko](https://flarenetworks.slack.com/archives/C02NURDPAQZ/p1720166986299229) July 5 .-->
 
 ### 3. Link to Code Repository
 
@@ -66,7 +66,7 @@ Here is the source code repository: [Go-Flare](https://github.com/flare-foundati
 
 The audit report for these changes is available at: [FYEO Secure Code Assessment of Flare Songbird](https://x.com/goFYEO/status/1792599813743161479).
 
-<!--Question 6: Should I add this to our Security Audit page?-->
+<!--Add this to our Security Audit page? (It's not there yet. Check with Luka.)-->
 
 ### 4. Proposed Implementation Date Range
 
@@ -83,7 +83,7 @@ Proposed fork times for T0 and T1 are:
 | T0     | 23-Jul-2024 | 20-Aug-2024 |
 | T1     | 30-Jul-2024 | 03-Sep-2024 |
 
-<!--Question 7: This is another part of question 1. I surmised the dates below from the proposed T0 and T1, giving 7 days to each period, which means we'd have to be ready by Monday EOD to publish.-->
+<!--Check with Marko and update dates above and below when we publish: Monday EOD to publish?-->
 
 ### 5. Voting Details
 
@@ -94,4 +94,4 @@ To pass, this proposal requires a simple majority of votes in favor of it.
 * **Notice period:** 09-Jul-2024 to 15-Jul-2024
 * **Voting period:** 16-Jul-2024 to 22-Jul-2024
 
-<!--Question 8: Looks like I have to update the repo index page as well, yes? When do I do that? Right after we publish?-->
+<!--Update the repo index page. When do I do that? Right after we publish?-->

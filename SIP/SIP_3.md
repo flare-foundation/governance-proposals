@@ -63,8 +63,6 @@ If this proposal is accepted, the transfer of funds from the C-chain to the P-Ch
 To accommodate these changes and the resulting fork, Coston and Songbird P-chain rewards will be set to 0 immediately and rewarding will initially be done manually via grants.
 Shortly thereafter, the same rewarding mechanism as on Flare C-chain will be implemented on the Coston and Songbird C-chains.
 
-<!--Is this correct? I presume only Coston and Songbird P-chain rewards are set to 0. Or do the Flare rewards start from scratch too (in such a case, this brings into question why people would lose rewards, so I'm thinking not on Flare)?-->
-
 ### 3. Link to Code Repository
 
 Here is the source code repository: [Go-Flare](https://github.com/flare-foundation/go-flare/tree/songbird-support).

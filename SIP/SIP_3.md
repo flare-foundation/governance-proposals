@@ -30,13 +30,13 @@ The goal of the fork is to:
 
 ## 2. Technical Description
 
-### 2.1 Who Can Be Validators
+### 2.1 Who Can Be Songbird Validators
 
 Currently, node IDs of validators run by Flare are hard-coded into the Songbird validator code, so that only validators run by Flare can secure the Songbird network.
 
 If this proposal is accepted, the hard-coded node IDs will be removed, and the underlying Proof-of-Stake consensus will be enabled, so that nodes will need to be staked to validate.
 
-### 2.2 Staking on Songbird Validators
+### 2.2 Enable Staking on Songbird Validators
 
 If this proposal is accepted, staking parameters will be set to the equivalent of those on the Flare network.
 
@@ -60,8 +60,10 @@ If this proposal is accepted, the transfer of funds from the C-chain to the P-Ch
 
 ### 2.4 Reset Rewards
 
-To accommodate these changes and the resulting fork, P-chain rewards will be set to 0 immediately and rewarding will initially be done manually via grants.
-Shortly thereafter, the same rewarding mechanism as on Flare will be implemented on the C-chain.
+To accommodate these changes and the resulting fork, Songbird P-chain rewards will be set to 0 immediately and rewarding will initially be done manually via grants.
+Shortly thereafter, the same rewarding mechanism as on Flare C-chain will be implemented on the Songbird C-chain.
+
+<!--Is this correct? I presume only Songbird P-chain rewards are set to 0. Or do the Flare rewards start from scratch too (in such a case, this brings into question why people would lose rewards, so I'm thinking not on Flare)?-->
 
 ### 3. Link to Code Repository
 

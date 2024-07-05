@@ -46,11 +46,9 @@ If this proposal is accepted, staking parameters will be set to the equivalent o
 | Max total stake         | 1,000,000,000 `$CFLR` | 200,000,000 `$SGB`    | 200,000,000 `$SGB`    |
 | Min delegation          | 10,000 `$CFLR`        | 50,000 `$SGB`         | 50,000 `$SGB`         |
 | Min validator duration  | 24 hours              | 60 days               | 60 days               |
-| Max validator duration  | 365 days              | 365 days              |                       |
+| Max validator duration  | 365 days              | 365 days              | 365 days                      |
 | Min delegation duration | 1 hour                | 14 days               | 14 days               |
 | Delegation factor       | 15                    | 15                    | 15                    |
-
-<!--Question: [FIP.05](https://proposals.flare.network/FIP/FIP_5.html) does not give a maximum validator duration. Do we have one for Flare? What is it? Is it also 365 days? I [asked Marko](https://flarenetworks.slack.com/archives/C02NURDPAQZ/p1720166986299229) July 5.-->
 
 ### 2.3 Align Songbird and Flare Code
 

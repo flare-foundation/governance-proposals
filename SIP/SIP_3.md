@@ -58,7 +58,7 @@ Currently on the Songbird network, the transfer of funds from the C-chain (where
 
 If this proposal is accepted, the transfer of funds from the C-chain to the P-Chain will be allowed and staking on validators will be possible, resulting in a fork.
 
-### 2.4 Resetting Rewards
+### 2.4 Reset Rewards
 
 To accommodate these changes and the resulting fork, P-chain rewards will be set to 0 immediately and rewarding will initially be done manually via grants.
 Shortly thereafter, the same rewarding mechanism as on Flare will be implemented on the C-chain.

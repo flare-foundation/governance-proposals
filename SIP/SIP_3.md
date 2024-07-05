@@ -13,7 +13,7 @@ title: SIP.03
 | Majority Condition | 50% (required) xx.x % (obtained)            |
 | Voting Outcome     | [**Accepted**][ProposalLink] on dd-Jul-2024 |
 
-<!--Update Status to Final, Majority Condition obtained, and Voting Outcome, and date.-->
+<!--Update Status to Final, Majority Condition obtained, Voting Outcome, and date.-->
 
 [ProposalLink]:
 <!--Add link-->
@@ -21,32 +21,24 @@ title: SIP.03
 ## 1. Brief Description
 
 The Songbird network is currently centralized, because all of its validators are run by Flare.
-Flare leverages the Avalanche network's consensus mechanism, and Songbird's validator code is lagging behind both the Flare and Avalanche networks.
+In addition, Flare leverages the Avalanche network's consensus mechanism and Songbird's validator code is lagging behind both the Flare and Avalanche networks.
 This proposal updates the Songbird validator code, effectively forking the Songbird network.
 The goal of the fork is to:
 
-* Use the same code on Songbird as Flare to make upgrades to more recent Avalanche versions easier.
 * Decentralize the network by allowing anybody to become a validator and to stake on any validator.
+* Use the same code on Songbird as Flare to make upgrades to more recent Avalanche versions easier.
 
 ## 2. Technical Description
 
 ### 2.1 Who Can Be Validators
 
-Currently, node IDs of validators run by Flare are hard-coded in the Songbird validator code, so that only validators run by Flare can secure the Songbird network.
+Currently, node IDs of validators run by Flare are hard-coded into the Songbird validator code, so that only validators run by Flare can secure the Songbird network.
 
 If this proposal is accepted, the hard-coded node IDs will be removed, and the underlying Proof-of-Stake consensus will be enabled, so that nodes will need to be staked to validate.
 
-### 2.2 Align Songbird and Flare Code
-
-Currently on the Songbird network, the transfer of funds from the C-chain (where smart contracts are held) to the P-chain (where rewards are managed) is disabled.
-
-If this proposal is accepted, the transfer of funds from the C-chain to the P-Chain will be allowed and staking on validators will be possible, resulting in a fork.
-
-### 2.3 Staking on Songbird Validators
+### 2.2 Staking on Songbird Validators
 
 If this proposal is accepted, staking parameters will be set to the equivalent of those on the Flare network.
-P-chain rewards will be set to 0 immediately and rewarding will initially be done manually via grants.
-Later, the same mechanism as on Flare will be implemented on the C-chain.
 
 |                         | Proposed for Coston   | Proposed for Songbird | Currently on Flare    |
 | :---------------------- | :-------------------- | :-------------------- | :-------------------- |
@@ -58,7 +50,18 @@ Later, the same mechanism as on Flare will be implemented on the C-chain.
 | Min delegation duration | 1 hour                | 14 days               | 14 days               |
 | Delegation factor       | 15                    | 15                    | 15                    |
 
-<!--Question: [FIP.05](https://proposals.flare.network/FIP/FIP_5.html) does not give a maximum validator duration. Do we have one for Flare? What is it? I [asked Marko](https://flarenetworks.slack.com/archives/C02NURDPAQZ/p1720166986299229) July 5 .-->
+<!--Question: [FIP.05](https://proposals.flare.network/FIP/FIP_5.html) does not give a maximum validator duration. Do we have one for Flare? What is it? Is it also 365 days? I [asked Marko](https://flarenetworks.slack.com/archives/C02NURDPAQZ/p1720166986299229) July 5.-->
+
+### 2.3 Align Songbird and Flare Code
+
+Currently on the Songbird network, the transfer of funds from the C-chain (where smart contracts are held) to the P-chain (where rewards are managed) is disabled.
+
+If this proposal is accepted, the transfer of funds from the C-chain to the P-Chain will be allowed and staking on validators will be possible, resulting in a fork.
+
+### 2.4 Resetting Rewards
+
+To accommodate these changes and the resulting fork, P-chain rewards will be set to 0 immediately and rewarding will initially be done manually via grants.
+Shortly thereafter, the same rewarding mechanism as on Flare will be implemented on the C-chain.
 
 ### 3. Link to Code Repository
 

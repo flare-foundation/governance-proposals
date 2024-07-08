@@ -63,7 +63,7 @@ The audit report for these changes is available at: [FYEO Secure Code Assessment
 
 ### 4. Proposed Implementation Date Range
 
-The proposed code changes will cause a fork of both the Coston and Songbird networks, resulting in an update of all nodes currently managed by Flare.
+The proposed code changes will cause a fork of both the Coston and Songbird networks.
 Changes to the code include two important timestamps:
 
 * Enable transfer of funds from the C-chain to the P-chain at time **T0**. All nodes must be upgraded up to T0.

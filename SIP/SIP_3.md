@@ -8,8 +8,8 @@ title: SIP.03
 | Type               | Songbird Improvement Proposal               |
 | :----------------- | :------------------------------------------ |
 | Author             | Flare Foundation                            |
-| Created            | 8-Jul-2024                                  |
-| Document Status    | Final                                       |
+| Created            | 4-Jul-2024                                  |
+| Document Status    | Draft                                       |
 | Majority Condition | 50% (required)                              |
 
 ## 1. Brief Description
@@ -83,3 +83,4 @@ To pass, this proposal requires a simple majority of votes in favor of it.
 ### 6. Deadline for Voting
 
 * **Notice period:** 09-Jul-2024 to 13-Jul-2024
+* **Voting period:** 16-Jul-2024 to 22-Jul-2024

@@ -14,7 +14,7 @@ title: SIP.03
 
 ## 1. Brief Description
 
-This proposal opens up Songbird validation to allow anyone to become a validator, and bring the Songbird validator code up to speed with Flare's.
+This proposal opens up Songbird validation to allow anyone to become a validator and bring the Songbird validator code up to speed with Flare's.
 
 These updates to the validator code, necessarily fork the network with the goal of:
 

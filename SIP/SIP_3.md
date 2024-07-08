@@ -14,13 +14,12 @@ title: SIP.03
 
 ## 1. Brief Description
 
-The Songbird network is currently centralized, because all of its validators are run by Flare.
-In addition, Flare leverages the Avalanche network's consensus mechanism and the validator code is lagging behind both the Flare and Avalanche networks.
-This proposal updates the validator code, effectively forking the network.
-The goal of the fork is to:
+This proposal opens up Songbird validation to allow anyone to become a validator, and bring the Songbird validator code up to speed with Flare's.
 
-* Decentralize the network by allowing anybody to become a validator and anyone to stake on a validator.
-* Use the same code on Songbird as Flare to make upgrades to more recent Avalanche versions easier.
+These updates to the validator code, necessarily fork the network with the goal of:
+
+* Decentralizing the network by allowing anybody to become a validator and anyone to stake on a validator.
+* Using the same code on Songbird as Flare to make future upgrades easier.
 
 ## 2. Technical Description
 
@@ -46,7 +45,7 @@ If this proposal is accepted, staking parameters will be set to the equivalent o
 
 ### 2.3 Align Songbird and Flare Code
 
-Currently on the Songbird network, the transfer of funds from the C-chain (where smart contracts are held) to the P-chain (where rewards are managed) is disabled.
+Currently, the transfer of funds from the C-chain (where smart contracts are held) to the P-chain (where rewards are managed) is disabled.
 
 If this proposal is accepted, the transfer of funds from the C-chain to the P-Chain will be allowed and staking on validators will be possible.
 

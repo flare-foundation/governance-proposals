@@ -14,7 +14,6 @@ title: SIP.03
 
 ## 1. Brief Description
 
-The following proposal refers to the Songbird network, but should be understood to include both Songbird and its testing network, Coston.
 The Songbird network is currently centralized, because all of its validators are run by Flare.
 In addition, Flare leverages the Avalanche network's consensus mechanism and the validator code is lagging behind both the Flare and Avalanche networks.
 This proposal updates the validator code, effectively forking the network.
@@ -54,7 +53,7 @@ If this proposal is accepted, the transfer of funds from the C-chain to the P-Ch
 ### 2.4 Reset Rewards
 
 To accommodate these changes and the resulting fork, P-chain rewards are set to 0 and rewarding will initially be done manually via grants.
-Shortly thereafter, the same rewarding mechanism as on the Flare C-chain will be implemented on the Coston and Songbird C-chains.
+Shortly thereafter, the same rewarding mechanism as on the Flare C-chain will be implemented on the Songbird C-chains.
 
 ### 3. Link to Code Repository
 

@@ -64,9 +64,10 @@ The audit report for these changes is available at: [FYEO Secure Code Assessment
 ### 4. Proposed Implementation Date Range
 
 The proposed code changes will cause a fork of both the Coston and Songbird networks.
+Because all nodes are currently managed by FLare and all will be updated, the fork should not produce any conflicts.
 Changes to the code include two important timestamps:
 
-* Enable transfer of funds from the C-chain to the P-chain at time **T0**. All nodes must be upgraded up to T0.
+* Enable transfer of funds from the C-chain to the P-chain at time **T0**. All nodes will be upgraded up to T0.
 * Enable staking at time **T1**, which should be **T0 + approximately 14 days**.
 
 Proposed fork times for T0 and T1 are:

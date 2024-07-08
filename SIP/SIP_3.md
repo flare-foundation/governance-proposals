@@ -37,8 +37,8 @@ If this proposal is accepted, staking parameters will be set to the equivalent o
 |                         | Proposed for Coston   | Proposed for Songbird | Currently on Flare |
 | :---------------------- | :-------------------- | :-------------------- | :----------------- |
 | Min self-bond           | 100,000 `$CFLR`       | 1,000,000 `$SGB`      | 1,000,000 `$FLR`   |
-| Max total stake         | 1,000,000,000 `$CFLR` | 200,000,000 `$SGB`    | 200,000,000 `$SGB` |
-| Min delegation          | 10,000 `$CFLR`        | 50,000 `$SGB`         | 50,000 `$SGB`      |
+| Max total stake         | 1,000,000,000 `$CFLR` | 200,000,000 `$SGB`    | 200,000,000 `$FLR` |
+| Min delegation          | 10,000 `$CFLR`        | 50,000 `$SGB`         | 50,000 `$FLR`      |
 | Min validator duration  | 24 hours              | 60 days               | 60 days            |
 | Max validator duration  | 365 days              | 365 days              | 365 days           |
 | Min delegation duration | 1 hour                | 14 days               | 14 days            |
@@ -48,26 +48,26 @@ If this proposal is accepted, staking parameters will be set to the equivalent o
 
 Currently on the Songbird network, the transfer of funds from the C-chain (where smart contracts are held) to the P-chain (where rewards are managed) is disabled.
 
-If this proposal is accepted, the transfer of funds from the C-chain to the P-Chain will be allowed and staking on validators will be possible, resulting in a fork.
+If this proposal is accepted, the transfer of funds from the C-chain to the P-Chain will be allowed and staking on validators will be possible.
 
 ### 2.4 Reset Rewards
 
-To accommodate these changes and the resulting fork, P-chain rewards are set to 0 and rewarding will initially be done manually via grants.
-Shortly thereafter, the same rewarding mechanism as on the Flare C-chain will be implemented on the Songbird C-chains.
+To accommodate these changes, P-chain rewards are set to 0 and rewarding will initially be done manually via grants.
+Shortly thereafter, the same rewarding mechanism as on the Flare C-chain will be implemented on the Songbird C-chain.
 
 ### 3. Link to Code Repository
 
-Here is the source code repository: [Go-Flare](https://github.com/flare-foundation/go-flare/tree/songbird-support).
+Here is the source code repository: [Go-Flare (songbird-support branch)](https://github.com/flare-foundation/go-flare/tree/songbird-support).
 
 The audit report for these changes is available at: [FYEO Secure Code Assessment of Flare Songbird](https://x.com/goFYEO/status/1792599813743161479).
 
 ### 4. Proposed Implementation Date Range
 
-Both Coston and the Songbird networks will need to be forked.
+The proposed code changes will cause a fork of both the Coston and Songbird networks, resulting in an update of all nodes currently managed by Flare.
 Changes to the code include two important timestamps:
 
 * Enable transfer of funds from the C-chain to the P-chain at time **T0**. All nodes must be upgraded up to T0.
-* Enable staking from a proposed time, which should be **T0 + approximately 14 days**.
+* Enable staking at time **T1**, which should be **T0 + approximately 14 days**.
 
 Proposed fork times for T0 and T1 are:
 

@@ -95,4 +95,4 @@ To pass, this proposal requires a simple majority of votes in favor of it.
 | [1][rev1] | Initial document.                                                                             |
 |    [2](#) | This revision clarifies that the requirement for Songbird validators to run an FTSO data provider will not be introduced until a later stage.        |
 
-[rev1]: https://github.com/flare-foundation/governance-proposals/blob/86fbc02c73bcaa4a73a20c25c7289ac7d7e6d6d6
+[rev1]: https://github.com/flare-foundation/governance-proposals/blob/86fbc02c73bcaa4a73a20c25c7289ac7d7e6d6d6/SIP/SIP_3.md

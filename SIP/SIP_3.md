@@ -9,6 +9,7 @@ title: SIP.03
 | :----------------- | :------------------------------------------ |
 | Author             | Flare Foundation                            |
 | Created            | 4-Jul-2024                                  |
+| Revision           | 2                                           |
 | Document Status    | Draft                                       |
 | Majority Condition | 50% (required)                              |
 
@@ -92,6 +93,6 @@ To pass, this proposal requires a simple majority of votes in favor of it.
 |  Revision | Changes                                                                                       |
 | --------: | :-------------------------------------------------------------------------------------------- |
 | [1][rev1] | Initial document.                                                                             |
-|         2 | This revision clarifies that the requirement for Songbird validators to run an FTSO data provider will not be introduced until a later stage.        |
+|    [2](#) | This revision clarifies that the requirement for Songbird validators to run an FTSO data provider will not be introduced until a later stage.        |
 
 [rev1]: https://github.com/flare-foundation/governance-proposals/blob/0b44501/STP/STP_0.md

@@ -29,6 +29,8 @@ Currently, node IDs of validators run by Flare are hard-coded into the Songbird 
 
 If this proposal is accepted, the hard-coded node IDs will be removed, and the underlying proof-of-stake consensus will be enabled, so that nodes will need to be staked to validate.
 
+As a first step, Songbird validators will not be required to run an FTSO data provider as Flare validators are. This restriction will be introduced at a later stage.
+
 ### 2.2 Enable Staking on Songbird Validators
 
 If this proposal is accepted, staking parameters will be set to the equivalent of those on the Flare network.
@@ -84,3 +86,12 @@ To pass, this proposal requires a simple majority of votes in favor of it.
 
 * **Notice period:** 09-Jul-2024 to 13-Jul-2024
 * **Voting period:** 16-Jul-2024 to 22-Jul-2024
+
+### 6. Revision History
+
+|  Revision | Changes                                                                                       |
+| --------: | :-------------------------------------------------------------------------------------------- |
+| [1][rev1] | Initial document.                                                                             |
+|         2 | This revision clarifies that the requirement for Songbird validators to run an FTSO data provider as Flare validators are will not be introduced until a later stage.        |
+
+[rev1]: https://github.com/flare-foundation/governance-proposals/blob/0b44501/STP/STP_0.md

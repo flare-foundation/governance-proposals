@@ -9,6 +9,7 @@ title: SIP.03
 | :----------------- | :------------------------------------------ |
 | Author             | Flare Foundation                            |
 | Created            | 4-Jul-2024                                  |
+| Revision           | 2                                           |
 | Document Status    | Draft                                       |
 | Majority Condition | 50% (required)                              |
 
@@ -28,6 +29,8 @@ These updates to the validator code, necessarily fork the network with the goal 
 Currently, node IDs of validators run by Flare are hard-coded into the Songbird validator code, so that only validators run by Flare can secure the Songbird network.
 
 If this proposal is accepted, the hard-coded node IDs will be removed, and the underlying proof-of-stake consensus will be enabled, so that nodes will need to be staked to validate.
+
+As a first step, Songbird validators will not be required to run an FTSO data provider as Flare validators are. This restriction will be introduced at a later stage.
 
 ### 2.2 Enable Staking on Songbird Validators
 
@@ -84,3 +87,12 @@ To pass, this proposal requires a simple majority of votes in favor of it.
 
 * **Notice period:** 09-Jul-2024 to 13-Jul-2024
 * **Voting period:** 16-Jul-2024 to 22-Jul-2024
+
+### 7. Revision History
+
+|  Revision | Changes                                                                                       |
+| --------: | :-------------------------------------------------------------------------------------------- |
+| [1][rev1] | Initial document.                                                                             |
+|    [2](#) | This revision clarifies that the requirement for Songbird validators to run an FTSO data provider will not be introduced until a later stage.        |
+
+[rev1]: https://github.com/flare-foundation/governance-proposals/blob/5778cac0bb8eaa852cddd5a61546c06c623ebfc3/SIP/SIP_3.md

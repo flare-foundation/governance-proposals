@@ -87,7 +87,7 @@ To pass, this proposal requires a simple majority of votes in favor of it.
 * **Notice period:** 09-Jul-2024 to 13-Jul-2024
 * **Voting period:** 16-Jul-2024 to 22-Jul-2024
 
-### 6. Revision History
+### 7. Revision History
 
 |  Revision | Changes                                                                                       |
 | --------: | :-------------------------------------------------------------------------------------------- |

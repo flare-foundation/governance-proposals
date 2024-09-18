@@ -16,17 +16,18 @@ To learn more about the governance process [visit the documentation](https://doc
 
 Proposals aimed at improving the Flare network.
 
-| Number | Title                                                                       |
-| -----: | :-------------------------------------------------------------------------- |
-|      1 | [Widen FLR distribution and reduce inflation](FIP/FIP_1.md)                 |
-|      2 | [Add an FTSO Management Group](FIP/FIP_2.md)                                |
-|      3 | [Add a secondary band to FTSO reward calculation](FIP/FIP_3.md)             |
-|      4 | [Update FTSO price pairs](FIP/FIP_4.md)                                     |
-|      5 | [Update Services, Limits, and Rewards Required for Staking](FIP/FIP_5.md)   |
-|      6 | [Add Support for the Flare Systems Protocol and FTSO Scaling](FIP/FIP_6.md) |
-|      7 | [Add Support for FTSO Fast Updates](FIP/FIP_7.md)                           |
-|      8 | [Update FTSO Data Feeds and Define Process to Add New Ones](./FIP/FIP_8.md) |
-|      9 | [Introduce FLR Protocol Emissions](./FIP/FIP_9.md)                          |
+| Number | Title                                                                        |
+| -----: | :--------------------------------------------------------------------------- |
+|      1 | [Widen FLR distribution and reduce inflation](FIP/FIP_1.md)                  |
+|      2 | [Add an FTSO Management Group](FIP/FIP_2.md)                                 |
+|      3 | [Add a secondary band to FTSO reward calculation](FIP/FIP_3.md)              |
+|      4 | [Update FTSO price pairs](FIP/FIP_4.md)                                      |
+|      5 | [Update Services, Limits, and Rewards Required for Staking](FIP/FIP_5.md)    |
+|      6 | [Add Support for the Flare Systems Protocol and FTSO Scaling](FIP/FIP_6.md)  |
+|      7 | [Add Support for FTSO Fast Updates](FIP/FIP_7.md)                            |
+|      8 | [Update FTSO Data Feeds and Define Process to Add New Ones](./FIP/FIP_8.md)  |
+|      9 | [Introduce FLR Protocol Emissions](./FIP/FIP_9.md)                           |
+|     10 | [Strengthen Flare Networks with Participation Requirements](./FIP/FIP_10.md) |
 
 ## Songbird Improvement Proposals (SIP)
 

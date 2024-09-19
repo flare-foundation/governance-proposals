@@ -34,6 +34,13 @@ The definition of minimal participation for each existing protocol and an explan
 
 ## 2. Technical Description
 
+### Example
+
+The following is an example of how a hypothetical provider’s rewards will change in the new system: each time they do not succeed the minimal conditions for all protocols in a given reward epoch they receive a strike; if they do not have any remaining strikes, their rewards for that round are burnt. Each round in which a provider successfully meets all conditions for each protocol, a strike is reimbursed. In this way, only providers who are consistently not participating in Flare’s protocols are punished.
+
+| Epoch | Rewards Earned | Staking Criteria Met | FTSO Criteria Met | Strikes Remaining | Epoch Rewards | Total Rewards (New) | Total Rewards (Old) |
+|-------|----------------|----------------------|-------------------|-------------------|---------------|---------------------|---------------------|
+| data1 | data2          | data3                |                   |                   |               |                     |                     |
 
 
 ## 3. Proposed Implementation Date Range

@@ -14,8 +14,26 @@ title: FIP.10
 
 ## 1. Brief Description
 
+Currently, Flare data providers can choose to participate in a single protocol within the Flare network instead of participating in all of protocols.
+As a result, the incentive structure for each protocol must be considered separately because the providers might participate only in the protocols they believe are sufficiently profitable relative to their unique interests and particular infrastructure costs.
+However, broadly speaking, the protocols are intentionally designed with the expectation that providers will participate in all of them. Each provider's weight defines their relative voting power in each protocol, and it is assumed that approximately the full weight of providers will be used to vote in each protocol.
+For example, the block-latency feeds sample random providers to provide updates, and if all providers don't respond when they are selected, the feeds will likely lag behind the intended values.
+
+This proposal intends to create a global incentive structure across the Flare network to strengthen it to encourage providers to participate in all Flare protocols in order to:
+
+* Improve the accuracy and security of Flare’s oracles (e.g., the FTSOv2 anchor and block-latency feeds)
+* Encourage correct behavior of providersThis benefits Flare’s community
+* Bolster the stability of the network
+
+According to the incentive structure, providers are required to actively participate in all protocols in each reward epoch, or they will receive a strike.
+If too many strikes in a short period of time are received, rewards for certain epochs will be burnt.
+Implementing this structure will extend Flare’s mission as an L1 enshrined-oracle network that offers total security for all protocols.
+However, because new behavior and infrastructure requirements will be inmposed on data providers, and because the choice to meet these requirements will impact delegators and stakers in the wider Flare community, this proposal asks the entire Flare community to vote on whether the incentive structure will be implemented.
+If this proposal is accepted, data providers will be required to meet a set of minimum requirements for participating in all Flare protocols.
+The definition of minimal participation for each existing protocol and an explanation of how strikes are calculated and accrued and their duration are explained in the next section.
 
 ## 2. Technical Description
+
 
 
 ## 3. Proposed Implementation Date Range

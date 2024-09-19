@@ -40,7 +40,8 @@ The following is an example of how a hypothetical provider’s rewards will chan
 
 | Epoch | Rewards Earned | Staking Criteria Met | FTSO Criteria Met | Strikes Remaining | Epoch Rewards | Total Rewards (New) | Total Rewards (Old) |
 |-------|----------------|----------------------|-------------------|-------------------|---------------|---------------------|---------------------|
-| data1 | data2          | data3                |                   |                   |               |                     |                     |
+| 100   | 1000           | &#x2714;             | &#x2714;          | 3                 | 1000          | 1000                | 1000                |
+| 101   | 750            | &#x2716;             | &#x2714;          | 2                 | 750           | 1750                | 1750                |
 
 
 ## 3. Proposed Implementation Date Range

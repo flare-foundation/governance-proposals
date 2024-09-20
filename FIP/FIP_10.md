@@ -27,12 +27,11 @@ The incentive structure will:
 * Encourage correct behavior of providers
 * Bolster the stability of the network
 
-According to the incentive structure, providers will bre required to actively participate in all protocols in each reward epoch, or they will receive a penalty in the form of a strike.
+According to the incentive structure, providers will be required to meet the minimal participation requirements for every protocol during each reward epoch, or they will receive a penalty in the form of a strike.
 If too many strikes in a short period of time are received, rewards for certain epochs will be burned.
 Implementing this structure will extend Flare’s mission as an L1 enshrined-oracle network that offers total security for all protocols.
-Because the choice to meet these requirements will impact delegators and stakers in the wider Flare community, the community must vote on whether the incentive structure will be implemented.
-If this proposal is accepted, data providers will be required to meet a set of minimum requirements for participating in all Flare protocols.
-The definition of minimal participation for each existing protocol and an explanation of how strikes are calculated and accrued and their duration are explained in the next section.
+
+If this proposal is accepted, providers will be required to meet the set of minimum requirements for participating in all Flare protocols.
 
 ## 2. Technical Description
 

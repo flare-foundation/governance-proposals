@@ -3,7 +3,7 @@ nav_order: 10010
 title: FIP.10
 ---
 
-# FIP.10: Add Protocol Participation Requirements to Strengthen the Flare Network
+# FIP.10: Add Protocol Participation Requirements
 
 | Type               | Flare Improvement Proposal |
 | :----------------- | :------------------------- |

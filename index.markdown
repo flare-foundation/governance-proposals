@@ -27,7 +27,7 @@ Proposals aimed at improving the Flare network.
 |      7 | [Add Support for FTSO Fast Updates](FIP/FIP_7.md)                            |
 |      8 | [Update FTSO Data Feeds and Define Process to Add New Ones](./FIP/FIP_8.md)  |
 |      9 | [Introduce FLR Protocol Emissions](./FIP/FIP_9.md)                           |
-|     10 | [Strengthen Flare Networks with Participation Requirements](./FIP/FIP_10.md) |
+|     10 | [Add Protocol Participation Requirements](./FIP/FIP_10.md) |
 
 ## Songbird Improvement Proposals (SIP)
 

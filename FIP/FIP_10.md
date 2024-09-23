@@ -16,22 +16,23 @@ title: FIP.10
 
 Currently, providers in the Flare network can choose to participate in a single Flare protocol instead of all of them.
 As a result, the incentive structure for each protocol must be considered separately because providers might participate only in the protocol they believe is sufficiently profitable relative to their unique interests and particular infrastructure costs.
-However, broadly speaking, the Flare protocols are intentionally designed with the expectation that providers will participate in every protocol in the network.
+
+However, Flare protocols are intentionally designed with the expectation that providers will participate in every protocol in the network.
 Each provider's weight defines their relative voting power in each protocol, and it is assumed that approximately the full weight of providers will be used to vote in each protocol.
-For example, the block-latency feeds sample random providers to provide updates, and if all providers don't respond when they are selected, the feeds will likely lag behind the intended values.
+For example, the Flare Time Series Oracle (FTSO) fast-updates (block-latency) feeds sample random providers to provide updates, and if all providers don't respond when they are selected, the feeds will likely lag behind the intended values.
 
 This proposal intends to create an incentive structure across the entire Flare network to encourage providers to participate in all Flare protocols.
 The incentive structure will:
 
-* Improve the accuracy and security of the Flare Time Series Oracle feeds, scaling (anchor) and fast-updates (block latency)
+* Improve the accuracy and security of the FTSO feeds, scaling (anchor) and block latency
 * Encourage good behavior from providers
 * Extend Flare’s mission as an L1 enshrined-oracle network that offers total security for all protocols.
 
 If this proposal is accepted:
 
 * Minimum participating requirements in a reward epoch will be defined for every existing Flare protocol.
-* New Flare protocols will be proposed with minimum participation requirements.
-* Providers will be required to meet the set of minimum requirements for participating in all existing and new Flare protocols.
+* In the future, new Flare protocols will be proposed with minimum participation requirements.
+* Providers will be required to meet the set of minimum requirements for participating in all existing and new Flare protocols added to the network later.
 
 ## 2. Technical Description
 

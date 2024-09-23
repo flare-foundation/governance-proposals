@@ -35,7 +35,7 @@ If this proposal is accepted:
 
 ## 2. Technical Description
 
-Providers will be required to meet the following minimum participation requirements for each Flare protocol:
+Each Flare protocol will implement the following requirements:
 
 * **FTSO anchor prices**: 80% of median submissions must lie within a 0.5% band around the consensus median value.
 * **FTSO block-latency prices**: Providers must submit at least 80% of their expected number of updates within a reward epoch, unless they have very low weight, such as <0.2%.
@@ -150,7 +150,7 @@ This table shows how strikes and rewards are determined in an epoch relative to 
 
 ## 3. Proposed Implementation Date Range
 
-The Committee would be funded immediately after the passage of the governance proposal with the first month’s emissions allocation process beginning July 6th 2024 NEED
+NEED
 
 ## 5. Voting Details
 

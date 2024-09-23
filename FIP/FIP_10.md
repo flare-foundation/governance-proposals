@@ -23,7 +23,7 @@ For example, the block-latency feeds sample random providers to provide updates,
 This proposal intends to create an incentive structure across the entire Flare network to encourage providers to participate in all Flare protocols.
 The incentive structure will:
 
-* Improve the accuracy and security of Flare’s oracles (e.g., the FTSOv2 anchor and block-latency feeds)
+* Improve the accuracy and security of the Flare Time Series Oracle feeds: scaling (anchor) and fast-updates (block latency)
 * Encourage correct behavior of providers
 * Bolster the stability of the network
 
@@ -43,7 +43,7 @@ Providers will be required to meet the following minimum participation requireme
 
 * **FTSO anchor prices**: 80% of median submissions must lie within a 0.5% band around the consensus median value.
 * **FTSO block-latency prices**: Providers must submit at least 80% of their expected number of updates within a reward epoch, unless they have very low weight, such as <0.2%.
-* **Staking**: Providers must meet 80% total uptime in the reward epoch with at least 3M FLR in active self-bond and 15M active stake. 
+* **Staking**: Providers must meet 80% total uptime in the reward epoch with at least 3M FLR in active self-bond and 15M active stake.
 * **Stake mirroring**: At least an 80% mirroring merkle root vote-submission rate and at least 80% participation in mirroring when providers are selected. Stake mirroring is currently not rewarded.
 
 Each time a provider fails to achieve the minimum participation criteria in a reward epoch, they lose a strike. If they have no strikes, they instead lose all rewards in that reward epoch for all protocols. Because providers participate in multiple protocols, providers may lose more than one strike in a round.
@@ -149,20 +149,9 @@ This table shows how strikes and rewards are determined in an epoch relative to 
   </tr>
 </table>
 
-| **Staking Participation** | **FTSO Participation** | **Has Strikes?** | Receives Rewards?           | Loses Strike? | Recovers Strike? (Max is 3) |
-|---------------------------|------------------------|------------------|-----------------------------|---------------|-----------------------------|
-| &#x2713;                  | &#x2713;               | &#x2713;         | &#x2713;                    | &#x2715;      | &#x2713;                    |
-| &#x2713;                  | &#x2713;               | &#x2715;         | &#x2713;                    | &#x2715;      | &#x2713;                    |
-| &#x2713;                  | &#x2715;               | &#x2713;         | &#x2713;                    | 1             | &#x2715;                    |
-| &#x2713;                  | &#x2715;               | &#x2715;         | &#x2715;                    | &#x2715;      | &#x2715;                    |
-| &#x2715;                  | &#x2713;               | &#x2713;         | &#x2713;                    | 1             | &#x2715;                    |
-| &#x2715;                  | &#x2713;               | &#x2715;         | &#x2715;                    | &#x2715;      | &#x2715;                    |
-| &#x2715;                  | &#x2715;               | &#x2713;         | &#x2713; (if has 2 strikes) | 2             | &#x2715;                    |
-| &#x2715;                  | &#x2715;               | &#x2715;         | &#x2715;                    | &#x2715;      | &#x2715;                    |
-
 ## 3. Proposed Implementation Date Range
 
-The Committee would be funded immediately after the passage of the governance proposal with the first month’s emissions allocation process beginning July 6th 2024.
+The Committee would be funded immediately after the passage of the governance proposal with the first month’s emissions allocation process beginning July 6th 2024 NEED
 
 ## 5. Voting Details
 
@@ -170,5 +159,5 @@ To pass, the proposal requires a simple majority of votes in favor of it.
 
 ## 6. Deadline for Voting
 
-* **Notice period**: 25-June-2024 to 27-June-2024
-* **Voting period**: 28-June-2024 to 4-July-2024
+* **Notice period**: 25-June-2024 to 27-June-2024 NEED
+* **Voting period**: 28-June-2024 to 4-July-2024 NEED

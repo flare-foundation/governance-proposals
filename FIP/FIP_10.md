@@ -149,6 +149,17 @@ This table shows how strikes and rewards are determined in an epoch relative to 
   </tr>
 </table>
 
+| **Staking Participation** | **FTSO Participation** | **Has Strikes?** | Receives Rewards?           | Loses Strike? | Recovers Strike? (Max is 3) |
+|---------------------------|------------------------|------------------|-----------------------------|---------------|-----------------------------|
+| &#x2713;                  | &#x2713;               | &#x2713;         | &#x2713;                    | &#x2715;      | &#x2713;                    |
+| &#x2713;                  | &#x2713;               | &#x2715;         | &#x2713;                    | &#x2715;      | &#x2713;                    |
+| &#x2713;                  | &#x2715;               | &#x2713;         | &#x2713;                    | 1             | &#x2715;                    |
+| &#x2713;                  | &#x2715;               | &#x2715;         | &#x2715;                    | &#x2715;      | &#x2715;                    |
+| &#x2715;                  | &#x2713;               | &#x2713;         | &#x2713;                    | 1             | &#x2715;                    |
+| &#x2715;                  | &#x2713;               | &#x2715;         | &#x2715;                    | &#x2715;      | &#x2715;                    |
+| &#x2715;                  | &#x2715;               | &#x2713;         | &#x2713; (if has 2 strikes) | 2             | &#x2715;                    |
+| &#x2715;                  | &#x2715;               | &#x2715;         | &#x2715;                    | &#x2715;      | &#x2715;                    |
+
 ## 3. Proposed Implementation Date Range
 
 The Committee would be funded immediately after the passage of the governance proposal with the first month’s emissions allocation process beginning July 6th 2024.

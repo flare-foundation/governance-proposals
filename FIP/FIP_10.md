@@ -31,13 +31,27 @@ According to the incentive structure, providers will be required to meet the min
 If too many strikes in a short period of time are received, rewards for certain epochs will be burned.
 Implementing this structure will extend Flare’s mission as an L1 enshrined-oracle network that offers total security for all protocols.
 
-If this proposal is accepted, providers will be required to meet the set of minimum requirements for participating in all Flare protocols.
+If this proposal is accepted:
+
+* Minimum participating requirements in a reward epoch will be defined for every existing Flare protocol.
+* New Flare protocols will be proposed with minimum participation requirements.
+* Providers will be required to meet the set of minimum requirements for participating in all existing and new Flare protocols.
 
 ## 2. Technical Description
 
+Providers will be required to meet the following minimum participation requirements for each Flare protocol:
+
+* **FTSO anchor prices**: 80% of median submissions must lie within a 0.5% band around the consensus median value.
+* **FTSO block-latency prices**: Providers must submit at least 80% of their expected number of updates within a reward epoch, unless they have very low weight, such as <0.2%.
+* **Staking**: Providers must meet 80% total uptime in the reward epoch with at least 3M FLR in active self-bond and 15M active stake. 
+* **Stake mirroring**: At least an 80% mirroring merkle root vote-submission rate and at least 80% participation in mirroring when providers are selected. Stake mirroring is currently not rewarded.
+
+Each time a provider fails to achieve the minimum participation criteria in a reward epoch, they lose a strike. If they have no strikes, they instead lose all rewards in that reward epoch for all protocols. Because providers participate in multiple protocols, providers may lose more than one strike in a round.
+Each reward epoch for which they meet all participation criteria, they gain a strike back, up to a maximum of three. Providers start with zero strikes, including new providers.
+
 ### Example
 
-The following is an example of how a hypothetical provider’s rewards will change in the new system: each time they do not succeed the minimal conditions for all protocols in a given reward epoch they receive a strike; if they do not have any remaining strikes, their rewards for that round are burnt. Each round in which a provider successfully meets all conditions for each protocol, a strike is reimbursed. In this way, only providers who are consistently not participating in Flare’s protocols are punished.
+The following example shows how a hypothetical provider’s rewards will change in the new system. Each time the provider does not meet the minimal conditions for all protocols in a given reward epoch, they receive a strike. If they do not have any remaining strikes, their rewards for that round are burned. Each round in which the provider successfully meets all conditions for each protocol, a strike is reimbursed. In this way, only providers who are consistently not participating in Flare’s protocols are punished.
 
 | Epoch | Rewards Earned | Staking Criteria Met | FTSO Criteria Met | Strikes Remaining | Epoch Rewards | Total Rewards (New) | Total Rewards (Old) |
 |-------|----------------|----------------------|-------------------|-------------------|---------------|---------------------|---------------------|
@@ -54,7 +68,7 @@ The following is an example of how a hypothetical provider’s rewards will chan
 | 110   | 600            | &#x2715;             | &#x2713;          | 1                 | 600           | 7800                | 8400                |
 | 111   | 200            | &#x2715;             | &#x2715;          | 0                 | 0             | 7800                | 8600                |
 
-Example of how strikes and rewards are determined in an epoch relative to behavior:
+This table shows how strikes and rewards are determined in an epoch relative to a provider's participation:
 
 <table>
   <tr>
@@ -123,6 +137,14 @@ Example of how strikes and rewards are determined in an epoch relative to behavi
     <td>&#x2713;</td>
     <td>&#x2713; (if has 2)</td>
     <td>2</td>
+    <td>&#x2715;</td>
+  </tr>
+  <tr>
+    <td>&#x2715;</td>
+    <td>&#x2715;</td>
+    <td>&#x2715;</td>
+    <td>&#x2715;</td>
+    <td>&#x2715;</td>
     <td>&#x2715;</td>
   </tr>
 </table>

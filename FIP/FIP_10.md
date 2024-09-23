@@ -56,7 +56,76 @@ The following is an example of how a hypothetical provider’s rewards will chan
 
 Example of how strikes and rewards are determined in an epoch relative to behavior:
 
-
+<table>
+  <tr>
+    <th colspan="3" scope="colgroup">Epoch Behavior</th>
+    <th colspan="3" scope="colgroup">Result</th>
+  </tr>
+  <tr>
+    <th scope="col">Staking Participation</th>
+    <th scope="col">FTSO Participation</th>
+    <th scope="col">Has Strikes?</th>
+    <th scope="col">Receives Rewards?</th>
+    <th scope="col">Loses Strike?</th>
+    <th scope="col">Recovers Strike? (Max is 3)</th>
+  </tr>
+  <tr>
+    <td>&#x2713;</td>
+    <td>&#x2713;</td>
+    <td>&#x2713;</td>
+    <td>&#x2713;</td>
+    <td>&#x2715;</td>
+    <td>&#x2713;</td>
+  </tr>
+  <tr>
+    <td>&#x2713;</td>
+    <td>&#x2713;</td>
+    <td>&#x2715;</td>
+    <td>&#x2713;</td>
+    <td>&#x2715;</td>
+    <td>&#x2713;</td>
+  </tr>
+  <tr>
+    <td>&#x2713;</td>
+    <td>&#x2715;</td>
+    <td>&#x2713;</td>
+    <td>&#x2713;</td>
+    <td>1</td>
+    <td>&#x2715;</td>
+  </tr>
+  <tr>
+    <td>&#x2713;</td>
+    <td>&#x2715;</td>
+    <td>&#x2715;</td>
+    <td>&#x2715;</td>
+    <td>&#x2715;</td>
+    <td>&#x2715;</td>
+  </tr>
+  <tr>
+    <td>&#x2715;</td>
+    <td>&#x2713;</td>
+    <td>&#x2713;</td>
+    <td>&#x2713;</td>
+    <td>1</td>
+    <td>&#x2715;</td>
+  </tr>
+  <tr>
+    <td>&#x2715;</td>
+    <td>&#x2713;</td>
+    <td>&#x2715;</td>
+    <td>&#x2715;</td>
+    <td>&#x2715;</td>
+    <td>&#x2715;</td>
+  </tr>
+  <tr>
+    <td>&#x2715;</td>
+    <td>&#x2715;</td>
+    <td>&#x2713;</td>
+    <td>&#x2713; (if has 2)</td>
+    <td>2</td>
+    <td>&#x2715;</td>
+  </tr>
+</table>
 
 ## 3. Proposed Implementation Date Range
 

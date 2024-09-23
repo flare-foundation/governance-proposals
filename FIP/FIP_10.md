@@ -14,7 +14,7 @@ title: FIP.10
 
 ## 1. Brief Description
 
-Currently, providers to the Flare network can choose to participate in a single Flare protocol instead of all of them.
+Currently, providers in the Flare network can choose to participate in a single Flare protocol instead of all of them.
 As a result, the incentive structure for each protocol must be considered separately because providers might participate only in the protocol they believe is sufficiently profitable relative to their unique interests and particular infrastructure costs.
 However, broadly speaking, the Flare protocols are intentionally designed with the expectation that providers will participate in every protocol in the network.
 Each provider's weight defines their relative voting power in each protocol, and it is assumed that approximately the full weight of providers will be used to vote in each protocol.
@@ -23,13 +23,9 @@ For example, the block-latency feeds sample random providers to provide updates,
 This proposal intends to create an incentive structure across the entire Flare network to encourage providers to participate in all Flare protocols.
 The incentive structure will:
 
-* Improve the accuracy and security of the Flare Time Series Oracle feeds: scaling (anchor) and fast-updates (block latency)
-* Encourage correct behavior of providers
-* Bolster the stability of the network
-
-According to the incentive structure, providers will be required to meet the minimal participation requirements for every protocol during each reward epoch, or they will receive a penalty in the form of a strike.
-If too many strikes in a short period of time are received, rewards for certain epochs will be burned.
-Implementing this structure will extend Flare’s mission as an L1 enshrined-oracle network that offers total security for all protocols.
+* Improve the accuracy and security of the Flare Time Series Oracle feeds, scaling (anchor) and fast-updates (block latency)
+* Encourage good behavior from providers
+* Extend Flare’s mission as an L1 enshrined-oracle network that offers total security for all protocols.
 
 If this proposal is accepted:
 
@@ -45,6 +41,9 @@ Providers will be required to meet the following minimum participation requireme
 * **FTSO block-latency prices**: Providers must submit at least 80% of their expected number of updates within a reward epoch, unless they have very low weight, such as <0.2%.
 * **Staking**: Providers must meet 80% total uptime in the reward epoch with at least 3M FLR in active self-bond and 15M active stake.
 * **Stake mirroring**: At least an 80% mirroring merkle root vote-submission rate and at least 80% participation in mirroring when providers are selected. Stake mirroring is currently not rewarded.
+
+According to the incentive structure, if providers do not meet the minimal participation requirements for every protocol during each reward epoch, they will receive a penalty in the form of a strike.
+If too many strikes in a short period of time are received, rewards for certain epochs will be burned.
 
 Each time a provider fails to achieve the minimum participation criteria in a reward epoch, they lose a strike. If they have no strikes, they instead lose all rewards in that reward epoch for all protocols. Because providers participate in multiple protocols, providers may lose more than one strike in a round.
 Each reward epoch for which they meet all participation criteria, they gain a strike back, up to a maximum of three. Providers start with zero strikes, including new providers.

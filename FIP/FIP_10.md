@@ -26,9 +26,6 @@ The incentive structure will:
 
 Because this structure will impose behavior and infrastructure requirements on providers and because noncompliance might negatively impact delegators and stakers in the Flare community, the community must vote whether to implement the structure.
 
-Before voting, providers should consider the possibility of additional infrastructure and maintenance costs they might face in order to comply with the requirements not only for existing protocols but also for new protocols in the future.
-Additionally, providers should be aware that building a provider system is a competitive venture, and poor performance and lack of participation in one protocol might cause rewards from other protocols to be withheld even though the providers were not behaving maliciously.
-
 The [incentive structure](#21-new-incentive-structure), [minimum participate requirements](#22-minimum-participation-requirements-for-existing-protocols), and an [example that explains how rewards will work](#23-example-rewards-in-the-proposed-incentive-structure) are described in the next section.
 
 ## 2. Technical Description
@@ -182,6 +179,11 @@ NEED
 ## 5. Voting Details
 
 To pass, the proposal requires a simple majority of votes in favor of it.
+
+Before voting, providers should consider the following factors:
+
+* The possibility of additional infrastructure and maintenance costs associated with meeting the minimum requirements not only for existing protocols but also for new protocols in the future.
+* Building a provider system is a competitive venture, and poor performance and lack of participation in one protocol might cause rewards from other protocols to be withheld even though no malicious behavior occurred.
 
 ## 6. Deadline for Voting
 

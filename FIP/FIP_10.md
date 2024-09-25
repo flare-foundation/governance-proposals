@@ -3,7 +3,7 @@ nav_order: 10010
 title: FIP.10
 ---
 
-# FIP.10: Add Incentive Structure for Participating in All Protocols
+# FIP.10: Add an Incentive Structure for Participating in All Protocols
 
 | Type               | Flare Improvement Proposal |
 | :----------------- | :------------------------- |
@@ -18,25 +18,31 @@ Currently, providers in the Flare network can choose to participate in a single 
 As a result, the incentive structure for each protocol must be considered separately because providers might participate only in the protocol they believe is sufficiently profitable relative to their unique interests and particular infrastructure costs.
 
 This proposal intends to implement a new incentive structure across the entire Flare network to encourage providers to participate in all Flare protocols.
-The incentive structure will improve the accuracy and security of the Flare Time Series Oracle (FTSO) feeds, scaling (anchor) and fast updates (block latency), encourage honest behavior from providers, and extend Flare’s mission as an L1 enshrined-oracle network that offers total security for all protocols.
+The incentive structure will:
+
+* Improve the accuracy and security of the Flare Time Series Oracle (FTSO) feeds, scaling (anchor) and fast updates (block latency)
+* Encourage honest behavior from providers
+* Extend Flare’s mission as an L1 enshrined-oracle network that offers total security for all protocols
 
 Because this structure will impose behavior and infrastructure requirements on providers and because noncompliance might negatively impact delegators and stakers in the Flare community, the community must vote whether to implement the structure.
 
-Before voting, providers should consider the possibility of additional infrastructure and maintenance costs they might face in order to comply with the requirements not only for existing protocols but also for new protocols in the future. Additionally, providers should be aware that building a provider system is a competitive venture, and poor performance and lack of participation in one protocol might cause rewards from other protocols to be withheld even though the provider was not behaving maliciously.
+Before voting, providers should consider the possibility of additional infrastructure and maintenance costs they might face in order to comply with the requirements not only for existing protocols but also for new protocols in the future.
+Additionally, providers should be aware that building a provider system is a competitive venture, and poor performance and lack of participation in one protocol might cause rewards from other protocols to be withheld even though the providers were not behaving maliciously.
 
 The [incentive structure](#21-new-incentive-structure), [minimum participate requirements](#22-minimum-participation-requirements-for-existing-protocols), and an [example that explains how rewards will work](#23-example-rewards-in-the-proposed-incentive-structure) are described in the next section.
 
 ## 2. Technical Description
 
-All Flare protocols were intentionally designed with the expectation that providers will participate in all of them.
+Although providers can choose which protocols to participate in, all Flare protocols were intentionally designed with the expectation that providers will participate in all of them.
 Each provider's weight defines their relative voting power in each protocol, and it is assumed that the approximate full weight of providers will be used to vote in each protocol.
-For example, the FTSO block-latency feeds sample random providers to provide updates, and if all providers don't respond when they are selected, the feeds will likely lag behind the intended values.
 
-Additionally, the majority of providers are assumed to behave honestly in part because, if they behave dishonestly, the Flare network, and their stake in it, will lose value.
-For example, all FTSO data providers who have been chilled were also not staking any `$FLR`, which meant they had less to lose from their dishonest behavior.
+Consider several examples that illustrate the outcome when all providers aren't participating in all protocols:
+
+* The FTSO block-latency feeds sample random providers to provide updates, and if all providers don't respond when they are selected, the feeds will likely lag behind the intended values.
+* All FTSO data providers who have been chilled were also not staking any `$FLR`, which meant they had less to lose from their dishonest behavior.
+
 Because the current incentive structure does not include a deterrent, FTSO data providers have the opportunity to misbehave with only minimal risk.
-
-The new structure, described below, will encourage better behavior and bolster the stability of the Flare network.
+The new structure, described below, will encourage better behavior and bolster the stability and security of the entire Flare network.
 
 ### 2.1 New Incentive Structure
 
@@ -68,7 +74,12 @@ Each Flare protocol will implement the following requirements:
 
 ### 2.3 Example: Rewards in the Proposed Incentive Structure
 
-The following example shows how a hypothetical provider’s rewards will change in the proposed incentive structure. Each time the provider does not meet the minimal conditions for all protocols in a given reward epoch, they receive a strike. If they do not have any remaining strikes, their rewards for that round are burned. Each round in which the provider successfully meets all conditions for each protocol, a strike is reimbursed. In this way, only providers who are consistently not participating in Flare’s protocols are punished.
+The following example shows how the proposed incentive structure will affect a hypothetical provider’s rewards.
+
+* Each time the provider does not meet the minimal conditions for all protocols in a given reward epoch, they receive a strike.
+If they do not have any remaining strikes, their rewards for that round are burned.
+* Each round in which the provider successfully meets all conditions for each protocol, a strike is reimbursed.
+In this way, only providers who are consistently not participating in Flare’s protocols are disincentived.
 
 | Epoch | Rewards Earned | Staking Criteria Met | FTSO Criteria Met | Strikes Remaining | Epoch Rewards | Total Rewards (New) | Total Rewards (Old) |
 |-------|----------------|----------------------|-------------------|-------------------|---------------|---------------------|---------------------|

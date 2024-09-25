@@ -56,12 +56,10 @@ If this proposal is accepted, the following incentive structure will be implemen
 In the new incentive structure, providers will gain or lose _strikes_, depending on whether they meet the minimum participation requirements for each protocol.
 
 * All providers, both new and existing, start with zero strikes.
-* When a provider meets the minimum requirements in a reward epoch, they gain a strike. Providers can gain a maximun of 3 strikes.
+* When a provider meets the minimum requirements in a reward epoch, they gain a strike. Providers can gain a maximum of 3 strikes.
 * When a provider fails to meet the minimum requirements in a reward epoch, they lose a strike. and can lose more than one this way per round (up to one per protocol).
-* If a provider would lose a strike but doesn’t have any, instead they lose all rewards for the epoch. That is, a provider with 1 strike who fails to meet 1 minimal requirement now has 0 strikes but still achieves rewards; a provider with 0 strikes who fails to achieve a minimal requirement loses all rewards.
-
-Each time a provider fails to achieve the minimum participation criteria in a reward epoch, they lose a strike. If they have no strikes, they instead lose all rewards in that reward epoch for all protocols. Because providers participate in multiple protocols, providers may lose more than one strike in a round.
-Each reward epoch for which they meet all participation criteria, they gain a strike back, up to a maximum of three. Providers start with zero strikes, including new providers.
+* If a provider would lose a strike but doesn’t have any, they lose all rewards for the epoch instead.
+* That is, a provider with 1 strike who fails to meet 1 minimal requirement will have 0 strikes but will still achieve rewards, and a provider with 0 strikes who fails to achieve a minimal requirement loses all rewards.
 
 ### 2.2 Minimum Participation Requirements for Existing Protocols
 
@@ -163,7 +161,7 @@ This table shows how strikes and rewards are determined in an epoch relative to 
     <td>&#x2715;</td>
     <td>&#x2715;</td>
     <td>&#x2713;</td>
-    <td>&#x2713; (if has 2)</td>
+    <td>&#x2713; (if 2 strikes)</td>
     <td>2</td>
     <td>&#x2715;</td>
   </tr>

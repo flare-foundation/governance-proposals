@@ -60,7 +60,7 @@ In the new incentive structure, providers will gain or lose _strikes_, depending
 
 ### 2.2 Minimum Participation Requirements for Existing Protocols
 
-Each Flare protocol will implement the following requirements:
+Each Flare protocol will implement the following minimum participation requirements:
 
 * **FTSO anchor prices**: 80% of median submissions must lie within a 0.5% band around the consensus median value.
 * **FTSO block-latency prices**: Providers must submit at least 80% of their expected number of updates within a reward epoch, unless they have very low weight, such as <0.2%.
@@ -76,12 +76,14 @@ If they do not have any remaining strikes, their rewards for that round are burn
 * Each round in which the provider successfully meets all conditions for each protocol, a strike is reimbursed.
 In this way, only providers who are consistently not participating in Flare’s protocols are disincentived.
 
+As you examine the table, be sure to scroll to the right to see all the data.
+
 | Epoch | Rewards Earned | Staking Criteria Met | FTSO Criteria Met | Strikes Remaining | Epoch Rewards | Total Rewards (New) | Total Rewards (Old) |
 |-------|----------------|----------------------|-------------------|-------------------|---------------|---------------------|---------------------|
 | 100   | 1000           | &#x2713;             | &#x2713;          | 3                 | 1000          | 1000                | 1000                |
 | 101   | 750            | &#x2715;             | &#x2713;          | 2                 | 750           | 1750                | 1750                |
 | 102   | 500            | &#x2715;             | &#x2713;          | 1                 | 500           | 2250                | 2250                |
-| 103   | 300            | &#x2713;             | &#x2715;          | 0                 | 300           | 2250                | 2250                |
+| 103   | 300            | &#x2713;             | &#x2715;          | 0                 | 300           | 2550                | 2550                |
 | 104   | 400            | &#x2715;             | &#x2713;          | 0                 | 0             | 2550                | 2950                |
 | 105   | 950            | &#x2713;             | &#x2713;          | 1                 | 950           | 3500                | 3900                |
 | 106   | 1100           | &#x2713;             | &#x2713;          | 2                 | 1100          | 4600                | 5000                |

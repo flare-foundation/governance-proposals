@@ -14,7 +14,7 @@ title: FIP.10
 
 ## 1. Brief Description
 
-To achieve Flare’s mission as a layer 1 enshrined-oracle network that offers total security for all protocols, this proposal intends to implement a new incentive structure across the entire Flare network.
+To achieve Flare’s mission as a layer 1 enshrined-oracle network where all protocols operate under the same trust assumptions as the network, this proposal intends to implement a new incentive structure across the entire Flare network.
 
 The new incentive structure aims to:
 

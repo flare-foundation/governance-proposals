@@ -9,8 +9,8 @@ title: SIP.04
 | :----------------- | :------------------------- |
 | Author             | Flare Foundation           |
 | Created            | 14-Oct-2024                |
-| Document Status    | Final                      |
-| Majority Condition | 50% (required to reject)   |
+| Document Status    | Draft                      |
+| Majority Condition | 50% (required to accept)   |
 
 ## 1. Brief Description
 
@@ -58,8 +58,7 @@ However, for future protocols, explicit definitions of minimum participation may
 In such cases, the respective proposals introducing the protocols onto Flare and Songbird will contain the two different definitions.
 
 The new incentive structure introduces the concept of passes. 
-Each provider will have a number of passes. 
-A provider can gain or lose passes, depending on whether they meet the minimum participation requirements for each protocol.
+Each provider will have a number of passes and can gain or lose passes, depending on whether they meet the minimum participation requirements for each protocol.
 
 * All providers, both new and existing, start with zero passes.
 * When a provider meets the minimum requirements in a reward epoch, they gain a pass. Providers can hold a maximum of 3 passes.
@@ -77,7 +76,7 @@ For existing protocols, the requirements are defined as follows:
 * **FTSO anchor feeds**: Providers must submit a value estimate that lies within a 0.5% band around the consensus median value in 80% of voting rounds within a reward epoch.
 * **FTSO block-latency feeds**: Providers must submit at least 80% of their expected number of updates within a reward epoch, unless they have very low weight, defined as < 0.2% of the total active weight.
 
-Note that the above requirements apply specifically to the FTSOv2 protocol, as the FTSOv1 protocol will be deprecated.
+Note that the above requirements apply specifically to the FTSOv2 protocol, as the FTSOv1 protocol will soon be deprecated.
 
 ### 2.3 Example: Rewards in the Proposed Incentive Structure
 
@@ -91,20 +90,20 @@ In this way, only providers who are consistently not participating in Songbirdâ€
 
 As you examine the table, be sure to scroll to the right to see all the data.
 
-| Epoch | Rewards to be Earned | Anchor Feeds Requirements | Block-latency Feeds Requirements | Passes Remaining | Epoch Rewards | Total Rewards (New) | Total Rewards (Old) |
-|-------|----------------|---------------------------|----------------------------------|------------------|---------------|---------------------|---------------------|
-| 100   | 1000           | &#x2713;                  | &#x2713;                         | 3                | 1000          | 1000                | 1000                |
-| 101   | 750            | &#x2715;                  | &#x2713;                         | 2                | 750           | 1750                | 1750                |
-| 102   | 500            | &#x2715;                  | &#x2713;                         | 1                | 500           | 2250                | 2250                |
-| 103   | 300            | &#x2713;                  | &#x2715;                         | 0                | 300           | 2550                | 2550                |
-| 104   | 400            | &#x2715;                  | &#x2713;                         | 0                | 0             | 2550                | 2950                |
-| 105   | 950            | &#x2713;                  | &#x2713;                         | 1                | 950           | 3500                | 3900                |
-| 106   | 1100           | &#x2713;                  | &#x2713;                         | 2                | 1100          | 4600                | 5000                |
-| 107   | 700            | &#x2715;                  | &#x2715;                         | 0                | 700           | 5300                | 5700                |
-| 108   | 1000           | &#x2713;                  | &#x2713;                         | 1                | 1000          | 6300                | 6700                |
-| 109   | 900            | &#x2713;                  | &#x2713;                         | 2                | 900           | 7200                | 7600                |
-| 110   | 600            | &#x2715;                  | &#x2713;                         | 1                | 600           | 7800                | 8400                |
-| 111   | 200            | &#x2715;                  | &#x2715;                         | 0                | 0             | 7800                | 8600                |
+| Epoch | Rewards Earned | Anchor Feeds Requirements | Block-latency Feeds Requirements | Passes Remaining | Rewards Received | Total Rewards (New) | Total Rewards (Old) |
+|-------|----------------|---------------------------|----------------------------------|------------------|------------------|---------------------|---------------------|
+| 100   | 1000           | &#x2713;                  | &#x2713;                         | 3                | &#x2713;         | 1000                | 1000                |
+| 101   | 750            | &#x2715;                  | &#x2713;                         | 2                | &#x2713;         | 1750                | 1750                |
+| 102   | 500            | &#x2715;                  | &#x2713;                         | 1                | &#x2713;         | 2250                | 2250                |
+| 103   | 300            | &#x2713;                  | &#x2715;                         | 0                | &#x2713;         | 2550                | 2550                |
+| 104   | 400            | &#x2715;                  | &#x2713;                         | 0                | &#x2715;         | 2550                | 2950                |
+| 105   | 950            | &#x2713;                  | &#x2713;                         | 1                | &#x2713;         | 3500                | 3900                |
+| 106   | 1100           | &#x2713;                  | &#x2713;                         | 2                | &#x2713;         | 4600                | 5000                |
+| 107   | 700            | &#x2715;                  | &#x2715;                         | 0                | &#x2713;         | 5300                | 5700                |
+| 108   | 1000           | &#x2713;                  | &#x2713;                         | 1                | &#x2713;         | 6300                | 6700                |
+| 109   | 900            | &#x2713;                  | &#x2713;                         | 2                | &#x2713;         | 7200                | 7600                |
+| 110   | 600            | &#x2715;                  | &#x2713;                         | 1                | &#x2713;         | 7800                | 8400                |
+| 111   | 200            | &#x2715;                  | &#x2715;                         | 0                | &#x2715;         | 7800                | 8600                |
 
 This table shows how passes and rewards are determined in an epoch relative to a providerâ€™s participation:
 

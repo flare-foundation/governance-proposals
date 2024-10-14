@@ -80,20 +80,20 @@ In this way, only providers who are consistently not participating in Flare’s 
 
 As you examine the table, be sure to scroll to the right to see all the data.
 
-| Epoch | Rewards Earned | Staking Criteria Met | FTSO Criteria Met | Passes Remaining | Epoch Rewards | Total Rewards (New) | Total Rewards (Old) |
-|-------|----------------|----------------------|-------------------|------------------|---------------|---------------------|---------------------|
-| 100   | 1000           | &#x2713;             | &#x2713;          | 3                | 1000          | 1000                | 1000                |
-| 101   | 750            | &#x2715;             | &#x2713;          | 2                | 750           | 1750                | 1750                |
-| 102   | 500            | &#x2715;             | &#x2713;          | 1                | 500           | 2250                | 2250                |
-| 103   | 300            | &#x2713;             | &#x2715;          | 0                | 300           | 2550                | 2550                |
-| 104   | 400            | &#x2715;             | &#x2713;          | 0                | 0             | 2550                | 2950                |
-| 105   | 950            | &#x2713;             | &#x2713;          | 1                | 950           | 3500                | 3900                |
-| 106   | 1100           | &#x2713;             | &#x2713;          | 2                | 1100          | 4600                | 5000                |
-| 107   | 700            | &#x2715;             | &#x2715;          | 0                | 700           | 5300                | 5700                |
-| 108   | 1000           | &#x2713;             | &#x2713;          | 1                | 1000          | 6300                | 6700                |
-| 109   | 900            | &#x2713;             | &#x2713;          | 2                | 900           | 7200                | 7600                |
-| 110   | 600            | &#x2715;             | &#x2713;          | 1                | 600           | 7800                | 8400                |
-| 111   | 200            | &#x2715;             | &#x2715;          | 0                | 0             | 7800                | 8600                |
+| Epoch | Rewards Earned | Staking Criteria Met | FTSO Scaling Criteria Met | FTSO Fast Updates Criteria Met | Passes Remaining | Epoch Rewards | Total Rewards (New) | Total Rewards (Old) |
+|-------|----------------|----------------------|---------------------------|--------------------------------|------------------|---------------|---------------------|---------------------|
+| 100   | 1000           | &#x2713;             | &#x2713;                  | &#x2713;                       | 3                | 1000          | 1000                | 1000                |
+| 101   | 750            | &#x2715;             | &#x2713;                  | &#x2713;                       | 2                | 750           | 1750                | 1750                |
+| 102   | 500            | &#x2715;             | &#x2713;                  | &#x2713;                       | 1                | 500           | 2250                | 2250                |
+| 103   | 300            | &#x2713;             | &#x2715;                  | &#x2713;                       | 0                | 300           | 2550                | 2550                |
+| 104   | 400            | &#x2715;             | &#x2713;                  | &#x2713;                       | 0                | 0             | 2550                | 2950                |
+| 105   | 950            | &#x2713;             | &#x2713;                  | &#x2713;                       | 1                | 950           | 3500                | 3900                |
+| 106   | 1100           | &#x2713;             | &#x2713;                  | &#x2713;                       | 2                | 1100          | 4600                | 5000                |
+| 107   | 700            | &#x2715;             | &#x2713;                  | &#x2715;                       | 0                | 700           | 5300                | 5700                |
+| 108   | 1000           | &#x2713;             | &#x2713;                  | &#x2713;                       | 1                | 1000          | 6300                | 6700                |
+| 109   | 900            | &#x2713;             | &#x2713;                  | &#x2713;                       | 2                | 900           | 7200                | 7600                |
+| 110   | 600            | &#x2715;             | &#x2713;                  | &#x2713;                       | 1                | 600           | 7800                | 8400                |
+| 111   | 200            | &#x2715;             | &#x2715;                  | &#x2713;                       | 0                | 0             | 7800                | 8600                |
 
 This table shows how passes and rewards are determined in an epoch relative to a provider’s participation:
 
@@ -103,9 +103,10 @@ This table shows how passes and rewards are determined in an epoch relative to a
     <th colspan="3" scope="colgroup">Result</th>
   </tr>
   <tr>
-    <th scope="col">Minimal Staking Participation (1M)</th>
-    <th scope="col">Full Staking Participation (5M/15M)</th>
-    <th scope="col">FTSO Participation</th>
+    <th scope="col">Minimal Staking Criteria (1M)</th>
+    <th scope="col">Full Staking Criteria (5M/15M)</th>
+    <th scope="col">FTSO Scaling Criteria</th>
+    <th scope="col">FTSO Fast Updates Criteria</th>
     <th scope="col">Has Passes?</th>
     <th scope="col">Receives Rewards?</th>
     <th scope="col">Loses Pass?</th>
@@ -117,14 +118,6 @@ This table shows how passes and rewards are determined in an epoch relative to a
     <td>&#x2713;</td>
     <td>&#x2713;</td>
     <td>&#x2713;</td>
-    <td>&#x2715;</td>
-    <td>&#x2713;</td>
-  </tr>
-  <tr>
-    <td>&#x2713;</td>
-    <td>&#x2713;</td>
-    <td>&#x2713;</td>
-    <td>&#x2715;</td>
     <td>&#x2713;</td>
     <td>&#x2715;</td>
     <td>&#x2713;</td>
@@ -132,7 +125,18 @@ This table shows how passes and rewards are determined in an epoch relative to a
   <tr>
     <td>&#x2713;</td>
     <td>&#x2713;</td>
+    <td>&#x2713;</td>
+    <td>&#x2713;</td>
     <td>&#x2715;</td>
+    <td>&#x2713;</td>
+    <td>&#x2715;</td>
+    <td>&#x2713;</td>
+  </tr>
+  <tr>
+    <td>&#x2713;</td>
+    <td>&#x2713;</td>
+    <td>&#x2715;</td>
+    <td>&#x2713;</td>
     <td>&#x2713;</td>
     <td>&#x2713;</td>
     <td>1</td>
@@ -141,6 +145,7 @@ This table shows how passes and rewards are determined in an epoch relative to a
   <tr>
     <td>&#x2713;</td>
     <td>&#x2713;</td>
+    <td>&#x2713;</td>
     <td>&#x2715;</td>
     <td>&#x2715;</td>
     <td>&#x2715;</td>
@@ -153,21 +158,24 @@ This table shows how passes and rewards are determined in an epoch relative to a
     <td>&#x2713;</td>
     <td>&#x2713;</td>
     <td>&#x2713;</td>
-    <td>&#x2715;</td>
-    <td>&#x2715;</td>
-  </tr>
-  <tr>
-    <td>&#x2713;</td>
-    <td>&#x2715;</td>
-    <td>&#x2713;</td>
-    <td>&#x2715;</td>
     <td>&#x2713;</td>
     <td>&#x2715;</td>
     <td>&#x2715;</td>
   </tr>
   <tr>
+    <td>&#x2713;</td>
+    <td>&#x2715;</td>
+    <td>&#x2713;</td>
+    <td>&#x2713;</td>
+    <td>&#x2715;</td>
+    <td>&#x2713;</td>
     <td>&#x2715;</td>
     <td>&#x2715;</td>
+  </tr>
+  <tr>
+    <td>&#x2715;</td>
+    <td>&#x2715;</td>
+    <td>&#x2713;</td>
     <td>&#x2713;</td>
     <td>&#x2713;</td>
     <td>&#x2713;</td>
@@ -178,6 +186,7 @@ This table shows how passes and rewards are determined in an epoch relative to a
     <td>&#x2715;</td>
     <td>&#x2715;</td>
     <td>&#x2713;</td>
+    <td>&#x2713;</td>
     <td>&#x2715;</td>
     <td>&#x2715;</td>
     <td>&#x2715;</td>
@@ -186,6 +195,7 @@ This table shows how passes and rewards are determined in an epoch relative to a
   <tr>
     <td>&#x2715;</td>
     <td>&#x2715;</td>
+    <td>&#x2713;</td>
     <td>&#x2715;</td>
     <td>&#x2713;</td>
     <td>&#x2713; (if 2 passes)</td>
@@ -196,6 +206,7 @@ This table shows how passes and rewards are determined in an epoch relative to a
     <td>&#x2715;</td>
     <td>&#x2715;</td>
     <td>&#x2715;</td>
+    <td>&#x2713;</td>
     <td>&#x2715;</td>
     <td>&#x2715;</td>
     <td>&#x2715;</td>

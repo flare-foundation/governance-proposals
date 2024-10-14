@@ -216,7 +216,7 @@ This table shows how passes and rewards are determined in an epoch relative to a
 
 ## 3. Proposed Implementation Date Range
 
-If this proposal passes, implementation of the new rewarding logic will start after voting ends.
+If this proposal passes, implementation of the new rewarding logic will start shortly after the voting ends.
 
 ## 4. Voting Details
 

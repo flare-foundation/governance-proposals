@@ -99,7 +99,7 @@ This table shows how passes and rewards are determined in an epoch relative to a
 
 <table>
   <tr>
-    <th colspan="3" scope="colgroup">Epoch Behavior</th>
+    <th colspan="4" scope="colgroup">Epoch Behavior</th>
     <th colspan="3" scope="colgroup">Result</th>
   </tr>
   <tr>

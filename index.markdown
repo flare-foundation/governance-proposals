@@ -27,7 +27,7 @@ Proposals aimed at improving the Flare network.
 |      7 | [Add Support for FTSO Fast Updates](FIP/FIP_7.md)                            |
 |      8 | [Update FTSO Data Feeds and Define Process to Add New Ones](./FIP/FIP_8.md)  |
 |      9 | [Introduce FLR Protocol Emissions](./FIP/FIP_9.md)                           |
-|     10 | [Add an Incentive Structure for Participating in All Protocols](./FIP/FIP_10.md) |
+|     10 | [Add an Incentive Structure for Participating in All Protocols](FIP/FIP_10.md) |
 
 ## Songbird Improvement Proposals (SIP)
 
@@ -38,7 +38,7 @@ Proposals aimed at improving the Songbird network.
 |      1 | [Align Songbird and Flare Smart Contracts](SIP/SIP_1.md)                 |
 |      2 | [Calibrate the State Connector's performance and security](SIP/SIP_2.md) |
 |      3 | [Songbird Decentralization and Code Upgrade](SIP/SIP_3.md)               |
-|      4 | [Add an Incentive Structure for Participating in All Protocols](./SIP/SIP_4.md) |
+|      4 | [Add an Incentive Structure for Participating in All Protocols](SIP/SIP_4.md) |
 
 ## Songbird Test Proposals (STP)
 

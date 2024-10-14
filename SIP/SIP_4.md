@@ -9,7 +9,7 @@ title: SIP.04
 | :----------------- | :------------------------- |
 | Author             | Flare Foundation           |
 | Created            | 14-Oct-2024                |
-| Document Status    | Draft                      |
+| Document Status    | Final                      |
 | Majority Condition | 50% (required to reject)   |
 
 ## 1. Brief Description
@@ -38,7 +38,7 @@ Consider several examples that illustrate problematic outcomes of partial partic
 * In every instance where an FTSO data provider was chilled on Flare mainnet, the provider in question was not participating in staking. As a result, these providers had less to lose from dishonest behavior compared to those actively involved in staking.
 
 The current incentive structure does not provide a sufficient deterrent, leaving FTSO data providers with the opportunity to misbehave with limited sanction. 
-The new structure, described in the corresponding FIP, will encourage better behavior and bolster the stability and security of the entire Flare network. 
+The new structure, described in the corresponding [FIP.10](../FIP/FIP_10.md), will encourage better behavior and bolster the stability and security of the entire Flare network. 
 Below, the proposed changes to the rewarding logic on Flare are summarized, and the corresponding changes to Songbird are described in more detail.
 
 ### 2.1 New Incentive Structure
@@ -195,7 +195,7 @@ Before voting, providers should consider the following factors:
 * The possibility of additional infrastructure and maintenance costs associated with meeting the minimum requirements not only for existing protocols but also for new protocols in the future.
 * Building a provider system is a competitive venture, and poor performance and lack of participation in one protocol may cause rewards from other protocols to be withheld even though no explicitly malicious behavior occurred.
 
-Additionally, providers should align their vote on this proposal with their vote on the corresponding FIP.
+Additionally, providers should align their vote on this proposal with their vote on the corresponding [FIP.10](../FIP/FIP_10.md).
 
 
 ## 5. Deadline for Voting

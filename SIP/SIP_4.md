@@ -17,8 +17,6 @@ title: SIP.04
 To achieve Flare’s mission as a layer 1 enshrined-oracle network where all protocols operate under the same trust assumptions as the network, this proposal, or more formally its counterpart [FIP.10](../FIP/FIP_10.md), intends to implement a new incentive structure across the Flare network. 
 The purpose of this proposal is to implement the corresponding rewarding logic on Songbird, maintaining Songbird’s status as a canary network for Flare’s mainnet. 
 
-As staking is not yet live on Songbird, the impact of this proposal is limited. However, it lays the groundwork for upcoming network deployments.
-
 The new incentive for Flare structure aims to:
 
 * Encourage providers to participate in all Flare protocols.
@@ -26,6 +24,8 @@ The new incentive for Flare structure aims to:
 * Motivate providers to behave honestly.
 
 This SIP introduces the same incentive structure on Songbird; because this will impose behavior and infrastructure requirements on providers and because noncompliance might impact delegators and stakers in the Songbird community, the community must vote on whether to implement it.
+
+As staking is not yet live on Songbird, the impact of this proposal is limited. However, it lays the groundwork for upcoming network deployments.
 
 The [incentive structure](#21-new-incentive-structure), [minimum participation requirements](#22-minimum-participation-requirements-for-existing-protocols), and an [example that explains how rewards will work](#23-example-rewards-in-the-proposed-incentive-structure) are described in the next section.
 
@@ -92,18 +92,18 @@ As you examine the table, be sure to scroll to the right to see all the data.
 
 | Epoch | Rewards Earned | Anchor Feeds Requirements | Block-latency Feeds Requirements | Passes Remaining | Rewards Received | Total Rewards (New) | Total Rewards (Old) |
 |-------|----------------|---------------------------|----------------------------------|------------------|------------------|---------------------|---------------------|
-| 100   | 1000           | &#x2713;                  | &#x2713;                         | 3                | &#x2713;         | 1000                | 1000                |
-| 101   | 750            | &#x2715;                  | &#x2713;                         | 2                | &#x2713;         | 1750                | 1750                |
-| 102   | 500            | &#x2715;                  | &#x2713;                         | 1                | &#x2713;         | 2250                | 2250                |
-| 103   | 300            | &#x2713;                  | &#x2715;                         | 0                | &#x2713;         | 2550                | 2550                |
-| 104   | 400            | &#x2715;                  | &#x2713;                         | 0                | &#x2715;         | 2550                | 2950                |
-| 105   | 950            | &#x2713;                  | &#x2713;                         | 1                | &#x2713;         | 3500                | 3900                |
-| 106   | 1100           | &#x2713;                  | &#x2713;                         | 2                | &#x2713;         | 4600                | 5000                |
-| 107   | 700            | &#x2715;                  | &#x2715;                         | 0                | &#x2713;         | 5300                | 5700                |
-| 108   | 1000           | &#x2713;                  | &#x2713;                         | 1                | &#x2713;         | 6300                | 6700                |
-| 109   | 900            | &#x2713;                  | &#x2713;                         | 2                | &#x2713;         | 7200                | 7600                |
-| 110   | 600            | &#x2715;                  | &#x2713;                         | 1                | &#x2713;         | 7800                | 8400                |
-| 111   | 200            | &#x2715;                  | &#x2715;                         | 0                | &#x2715;         | 7800                | 8600                |
+| 100   | 1000           | &#x2713;                  | &#x2713;                         | 3                | 1000             | 1000                | 1000                |
+| 101   | 750            | &#x2715;                  | &#x2713;                         | 2                | 750              | 1750                | 1750                |
+| 102   | 500            | &#x2715;                  | &#x2713;                         | 1                | 500              | 2250                | 2250                |
+| 103   | 300            | &#x2713;                  | &#x2715;                         | 0                | 300              | 2550                | 2550                |
+| 104   | 400            | &#x2715;                  | &#x2713;                         | 0                | 0                | 2550                | 2950                |
+| 105   | 950            | &#x2713;                  | &#x2713;                         | 1                | 950              | 3500                | 3900                |
+| 106   | 1100           | &#x2713;                  | &#x2713;                         | 2                | 1100             | 4600                | 5000                |
+| 107   | 700            | &#x2715;                  | &#x2715;                         | 0                | 700              | 5300                | 5700                |
+| 108   | 1000           | &#x2713;                  | &#x2713;                         | 1                | 1000             | 6300                | 6700                |
+| 109   | 900            | &#x2713;                  | &#x2713;                         | 2                | 900              | 7200                | 7600                |
+| 110   | 600            | &#x2715;                  | &#x2713;                         | 1                | 600              | 7800                | 8400                |
+| 111   | 200            | &#x2715;                  | &#x2715;                         | 0                | 0                | 7800                | 8600                |
 
 This table shows how passes and rewards are determined in an epoch relative to a provider’s participation:
 
@@ -185,6 +185,7 @@ This table shows how passes and rewards are determined in an epoch relative to a
     <td>&#x2715;</td>
   </tr>
 </table>
+
 
 ## 3. Proposed Implementation Date Range
 

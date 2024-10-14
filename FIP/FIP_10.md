@@ -22,7 +22,7 @@ The new incentive structure aims to:
 * Improve the accuracy and security of the Flare Time Series Oracle (FTSO) feeds across scaling (anchor) and fast updates (block latency) sub-protocols.
 * Motivate providers to behave honestly.
 
-Because this incentive structure will impose behavior and infrastructure requirements on providers and because noncompliance might impact delegators and stakers in the Flare community, the community must vote on whether to implement it.
+Because this incentive structure will impose behavior and infrastructure requirements on providers and because noncompliance might impact delegators and stakers in the Flare community, the community must vote on whether to implement it or not.
 
 The [incentive structure](#21-new-incentive-structure), [minimum participate requirements](#22-minimum-participation-requirements-for-existing-protocols), and an [example that explains how rewards will work](#23-example-rewards-in-the-proposed-incentive-structure) are described in the next section.
 
@@ -188,7 +188,7 @@ This table shows how passes and rewards are determined in an epoch relative to a
     <td>&#x2715;</td>
     <td>&#x2715;</td>
     <td>&#x2713;</td>
-    <td>&#x2713; (if 2 strikes)</td>
+    <td>&#x2713; (if 2 passes)</td>
     <td>2</td>
     <td>&#x2715;</td>
   </tr>
@@ -205,7 +205,8 @@ This table shows how passes and rewards are determined in an epoch relative to a
 
 ## 3. Proposed Implementation Date Range
 
-NEED
+If this proposal passes, the minimal requirements will be implemented in the rewarding logic in 1 to 2 weeks after the voting ends.
+
 
 ## 4. Voting Details
 
@@ -218,5 +219,5 @@ Before voting, providers should consider the following factors:
 
 ## 5. Deadline for Voting
 
-* **Notice period**: 14-October-2024 to nn-xxx-nnnn
-* **Voting period**: NEED nn-xxx-nnnn to nn-xxx-nnnn
+* **Notice period**: 14-October-2024 to 17-October-2024
+* **Voting period**: 18-October-2024 to 24-October-2024

@@ -28,7 +28,7 @@ The [incentive structure](#21-new-incentive-structure), [minimum participation r
 
 ## 2. Technical Description
 
-Although currently providers can choose which protocols to participate in, all Flare protocols were intentionally designed with the expectation that all providers will participate in all of them. 
+Although providers can currently choose which protocols to participate in, all Flare protocols were intentionally designed with the expectation that all providers will participate in all of them. 
 Each provider’s weight defines their relative voting power in each protocol, and it is assumed that the full weight of providers will be used to vote in each protocol.
 
 Consider several examples that illustrate problematic outcomes of partial participation on Flare:
@@ -47,7 +47,9 @@ If this proposal is accepted, the following incentive structure will be implemen
 * Providers who do not participate in all protocols and meet all the requirements will be penalized.
 * In the future, new Flare protocols will be proposed with minimum participation requirements.
 
-In the new incentive structure, providers will gain or lose passes, depending on whether they meet the minimum participation requirements for each protocol.
+The new incentive structure introduces the concept of passes. 
+Each provider will have a number of passes. 
+A provider can gain or lose passes, depending on whether they meet the minimum participation requirements for each protocol.
 
 * All providers, both new and existing, start with zero passes.
 * When a provider meets the minimum requirements in a reward epoch, they gain a pass. Providers can hold a maximum of 3 passes.
@@ -68,6 +70,7 @@ For existing protocols, the requirements are defined as follows:
 However, in order to earn passes, the provider must have at least 3M FLR in active self-bond and 15M in active stake. 
 Providers with 80% total uptime and at least 1M FLR in active self-bond but not meeting both the 3M FLR active self-bond and 15M active stake requirements neither earn nor lose passes, and still receive eligible rewards.
 
+Note that the first two requirements apply specifically to the FTSOv2 protocol, as the FTSOv1 protocol will be deprecated.
 
 ### 2.3 Example: Rewards in the Proposed Incentive Structure
 
@@ -80,7 +83,7 @@ In this way, only providers who are consistently not participating in Flare’s 
 
 As you examine the table, be sure to scroll to the right to see all the data.
 
-| Epoch | Rewards Earned | Staking Requirements | Anchor Feeds Requirements | Block-latency Feeds Requirements | Passes Remaining | Epoch Rewards | Total Rewards (New) | Total Rewards (Old) |
+| Epoch | Rewards to be Earned | Staking Requirements | Anchor Feeds Requirements | Block-latency Feeds Requirements | Passes Remaining | Epoch Rewards | Total Rewards (New) | Total Rewards (Old) |
 |-------|----------------|----------------------|---------------------------|----------------------------------|------------------|---------------|---------------------|---------------------|
 | 100   | 1000           | &#x2713;             | &#x2713;                  | &#x2713;                         | 3                | 1000          | 1000                | 1000                |
 | 101   | 750            | &#x2715;             | &#x2713;                  | &#x2713;                         | 2                | 750           | 1750                | 1750                |

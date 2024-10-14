@@ -1,5 +1,5 @@
 ---
-nav_order: 10010
+nav_order: 20004
 title: SIP.04
 ---
 
@@ -14,8 +14,10 @@ title: SIP.04
 
 ## 1. Brief Description
 
-To achieve Flare’s mission as a layer 1 enshrined-oracle network where all protocols operate under the same trust assumptions as the network, this proposal, or more formally its counterpart FIP, intends to implement a new incentive structure across the Flare network. 
+To achieve Flare’s mission as a layer 1 enshrined-oracle network where all protocols operate under the same trust assumptions as the network, this proposal, or more formally its counterpart [FIP.10](../FIP/FIP_10.md), intends to implement a new incentive structure across the Flare network. 
 The purpose of this proposal is to implement the corresponding rewarding logic on Songbird, maintaining Songbird’s status as a canary network for Flare’s mainnet. 
+
+As staking is not yet live on Songbird, the impact of this proposal is limited. However, it lays the groundwork for upcoming network deployments.
 
 The new incentive for Flare structure aims to:
 
@@ -29,7 +31,7 @@ The [incentive structure](#21-new-incentive-structure), [minimum participation r
 
 ## 2. Technical Description
 
-Although currently providers can choose which protocols to participate in, all Flare protocols were intentionally designed with the expectation that all providers will participate in all of them. 
+Although providers can currently choose which protocols to participate in, all Flare protocols were intentionally designed with the expectation that all providers will participate in all of them. 
 Each provider’s weight defines their relative voting power in each protocol, and it is assumed that the full weight of providers will be used to vote in each protocol.
 
 Consider several examples that illustrate problematic outcomes of partial participation on Flare:
@@ -55,7 +57,9 @@ For pre-existing Songbird protocols, the same definitions of minimum participati
 However, for future protocols, explicit definitions of minimum participation may differ between the two networks in order to reflect differences between Flare and Songbird. 
 In such cases, the respective proposals introducing the protocols onto Flare and Songbird will contain the two different definitions.
 
-In the new incentive structure, providers will gain or lose passes, depending on whether they meet the minimum participation requirements for each protocol.
+The new incentive structure introduces the concept of passes. 
+Each provider will have a number of passes. 
+A provider can gain or lose passes, depending on whether they meet the minimum participation requirements for each protocol.
 
 * All providers, both new and existing, start with zero passes.
 * When a provider meets the minimum requirements in a reward epoch, they gain a pass. Providers can hold a maximum of 3 passes.
@@ -73,6 +77,8 @@ For existing protocols, the requirements are defined as follows:
 * **FTSO anchor feeds**: Providers must submit a value estimate that lies within a 0.5% band around the consensus median value in 80% of voting rounds within a reward epoch.
 * **FTSO block-latency feeds**: Providers must submit at least 80% of their expected number of updates within a reward epoch, unless they have very low weight, defined as < 0.2% of the total active weight.
 
+Note that the above requirements apply specifically to the FTSOv2 protocol, as the FTSOv1 protocol will be deprecated.
+
 ### 2.3 Example: Rewards in the Proposed Incentive Structure
 
 The following example shows how the proposed incentive structure will affect a hypothetical provider’s rewards.
@@ -85,7 +91,7 @@ In this way, only providers who are consistently not participating in Songbird�
 
 As you examine the table, be sure to scroll to the right to see all the data.
 
-| Epoch | Rewards Earned | Anchor Feeds Requirements | Block-latency Feeds Requirements | Passes Remaining | Epoch Rewards | Total Rewards (New) | Total Rewards (Old) |
+| Epoch | Rewards to be Earned | Anchor Feeds Requirements | Block-latency Feeds Requirements | Passes Remaining | Epoch Rewards | Total Rewards (New) | Total Rewards (Old) |
 |-------|----------------|---------------------------|----------------------------------|------------------|---------------|---------------------|---------------------|
 | 100   | 1000           | &#x2713;                  | &#x2713;                         | 3                | 1000          | 1000                | 1000                |
 | 101   | 750            | &#x2715;                  | &#x2713;                         | 2                | 750           | 1750                | 1750                |
@@ -201,4 +207,4 @@ Additionally, providers should align their vote on this proposal with their vote
 ## 5. Deadline for Voting
 
 * **Notice period**: 14-October-2024 to 20-October-2024
-* **Voting period**: 21-October-2024 to 25-October-2024
+* **Voting period**: 21-October-2024 to 27-October-2024

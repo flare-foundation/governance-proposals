@@ -24,7 +24,7 @@ The new incentive structure aims to:
 
 Because this incentive structure will impose behavior and infrastructure requirements on providers and because noncompliance might impact delegators and stakers in the Flare community, the community must vote on whether to implement it or not.
 
-The [incentive structure](#21-new-incentive-structure), [minimum participate requirements](#22-minimum-participation-requirements-for-existing-protocols), and an [example that explains how rewards will work](#23-example-rewards-in-the-proposed-incentive-structure) are described in the next section.
+The [incentive structure](#21-new-incentive-structure), [minimum participation requirements](#22-minimum-participation-requirements-for-existing-protocols), and an [example that explains how rewards will work](#23-example-rewards-in-the-proposed-incentive-structure) are described in the next section.
 
 ## 2. Technical Description
 

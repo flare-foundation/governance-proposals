@@ -38,6 +38,7 @@ Proposals aimed at improving the Songbird network.
 |      1 | [Align Songbird and Flare Smart Contracts](SIP/SIP_1.md)                 |
 |      2 | [Calibrate the State Connector's performance and security](SIP/SIP_2.md) |
 |      3 | [Songbird Decentralization and Code Upgrade](SIP/SIP_3.md)               |
+|      4 | [Add an Incentive Structure for Participating in All Protocols](./SIP/SIP_4.md) |
 
 ## Songbird Test Proposals (STP)
 

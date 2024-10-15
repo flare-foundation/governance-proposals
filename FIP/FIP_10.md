@@ -107,7 +107,7 @@ This table shows how passes and rewards are determined in an epoch relative to a
   </tr>
   <tr>
     <th scope="col">Minimal Staking Requirements (1M)</th>
-    <th scope="col">Full Staking Requirements (5M/15M)</th>
+    <th scope="col">Full Staking Requirements (3M/15M)</th>
     <th scope="col">Anchor Feeds Requirements</th>
     <th scope="col">Block-latency Feeds Requirements</th>
     <th scope="col">Has Passes?</th>

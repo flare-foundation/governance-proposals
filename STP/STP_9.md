@@ -26,7 +26,7 @@ The goals of the proposal are to:
 * In its initial deployment, the FDC protocol will include support for attestation types required for the FAsset system, as well as EVM Transaction types.
 
 The rewarding structure, minimum participation requirements, and implementation details are described in the next section.
-The FDC protocol is also described in more technical terms in the whitepaper.
+The FDC protocol is also described in more technical terms in the [whitepaper](https://flare.network/whitepapers/).
 
 ## 2. Technical Description
 
@@ -43,7 +43,7 @@ The FDC protocol runs in voting epochs, synced with the FTSOv2 protocol.
 Each round of the FDC is roughly split into:
 
 * **Collect phase:** the period during which users submit requests for the round.
-Note that a new collect phase starts immediately after the previous collect phase ends, ensuring that requests can be sent at all times.
+Note that a new collect phase starts immediately after the previous round's collect phase ends, ensuring that requests can be sent at all times.
 * **Choose phase:** during this period the data providers collate the requests and determine which  ones can be confirmed in the current round. 
 * **Resolution phase:** the set of confirmed attestation requests is published on-chain as a Merkle root, if enough data providers support the outcome.
 

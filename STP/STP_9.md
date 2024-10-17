@@ -132,6 +132,7 @@ During the 90 days following the deployment, the Flare Foundation may change som
 
 ## 3. Links to Code Repositories and Contracts
 
+* [FDC client](https://github.com/flare-foundation/fdc-client)
 * [Flare system client](https://github.com/flare-foundation/flare-system-client)
 * [Smart contracts](https://github.com/flare-foundation/flare-smart-contracts-v2)
 

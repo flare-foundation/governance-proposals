@@ -118,7 +118,7 @@ This percentage will gradually increase in the following months up to 80%, unles
 The FDC protocol offers a versatile framework for applications that require external data from both on-chain and off-chain sources, with far reaching implications for the Flare ecosystem.
 The FDC protocol will be a key part of the FAssets system, which will allow non-smart contract tokens to be used trustlessly with smart contracts within the Flare networks.
 
-The FDC protocol recently demonstrated its capabilities in a [prediction market dApp](https://oipredict.xyz/about/https://oipredict.xyz/about/) for verifying real-world events during the 2024 Summer Olympics.
+The FDC protocol recently demonstrated its capabilities in a [prediction market dApp](https://oipredict.xyz/about/) for verifying real-world events during the 2024 Summer Olympics.
 Note that while the necessary attestation type for this type of applications will not be initially supported, they could be added in the future as previously described.
 
 

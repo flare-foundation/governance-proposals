@@ -9,7 +9,7 @@ title: FIP.10
 | :----------------- | :------------------------- |
 | Author             | Flare Foundation           |
 | Created            | 18-Sep-2024                |
-| Document Status    | Draft                      |
+| Document Status    | Final                      |
 | Majority Condition | 50% (required to accept)   |
 
 ## 1. Brief Description

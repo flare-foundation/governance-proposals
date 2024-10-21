@@ -5,12 +5,12 @@ title: SIP.04
 
 # SIP.04: Add an Incentive Structure for Participating in All Protocols
 
-| Type               | Flare Improvement Proposal |
-| :----------------- | :------------------------- |
-| Author             | Flare Foundation           |
-| Created            | 14-Oct-2024                |
-| Document Status    | Draft                      |
-| Majority Condition | 50% (required to accept)   |
+| Type               | Songbird Improvement Proposal               |
+| :----------------- | :------------------------------------------ |
+| Author             | Flare Foundation                            |
+| Created            | 14-Oct-2024                                 |
+| Document Status    | Final                                       |
+| Majority Condition | 50% (required to accept)                    |
 
 ## 1. Brief Description
 

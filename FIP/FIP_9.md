@@ -5,12 +5,15 @@ title: FIP.09
 
 # FIP.09: Introduce FLR Protocol Emissions
 
-| Type               | Flare Improvement Proposal |
-| :----------------- | :------------------------- |
-| Author             | Flare Foundation           |
-| Created            | 25-Jun-2024                |
-| Document Status    | Draft                      |
-| Majority Condition | 50% (required to reject)   |
+| Type               | Flare Improvement Proposal                  |
+| :----------------- | :------------------------------------------ |
+| Author             | Flare Foundation                            |
+| Created            | 25-Jun-2024                                 |
+| Document Status    | Final                                       |
+| Majority Condition | 50% (required) 94.63% (obtained)            |
+| Voting Outcome     | [**Accepted**][ProposalLink] on 4-July-2024 |
+
+[ProposalLink]: https://portal.flare.network/proposal/view/68580623044064050224071756867140131267540591826868474630961071063472615460402?chainId=14
 
 ## 1. Brief Description
 

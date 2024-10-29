@@ -5,12 +5,15 @@ title: FIP.10
 
 # FIP.10: Add an Incentive Structure for Participating in All Protocols
 
-| Type               | Flare Improvement Proposal |
-| :----------------- | :------------------------- |
-| Author             | Flare Foundation           |
-| Created            | 18-Sep-2024                |
-| Document Status    | Draft                      |
-| Majority Condition | 50% (required to accept)   |
+| Type               | Flare Improvement Proposal                  |
+| :----------------- | :------------------------------------------ |
+| Author             | Flare Foundation                            |
+| Created            | 18-Sep-2024                                 |
+| Document Status    | Final                                       |
+| Majority Condition | 50% (required) 95.18% (obtained)            |
+| Voting Outcome     | [**Accepted**][ProposalLink] on 24-Oct-2024 |
+
+[ProposalLink]: https://portal.flare.network/proposal/view/58827189422795354977892366773880419531926251745234460754680115962875918456135?chainId=14
 
 ## 1. Brief Description
 

@@ -10,8 +10,11 @@ title: SIP.03
 | Author             | Flare Foundation                            |
 | Created            | 4-Jul-2024                                  |
 | Revision           | 2                                           |
-| Document Status    | Draft                                       |
-| Majority Condition | 50% (required)                              |
+| Document Status    | Final                                       |
+| Majority Condition | 50% (required) 98.65% (obtained)            |
+| Voting Outcome     | [**Accepted**][ProposalLink] on 22-Jul-2024 |
+
+[ProposalLink]: https://portal.flare.network/proposal/view/91362490915358069372375485945298000935668553620268814062836379878618282993076?chainId=19
 
 ## 1. Brief Description
 

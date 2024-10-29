@@ -10,7 +10,10 @@ title: SIP.04
 | Author             | Flare Foundation                            |
 | Created            | 14-Oct-2024                                 |
 | Document Status    | Final                                       |
-| Majority Condition | 50% (required to accept)                    |
+| Majority Condition | 50% (required) 96.85% (obtained)            |
+| Voting Outcome     | [**Accepted**][ProposalLink] on 27-Oct-2024 |
+
+[ProposalLink]: https://portal.flare.network/proposal/view/89563537990950394808839286241744183822382857868418985395103648546243888827892?chainId=19
 
 ## 1. Brief Description
 

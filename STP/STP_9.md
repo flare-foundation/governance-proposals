@@ -10,9 +10,11 @@ title: STP.09
 | Author              | Flare Foundation                            |
 | Created             | 16-October-2024                             |
 | Document Status     | Final                                       |
-| Threshold Condition | 75% (required to reject)		    |
-| Majority Condition  | 50% (required to reject) 		    |
+| Threshold Condition | 75% (required to reject) 1.90% (obtained)   |
+| Majority Condition  | 50% (required to reject) 0.00% (obtained)   |
+| Voting Outcome      | [**Accepted**][ProposalLink] on 30-Oct-2024 |
 
+[ProposalLink]: https://portal.flare.network/proposal/view/77930802417508973195664056983481405445677939034169876636214368538582044888932?chainId=19
 
 ## 1. Brief Description
 

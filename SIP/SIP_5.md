@@ -1,9 +1,9 @@
 ---
-nav_order: 10011
-title: FIP.11
+nav_order: 20005
+title: SIP.05
 ---
 
-# FIP.11: Optimize Rewarding Structure and Adjust Protocol Parameters 
+# SIP.05: Optimize Rewarding Structure and Adjust Protocol Parameters 
 
 | Type               | Flare Improvement Proposal                  |
 | :----------------- | :------------------------------------------ |
@@ -24,7 +24,7 @@ The goal of these changes is to:
 * Establish a fairer reward structure that compensates a broader set of data providers.
 * Align protocol functionality with network developments and changing market conditions.
 
-The proposal will also allow for future adjustments in the parameters outlined below, in line with the network’s growth and evolving needs. The Flare Foundation will directly communicate these future parameter changes to the data providers in a timely manner, before they are submitted for a vote within the [Management Group](https://proposals.flare.network/FIP/FIP_2.html) of data providers.
+The proposal will also allow for future adjustments in the parameters outlined below, in line with the network’s growth and evolving needs. The Flare Foundation will directly communicate these future parameter changes to the data providers in a timely manner, before they are submitted for a vote within the [Management Group](https://proposals.flare.network/STP/STP_3.html) of data providers.
 
 The [proposed rewarding changes](#21-proposed-changes) for the core protocols, as well as [future potential parameter adjustments](#22-other-potential-changes) are described in the next section.
 
@@ -41,7 +41,7 @@ The relevant rewarding changes are described below, split into two subsections: 
 
 ### 2.1 Proposed Changes
 
-The [FIP.03](https://proposals.flare.network/FIP/FIP_3.html) governance proposal introduced secondary (PCT) reward bands to the already existing primary (IQR) reward bands, with the aim of increasing the number of data providers that get rewarded.
+The [STP.02](https://proposals.flare.network/STP/STP_2.html) governance proposal introduced secondary (PCT) reward bands to the already existing primary (IQR) reward bands, with the aim of increasing the number of data providers that get rewarded.
 The size of the PCT bands is currently fixed for each feed, being determined based on the historical accuracy of the individual price submissions from data providers.
 
 However, as market conditions change, certain reward bands can become either too tight or too loose.
@@ -52,7 +52,7 @@ Thus, the change proposed is:
 * **PCT bands**: Introduce an adaptive method for setting the width of the secondary bands, based on volatility and market conditions.
 
 Another feature of the PCT bands is how the inflationary rewards are distributed between the primary and secondary bands in the FTSO Scaling protocol (Anchor Feeds).
-The current IQR/PCT ratio is set to 70/30, as per [FIP.03](https://proposals.flare.network/FIP/FIP_3.html).
+The current IQR/PCT ratio is set to 70/30, as per [STP.02](https://proposals.flare.network/STP/STP_2.html).
 However, data suggests that this ratio overemphasizes precise proximity to the median value, potentially overlooking valuable, slightly off-median submissions.
 This ultimately leads to disproportionate benefits for certain data providers.
 As such, we propose:
@@ -64,7 +64,7 @@ With appropriately adjusted PCT bands, this change will not influence the accura
 
 ### 2.2 Other Potential Changes
 
-In addition to the changes introduced above, a series of potential changes will be voted directly by the data providers within the [Management Group](https://proposals.flare.network/FIP/FIP_2.html).
+In addition to the changes introduced above, a series of potential changes will be voted directly by the data providers within the [Management Group](https://proposals.flare.network/STP/STP_3.html).
 Further details about this [voting process](#3-voting-methodology-for-future-parameter-optimizations) are described in the next section.
 
 
@@ -101,16 +101,14 @@ These changes will be transparently laid out to data providers, as they alone ar
 Due to latency issues arising from an increasingly busy network, it may be beneficial to increase these values.
 To this end, the grace periods might be increased by up to 10 seconds, to 20 and 30 seconds respectively.
 
-**Staking**: Similarly, as the network grows due to the increase of the supply of FLR caused by inflation and Flare Drops, the required minimal active self-bond and minimal active stake defined in [FIP.05](https://proposals.flare.network/FIP/FIP_5.html) may need to be adjusted accordingly.
 
-
-**Minimal participation requirements**: The [FIP.10](https://proposals.flare.network/FIP/FIP_10.html) proposal introduced minimal participation requirements for all core protocols.
+**Minimal participation requirements**: The [SIP.04](https://proposals.flare.network/SIP/SIP_04.html) proposal introduced minimal participation requirements for all core protocols.
 The exact requirements may be revised in the future as more data on provider participation is accrued.
 
 
 ## 3. Voting Methodology for Future Parameter Optimizations
 
-The Flare Foundation will directly communicate any future changes in the parameters previously discussed through the data provider [Management Group's forum](https://proposals.flare.network/FIP/FIP_2.html).
+The Flare Foundation will directly communicate any future changes in the parameters previously discussed through the data provider [Management Group's forum](https://proposals.flare.network/STP/STP_3.html).
 The potential changes will be voted on by the data providers in a rejection-based approach.
 Namely, for the proposed changes to be rejected, both of the following conditions must be true:
 
@@ -125,7 +123,7 @@ Thus, the changes will be implemented if the quorum threshold is not reached, or
 
 If this proposal passes, implementation of the new parameters will start soon after voting ends.
 The changes will be implemented gradually, to support a smooth transition and continued reliability.
-New changes will be communicated with the data providers and voted by the data provider [Management Group](https://proposals.flare.network/FIP/FIP_2.html).
+New changes will be communicated with the data providers and voted by the data provider [Management Group](https://proposals.flare.network/STP/STP_3.html).
 
 
 ## 5. Voting Details

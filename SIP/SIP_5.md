@@ -101,9 +101,13 @@ These changes will be transparently laid out to data providers, as they alone ar
 Due to latency issues arising from an increasingly busy network, it may be beneficial to increase these values.
 To this end, the grace periods might be increased by up to 10 seconds, to 20 and 30 seconds respectively.
 
-
 **Minimal participation requirements**: The [SIP.04](https://proposals.flare.network/SIP/SIP_4.html) proposal introduced minimal participation requirements for all core protocols.
 The exact requirements may be revised in the future as more data on provider participation is accrued.
+
+**Flare Data Connector parameters**: With the introduction of the FDC protocol in [STP.09](https://proposals.flare.network/STP/STP_9.html), the inflationary rewards will be split between the FDC and FTSO protocols in a 50/50 ratio.
+This ratio may be later revised depending on community usage and data provider infrastructure costs.
+Additionally, the reward split between signing and finalization, as well as fraction of rewards burnt for providers who did not bit vote but did sign the correct Merkle root may be subject to future changes.
+Depending on the number of requests recorded by the protocol, further optimizations in the bitvoting process and the grace periods may also be necessary.
 
 
 ## 3. Voting Methodology for Future Parameter Optimizations

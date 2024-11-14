@@ -36,7 +36,7 @@ These scripts are publicly available and data providers are encouraged to run th
 The rewarding logic contains certain configuration parameters or conditions that require monitoring and may, at times, need to be adjusted.
 The purpose of these changes is to fine-tune Flare’s incentive structure, supporting fair rewarding and a generally robust system.
 
-The relevant rewarding changes are described below, split into two subsections: [2.1](#21-proposed-changes) describes changes that will be immediately implemented in case that the proposal passes, while changes that may be implemented later via the Management Group described in [2.2](#22-other-potential-changes).
+The relevant rewarding changes are described below, split into two subsections: [2.1](#21-proposed-changes) describes changes that will be implemented soon after the proposal passes, while changes that may be implemented later via the Management Group are described in [2.2](#22-other-potential-changes).
 
 
 ### 2.1 Proposed Changes
@@ -67,12 +67,9 @@ In addition to the changes introduced above, a series of potential changes will 
 Further details about this [voting process](#3-voting-methodology-for-future-parameter-optimizations) are described in the next section.
 
 
-#### 2.2.1 FTSO Parameters
-
 **Block-latency feeds rewards**: Accuracy rewards for the FTSO’s block-latency feeds are triggered for a voting epoch if the price at the end of the epoch is within a 0.5% interval around the respective anchor price.
 When the system behaves as intended and the two feeds are regularly in good alignment, the width of the interval may need to be changed.
 Tightening the interval in this way should provide better incentives for more accurate price guarantees.
-
 
 **Reward split**: Currently, the FTSO inflationary rewards are split between the anchor and block-latency feeds in proportion 70/30.
 This ratio may be revised in the future based on community usage, with a target ratio of 50/50.
@@ -89,9 +86,6 @@ Additionally, the fee parameters for the volatility incentives may need to be ch
 **Scaling reward split**: Currently 80% of the rewards are allocated to submission accuracy, 10% to timely signature deposition, and 10% to finalization.
 To provide fairer allocation of rewards, these percentages may be changed in the future to values in the ranges: 70-80%, 10-15%, 10-15% respectively.
 
-
-#### 2.2.2 Unearned Rewards and Penalization
-
 **Unearned rewards**: Certain protocols within the Flare network are assigned an amount of inflationary rewards per voting epoch, but it is possible (or even likely) that not all the assigned rewards will be earned by the providers.
 Currently, these rewards are burnt: however, in the future, it may be beneficial to the network to redirect these pools of unassigned rewards to create grants for data providers to help support their infrastructure requirements.
 
@@ -102,8 +96,6 @@ In order to ensure that this factor correctly disincentivizes undesirable provid
 As more data from the network comes in, such as information on the frequency of such cases, Flare would like to be able to fine-tune the way these are handled by the rewarding logic.
 These changes will be transparently laid out to data providers, as they alone are responsible for validating and signing the rewards.
 
-#### 2.2.3 Flare Systems Protocol and Staking
-
 **FSP**: The current durations of the grace periods for signature deposition and finalization after the end of reveal period are 10s and 20s respectively.
 Due to latency issues arising from an increasingly busy network, it may be beneficial to increase these values.
 To this end, the grace periods might be increased by up to 10 seconds, to 20 and 30 seconds respectively.
@@ -111,9 +103,7 @@ To this end, the grace periods might be increased by up to 10 seconds, to 20 and
 **Staking**: Similarly, as the network grows due to the increase of the supply of FLR caused by inflation and Flare Drops, the required minimal active self-bond and minimal active stake defined in [FIP.05](https://proposals.flare.network/FIP/FIP_5.html) may need to be adjusted accordingly.
 
 
-#### 2.2.4 Minimal Participation Requirements
-
-The [FIP.10](https://proposals.flare.network/FIP/FIP_10.html) proposal introduced minimal participation requirements for all core protocols.
+***Minimal participation requirements**: The [FIP.10](https://proposals.flare.network/FIP/FIP_10.html) proposal introduced minimal participation requirements for all core protocols.
 The exact requirements may be revised in the future as more data on provider participation is accrued.
 
 

@@ -102,7 +102,7 @@ Due to latency issues arising from an increasingly busy network, it may be benef
 To this end, the grace periods might be increased by up to 10 seconds, to 20 and 30 seconds respectively.
 
 
-**Minimal participation requirements**: The [SIP.04](https://proposals.flare.network/SIP/SIP_04.html) proposal introduced minimal participation requirements for all core protocols.
+**Minimal participation requirements**: The [SIP.04](https://proposals.flare.network/SIP/SIP_4.html) proposal introduced minimal participation requirements for all core protocols.
 The exact requirements may be revised in the future as more data on provider participation is accrued.
 
 
@@ -133,5 +133,5 @@ To pass, the proposal requires a simple majority of votes in favor of it.
 
 ## 6. Deadline for Voting
 
-* **Notice period**: 14-November-2024 to 17-November-2024
-* **Voting period**: 18-November-2024 to 24-November-2024
+* **Notice period**: 14-November-2024 to 20-November-2024
+* **Voting period**: 21-November-2024 to 27-November-2024

@@ -53,7 +53,8 @@ Thus, the change proposed is:
 
 Another feature of the PCT bands is how the inflationary rewards are distributed between the primary and secondary bands in the FTSO Scaling protocol (Anchor Feeds).
 The current IQR/PCT ratio is set to 70/30, as per [FIP.03](https://proposals.flare.network/FIP/FIP_3.html).
-However, data suggests that this ratio disproportionately benefits certain data providers over slightly less efficient ones, despite the latter still submitting reasonable prices that allow them to earn secondary rewards.
+However, data suggests that this ratio overemphasizes precise proximity to the median value, potentially overlooking valuable, slightly off-median submissions.
+This ultimately leads to disproportionate benefits for certain data providers.
 As such, we propose:
 
 * **Anchor feeds rewards**: Increase reward allocation for the PCT band to an initial IQR/PCT ratio of 40/60, with further increases to the PCT band allocation planned, pending additional Management Group voting as data from this initial adjustment is evaluated.
@@ -96,14 +97,14 @@ In order to ensure that this factor correctly disincentivizes undesirable provid
 As more data from the network comes in, such as information on the frequency of such cases, Flare would like to be able to fine-tune the way these are handled by the rewarding logic.
 These changes will be transparently laid out to data providers, as they alone are responsible for validating and signing the rewards.
 
-**FSP**: The current durations of the grace periods for signature deposition and finalization after the end of reveal period are 10s and 20s respectively.
+**Flare Systems Protocol**: The current durations of the grace periods for signature deposition and finalization after the end of reveal period are 10s and 20s respectively.
 Due to latency issues arising from an increasingly busy network, it may be beneficial to increase these values.
 To this end, the grace periods might be increased by up to 10 seconds, to 20 and 30 seconds respectively.
 
 **Staking**: Similarly, as the network grows due to the increase of the supply of FLR caused by inflation and Flare Drops, the required minimal active self-bond and minimal active stake defined in [FIP.05](https://proposals.flare.network/FIP/FIP_5.html) may need to be adjusted accordingly.
 
 
-***Minimal participation requirements**: The [FIP.10](https://proposals.flare.network/FIP/FIP_10.html) proposal introduced minimal participation requirements for all core protocols.
+**Minimal participation requirements**: The [FIP.10](https://proposals.flare.network/FIP/FIP_10.html) proposal introduced minimal participation requirements for all core protocols.
 The exact requirements may be revised in the future as more data on provider participation is accrued.
 
 

@@ -41,17 +41,17 @@ The relevant rewarding changes are described below, split into two subsections: 
 
 ### 2.1 Proposed Changes
 
-The [FIP.03](https://proposals.flare.network/FIP/FIP_3.html) governance proposal introduced secondary (PCT) reward bands to the already existing primary (IQR) reward bands, with the aim of increasing the number of data providers that get rewarded.
-The size of the PCT bands is currently fixed for each feed, being determined based on the historical accuracy of the individual price submissions from data providers.
+The [FIP.03](https://proposals.flare.network/FIP/FIP_3.html) governance proposal introduced secondary (PCT) reward bands to the already existing primary (IQR) reward bands, with the aim of increasing the number of data providers that get rewarded within the FTSO protocol.
+The size of the PCT bands is currently fixed for each feed, being determined based on the historical accuracy of the individual price submissions from the data providers.
 
 However, as market conditions change, certain reward bands can become either too tight or too loose.
 Thus, it is crucial to adapt the PCT bands to the underlying market behavior.
 Additionally, a better methodology of calculating these bands, such as based on the underlying asset volatility, may be more appropriate than just examining price submissions. 
-Thus, the change proposed is:
+Thus, the proposed change is as follows:
 
 * **PCT bands**: Introduce an adaptive method for setting the width of the secondary bands, based on volatility and market conditions.
 
-Another feature of the PCT bands is how the inflationary rewards are distributed between the primary and secondary bands in the FTSO Scaling protocol (Anchor Feeds).
+Another key feature of the FTSO Scaling protocol (Anchor Feeds) involves the distribution of inflationary rewards between the primary and secondary reward bands.
 The current IQR/PCT ratio is set to 70/30, as per [FIP.03](https://proposals.flare.network/FIP/FIP_3.html).
 However, data suggests that this ratio overemphasizes precise proximity to the median value, potentially overlooking valuable, slightly off-median submissions.
 This ultimately leads to disproportionate benefits for certain data providers.
@@ -69,14 +69,14 @@ Further details about this [voting process](#3-voting-methodology-for-future-par
 
 
 **Block-latency feeds rewards**: Accuracy rewards for the FTSO’s block-latency feeds are triggered for a voting epoch if the price at the end of the epoch is within a 0.5% interval around the respective anchor price.
-When the system behaves as intended and the two feeds are regularly in good alignment, the width of the interval may need to be changed.
+When the system behaves as intended and the two feeds are regularly in good alignment, the width of the interval may need to be revised.
 Tightening the interval in this way should provide better incentives for more accurate price guarantees.
 
 **Reward split**: Currently, the FTSO inflationary rewards are split between the anchor and block-latency feeds in proportion 70/30.
 This ratio may be revised in the future based on community usage, with a target ratio of 50/50.
 
 **Weight systems**: Various weight systems are used in the core protocols, based on both delegations and stake.
-To promote decentralization, lowering the overdelegation cap may be desirable in the future.
+To promote decentralization, lowering the overdelegation cap may be desirable.
 An initial 2% cap may be set only after the new IQR/PCT ratio is implemented, to support a smooth transition.
 Additionally, using a unified weight system across all protocols, such as the signing policy weight, could lead to a more robust system.
 
@@ -84,8 +84,8 @@ Additionally, using a unified weight system across all protocols, such as the si
 While volatility incentives allow for temporary changes in these parameters, new default values may be desirable depending on underlying changes in block creation times or market behavior.
 Additionally, the fee parameters for the volatility incentives may need to be changed accordingly.
 
-**Scaling reward split**: Currently 80% of the rewards are allocated to submission accuracy, 10% to timely signature deposition, and 10% to finalization.
-To provide fairer allocation of rewards, these percentages may be changed in the future to values in the ranges: 70-80%, 10-15%, 10-15% respectively.
+**Scaling reward split**: Currently, in the FTSO Scaling protocol 80% of the rewards are allocated to submission accuracy, 10% to timely signature deposition, and 10% to finalization.
+To provide fairer allocation of rewards, these percentages may be adjusted in the future to values in the ranges: 70-80%, 10-15%, 10-15% respectively.
 
 **Unearned rewards**: Certain protocols within the Flare network are assigned an amount of inflationary rewards per voting epoch, but it is possible (or even likely) that not all the assigned rewards will be earned by the providers.
 Currently, these rewards are burnt: however, in the future, it may be beneficial to the network to redirect these pools of unassigned rewards to create grants for data providers to help support their infrastructure requirements.
@@ -94,18 +94,18 @@ Currently, these rewards are burnt: however, in the future, it may be beneficial
 In order to ensure that this factor correctly disincentivizes undesirable provider behavior, the factor may be changed in the future to values in the interval from 20 to 50.
 
 **Edge cases**: Included in the rewarding code are mechanisms for handling unlikely or unusual edge cases, which typically arise in less than 0.5% of voting rounds.
-As more data from the network comes in, such as information on the frequency of such cases, Flare would like to be able to fine-tune the way these are handled by the rewarding logic.
+As more data from the network comes in, such as information on the frequency of such cases, the Flare Foundation would like to be able to fine-tune the way these are handled by the rewarding logic.
 These changes will be transparently laid out to data providers, as they alone are responsible for validating and signing the rewards.
 
 **Flare Systems Protocol**: The current durations of the grace periods for signature deposition and finalization after the end of reveal period are 10s and 20s respectively.
 Due to latency issues arising from an increasingly busy network, it may be beneficial to increase these values.
 To this end, the grace periods might be increased by up to 10 seconds, to 20 and 30 seconds respectively.
 
-**Staking**: Similarly, as the network grows due to the increase of the supply of FLR caused by inflation and Flare Drops, the required minimal active self-bond and minimal active stake defined in [FIP.05](https://proposals.flare.network/FIP/FIP_5.html) may need to be adjusted accordingly.
+**Staking**: As the network grows, due to the increase of the supply of FLR caused by inflation and Flare Drops the required minimal active self-bond and minimal active stake defined in [FIP.05](https://proposals.flare.network/FIP/FIP_5.html) may need to be adjusted accordingly.
 
 
 **Minimal participation requirements**: The [FIP.10](https://proposals.flare.network/FIP/FIP_10.html) proposal introduced minimal participation requirements for all core protocols.
-The exact requirements may be revised in the future as more data on provider participation is accrued.
+The exact requirements may be subject to future changes as more data on provider participation is accrued.
 
 
 ## 3. Voting Methodology for Future Parameter Optimizations

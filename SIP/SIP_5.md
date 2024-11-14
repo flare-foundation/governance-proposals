@@ -5,7 +5,7 @@ title: SIP.05
 
 # SIP.05: Optimize Rewarding Structure and Adjust Protocol Parameters 
 
-| Type               | Flare Improvement Proposal                  |
+| Type               | Songbird Improvement Proposal               |
 | :----------------- | :------------------------------------------ |
 | Author             | Flare Foundation                            |
 | Created            | 12-Nov-2024                                 |

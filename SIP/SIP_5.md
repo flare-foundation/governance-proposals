@@ -127,7 +127,7 @@ Thus, the changes will be implemented if the quorum threshold is not reached, or
 
 If this proposal passes, implementation of the new parameters will start soon after voting ends.
 The changes will be implemented gradually, to support a smooth transition and continued reliability.
-New changes will be communicated with the data providers and voted by the data provider [Management Group](https://proposals.flare.network/STP/STP_3.html).
+New changes will be communicated with the data providers and voted by the data providers' [Management Group](https://proposals.flare.network/STP/STP_3.html).
 
 
 ## 5. Voting Details

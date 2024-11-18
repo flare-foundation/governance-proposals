@@ -9,7 +9,7 @@ title: SIP.05
 | :----------------- | :------------------------------------------ |
 | Author             | Flare Foundation                            |
 | Created            | 14-Nov-2024                                 |
-| Document Status    | Draft                                       |
+| Document Status    | Final                                       |
 | Majority Condition | 50% (required)                              |
 
 

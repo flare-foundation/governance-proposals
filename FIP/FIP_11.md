@@ -10,8 +10,10 @@ title: FIP.11
 | Author             | Flare Foundation                            |
 | Created            | 12-Nov-2024                                 |
 | Document Status    | Final                                       |
-| Majority Condition | 50% (required)                              |
+| Majority Condition | 50% (required) 96.61% (obtained)            |
+| Voting Outcome     | [**Accepted**][ProposalLink] on 24-Nov-2024 |
 
+[ProposalLink]: https://portal.flare.network/proposal/view/53484997921715521414904822541687758990078873368825058583476391439646465912820?chainId=14
 
 
 ## 1. Brief Description

@@ -10,8 +10,10 @@ title: SIP.05
 | Author             | Flare Foundation                            |
 | Created            | 14-Nov-2024                                 |
 | Document Status    | Final                                       |
-| Majority Condition | 50% (required)                              |
+| Majority Condition | 50% (required) 99.94% (obtained)            |
+| Voting Outcome     | [**Accepted**][ProposalLink] on 27-Nov-2024 |
 
+[ProposalLink]: https://portal.flare.network/proposal/view/37498749572886633811133083639177831731109061626345025215294774343337635103339?chainId=19
 
 
 ## 1. Brief Description

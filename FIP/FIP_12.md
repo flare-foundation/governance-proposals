@@ -24,7 +24,7 @@ The goals of the proposal are to:
 * Introduce the FDC protocol as an evolution and replacement of the State Connector.
 * Add the FDC protocol contracts to the Flare network.
 * Assign part of the network’s yearly inflation to rewarding the FDC protocol to incentivise provider participation.
-* In its initial deployment, the FDC protocol will include support for attestation types required for the FAsset system, as well as EVM Transaction types.
+* In its initial deployment, the FDC protocol will include support for attestation types required for the FAsset system, as well as EVM Transaction type.
 
 The rewarding structure, minimum participation requirements, and implementation details are described in the next section.
 The FDC protocol is also described in more technical terms in the [whitepaper](https://flare.network/whitepapers/).
@@ -48,11 +48,11 @@ Note that a new collect phase starts immediately after the previous round's coll
 * **Choose phase:** during this period the data providers collate the requests and determine which  ones can be confirmed in the current round. 
 * **Resolution phase:** the set of confirmed attestation requests is published on-chain as a Merkle root, if enough data providers support the outcome.
 
-The events contained in a published Merkle root are then considered true according to consensus on the network.
+The events represented by a published Merkle root are then considered true according to consensus on the network.
 
 ### 2.1 Attestation Types
 
-In order to be correctly handled by the FDC, each attestation request must conform to one of the predefined attestation types, which define the data source and response method for requests of the chosen type.
+In order to be correctly handled by the FDC, each attestation request must conform to one of the predefined attestation types, which specify the data source and response method for requests of the chosen type.
 Well-defined response methods must specify the type of information that is sufficient to prove the veracity of the attested event, which will be included in the attestation response. 
 
 
@@ -105,7 +105,7 @@ These fees will be distributed among the data providers that responded to the re
 ### 2.3 Minimal Requirements
 
 In line with [FIP.10](../FIP/FIP_10.md), the FDC protocol will introduce certain minimal participation requirements for the data providers.
-If these requirements are not met in a given reward epoch, data providers may not be eligible for rewards in any of the network protocols, as described in the [FIP.10](../FIP/FIP_10.md) proposal.
+If these requirements are not met in a given reward epoch, a data provider may not be eligible for rewards in any of the network protocols, as described in the [FIP.10](../FIP/FIP_10.md) proposal.
 
 Successful participation in a voting round requires getting rewards for that round (participating in correct Merkle root voting).
 Initially, the minimal requirements for a reward epoch will be defined as:
@@ -121,6 +121,7 @@ The Flare Foundation will directly communicate these changes to the data provide
 These changes include:
 
 * Share of inflationary rewards.
+* Reward distribution calculation.
 * The minimal fee required for an attestation request.
 
 

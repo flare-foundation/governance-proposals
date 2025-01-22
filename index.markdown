@@ -29,6 +29,7 @@ Proposals aimed at improving the Flare network.
 |      9 | [Introduce FLR Protocol Emissions](./FIP/FIP_9.md)                               |
 |     10 | [Add an Incentive Structure for Participating in All Protocols](FIP/FIP_10.md)   |
 |     11 | [Optimize Rewarding Structure and Adjust Protocol Parameters](FIP/FIP_11.md)     |
+|     12 | [Add Support for the Flare Data Connector](FIP/FIP_12.md)                        |
 
 ## Songbird Improvement Proposals (SIP)
 
@@ -57,7 +58,7 @@ Proposals aimed at improving the Flare network by being tested first on the Song
 |      6 | [Add Support for the Flare Systems Protocol and FTSO Scaling](STP/STP_6.md) |
 |      7 | [Add Support for FTSO Fast Updates](STP/STP_7.md)                           |
 |      8 | [Update FTSO Data Feeds and Define Process to Add New Ones](STP/STP_8.md)   |
-|      9 | [Add Support for the Flare Data Connector](STP/STP_9.md)        	       |
+|      9 | [Add Support for the Flare Data Connector](STP/STP_9.md)        	           |
 
 <style>
     table thead tr th:first-child {

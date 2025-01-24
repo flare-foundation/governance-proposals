@@ -18,12 +18,12 @@ title: FIP.12
 
 
 This proposal introduces the Flare Data Connector (FDC), a protocol that will allow applications to securely import external events onto the Flare networks.
-The introduction of the FDC will strengthen Flare’s position as the blockchain for data.
+The introduction of the FDC will strengthen Flare's position as the blockchain for data.
 The goals of the proposal are to:
 
 * Introduce the FDC protocol as an evolution and replacement of the State Connector.
 * Add the FDC protocol contracts to the Flare network.
-* Assign part of the network’s yearly inflation to rewarding the FDC protocol to incentivise provider participation.
+* Assign part of the network's yearly inflation to rewarding the FDC protocol to incentivise provider participation.
 * In its initial deployment, the FDC protocol will include support for attestation types required for the FAsset system, as well as EVM Transaction type.
 
 The rewarding structure, minimum participation requirements, and implementation details are described in the next section.
@@ -33,11 +33,11 @@ The FDC protocol is also described in more technical terms in the [whitepaper](h
 
 The goal of the FDC is to improve the range of available data in a trustless manner - trust will be derived from the underlying security assumptions of the Flare network.
 To this end, the FDC is a request based system that allows users to request attestations of external data be published on the Flare networks.
-This process is secured by Flare’s data providers, so that when the user requires this data for e.g. a smart contract, interested parties can trust that the data is genuine. 
+This process is secured by Flare's data providers, so that when the user requires this data for e.g. a smart contract, interested parties can trust that the data is genuine. 
 
 The introduction of the FDC is needed on Flare to facilitate importing external data on to the network, solving two key problems:
 
-* Trusting the data - the FDC is secured by Flare’s providers, and thus can be trusted within the setting of the Flare network.
+* Trusting the data - the FDC is secured by Flare's providers, and thus can be trusted within the setting of the Flare network.
 * Filtering for useful data - the FDC is request based, so only data that is desired by a user is attested to, rather than wasteful monitoring or importing of all data from given sources.
 
 The FDC protocol runs in voting epochs, synced with the FTSOv2 protocol.
@@ -75,7 +75,7 @@ The `EVMTransaction` attestation type will support `ETH`, `FLR`, and `SGB` sourc
 The community can propose new attestation types, which would be accepted if they gain the support of the majority of the data providers.
 The process is as follows:
 
-1. A request to include a new attestation type can be made on Flare’s Discord server, in the `Discuss-Ideas` developer channel, which should include:
+1. A request to include a new attestation type can be made on Flare's Discord server, in the `Discuss-Ideas` developer channel, which should include:
     1. A set of rules that precisely define the new attestation type.
     2. Motivation and potential software requirements (verifier server).
     3. A proposal for the base fee of such attestation requests. 
@@ -88,7 +88,7 @@ A more formal process for adding new attestation types will be introduced in a f
 
 FDC rewards will be provided for voting on and attesting to requests, with providers being rewarded relative to their total active weight.
 Rewards for the FDC will come from two sources. 
-The first of those is the network’s yearly inflation, previously used to reward data providers for their participation in the FTSO protocol. 
+The first of those is the network's yearly inflation, previously used to reward data providers for their participation in the FTSO protocol. 
 This will be modified in the following manner:
 
 | Protocol          		     | Proposed Inflationary Share    |
@@ -121,8 +121,10 @@ The Flare Foundation will directly communicate these changes to the data provide
 These changes include:
 
 * Share of inflationary rewards.
-* Reward distribution calculation.
+* Optimizations in reward distribution calculation, including reward split between signing and finalization, as well as the fraction of rewards burnt for providers who did not bit vote but did sign the correct Merkle root.
 * The minimal fee required for an attestation request.
+* Improvements to the bitvoting process.
+* Duration of grace periods.
 
 
 
@@ -140,7 +142,7 @@ Note that while the necessary attestation type for this type of applications wil
 Enabling the FDC protocol does not require a hard fork of the network.
 Instead, the new contracts listed in the next section will be deployed, and the inflation allocation updated as previously described.
 
-During the 90 days following the deployment, the Flare Foundation may change some of the system’s parameters to fine-tune it.
+During the 90 days following the deployment, the Flare Foundation may change some of the system's parameters to fine-tune it.
 
 
 ## 3. Links to Code Repositories and Contracts

@@ -9,7 +9,7 @@ title: FIP.12
 | :----------------- | :------------------------------------------ |
 | Author             | Flare Foundation                            |
 | Created            | 22-Jan-2025                                 |
-| Document Status    | Draft                                       |
+| Document Status    | Final                                       |
 | Majority Condition | 50% (required)                              |
 
 

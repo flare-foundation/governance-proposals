@@ -9,7 +9,7 @@ title: STP.10
 | :------------------ | :------------------------------------------ |
 | Author              | Flare Foundation                            |
 | Created             | 04-February-2025                            |
-| Document Status     | Draft                                       |
+| Document Status     | Final                                       |
 | Threshold Condition | 75% (required to reject)                    |
 | Majority Condition  | 50% (required to reject)                    |
 
@@ -17,19 +17,19 @@ title: STP.10
 
 The Flare Time Series Oracle (FTSO) provides decentralized price feeds for the Flare network through a system of data providers who submit price data for various crypto assets.
 Currently, the FTSO only supports direct price feeds for assets that maintain significant trading volume on centralized exchanges.
-These feeds are supplied by Flare’s network of data providers.
+These feeds are supplied by Flare's network of data providers.
 
 However, the system has limited support for custom types of data feeds such as Liquid Staked Tokens (LSTs), Liquid Restaked Tokens (LRTs), and more generally, feeds of an arbitrary time-series nature.
 This proposal and its counterpart [FIP.13](../FIP/FIP_13.md) seek to extend the FTSO by implementing *Custom Feeds* - a new category of feeds that derive their values through custom logic encoded in on-chain smart contracts.
 
-Custom Feeds will be made available through the same interface as FTSO’s block-latency feeds i.e. through the long-term support (LTS) `FtsoV2Interface` contract.
+Custom Feeds will be made available through the same interface as FTSO's block-latency feeds i.e. through the long-term support (LTS) `FtsoV2Interface` contract.
 Their implementation does not require any modification to the FTSO data provider client logic, nor to dApps integrating the FTSO.
 Furthermore, there is no token inflation allocated to Custom Feeds.
 
 The implementation of Custom Feeds will significantly enhance DeFi capabilities across the Flare network.
 Lending and borrowing protocols will gain the ability to accurately value custom assets as collateral, while risk management systems will benefit from reliable price data for liquidation mechanisms, all of which will be served by the familiar FTSO on-chain interface.
 This represents a significant expansion to the FTSO's core functionality, with substantial expansion in the amount and type of data the FTSO can support.
-As such, a governance vote is required due to the proposal’s far-reaching implications for the Flare network.
+As such, a governance vote is required due to the proposal's far-reaching implications for the Flare network.
 
 ## 2. Technical Description
 
@@ -51,7 +51,7 @@ To ensure a consistent user and developer experience, the legacy mechanism of qu
 Custom Feeds will have a completely distinct risk profile compared to standard FTSO feeds.
 Unlike standard FTSO feeds, where every feed is backed by the entire network of data providers, the security of a Custom Feed is conditional on the logic defined in its smart contract.
 
-This change in risk profile requires users and developers integrating a Custom Feed in their application to carefully evaluate each Custom Feed on a per-feed basis, and assess how the security of the feed, in particular the smart-contract implementation of that feed, impacts their application’s security model.
+This change in risk profile requires users and developers integrating a Custom Feed in their application to carefully evaluate each Custom Feed on a per-feed basis, and assess how the security of the feed, in particular the smart-contract implementation of that feed, impacts their application's security model.
 
 ### 2.3 Smart Contract Changes
 

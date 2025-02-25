@@ -10,7 +10,10 @@ title: FIP.13
 | Author             | Flare Foundation                            |
 | Created            | 04-Feb-2025                                 |
 | Document Status    | Final                                       |
-| Majority Condition | 50% (required)                              |
+| Majority Condition | 50% (required) 94.70% (obtained)            |
+| Voting Outcome     | [**Accepted**][ProposalLink] on 23-Feb-2025 |
+
+[ProposalLink]: https://portal.flare.network/proposal/view/52322840949487388272912038186743203508164842524421282495550321658749796706187?chainId=14
 
 ## 1. Brief Description
 

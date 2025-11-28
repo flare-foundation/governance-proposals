@@ -9,7 +9,7 @@ title: FIP.14
 | :----------------- | :------------------------------------------ |
 | Author             | Flare Foundation                            |
 | Created            | 20-Nov-2025                                 |
-| Document Status    | Draft                                       |
+| Document Status    | Final                                       |
 | Majority Condition | 50% (required)                              |
 
 ## 1. Brief Description

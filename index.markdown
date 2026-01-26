@@ -32,6 +32,7 @@ Proposals aimed at improving the Flare network.
 |     12 | [Add Support for the Flare Data Connector](FIP/FIP_12.md)                        |
 |     13 | [Add Custom Feeds to FTSO](FIP/FIP_13.md)                                        |
 |     14 | [Add Support for FDC Web2 Attestations](FIP/FIP_14.md)                           |
+|     15 | [Introduce Process to Delist FTSO Feeds](FIP/FIP_15.md)                          |
 
 ## Songbird Improvement Proposals (SIP)
 
@@ -63,6 +64,7 @@ Proposals aimed at improving the Flare network by being tested first on the Song
 |      9 | [Add Support for the Flare Data Connector](STP/STP_9.md)                    |
 |     10 | [Add Custom Feeds to FTSO](STP/STP_10.md)                                   |
 |     11 | [Add Support for FDC Web2 Attestations](STP/STP_11.md)                      |
+|     12 | [Introduce Process to Delist FTSO Feeds](STP/STP_12.md)                     |
 
 <style>
     table thead tr th:first-child {

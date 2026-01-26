@@ -101,7 +101,8 @@ Implementation is expected to start shortly after the voting finishes.
 
 ## 5. Voting Details
 
-To pass, the proposal requires a simple majority of votes in favor of it.
+An STP is rejection-based, meaning that it is accepted unless certain conditions are met, namely, that the quorum threshold (75%) is reached and at least half of the votes are against it.
+(See [Governance](https://dev.flare.network/#stps).)
 
 ## 6. Deadline for Voting
 

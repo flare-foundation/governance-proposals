@@ -9,7 +9,7 @@ title: FIP.15
 | :----------------- | :------------------------------------------ |
 | Author             | Flare Foundation                            |
 | Created            | 20-Jan-2025                                 |
-| Document Status    | Draft                                       |
+| Document Status    | Final                                       |
 | Majority Condition | 50% (required)                              |
 
 ## 1. Brief Description

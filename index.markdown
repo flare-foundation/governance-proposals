@@ -33,6 +33,7 @@ Proposals aimed at improving the Flare network.
 |     13 | [Add Custom Feeds to FTSO](FIP/FIP_13.md)                                        |
 |     14 | [Add Support for FDC Web2 Attestations](FIP/FIP_14.md)                           |
 |     15 | [Introduce Process to Delist FTSO Feeds](FIP/FIP_15.md)                          |
+|     16 | [Restructure FLR Tokenomics for Long-Term Network Sustainability](FIP/FIP_16.md) |
 
 ## Songbird Improvement Proposals (SIP)
 

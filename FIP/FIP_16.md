@@ -9,7 +9,7 @@ title: FIP.16
 | :----------------- | :------------------------------------------ |
 | Author             | Flare Foundation                            |
 | Created            | 27-Mar-2026                                 |
-| Document Status    | Draft                                       |
+| Document Status    | Final                                       |
 | Majority Condition | 50% (required)                              |
 
 ## 1. Brief Description
@@ -57,7 +57,7 @@ This governance proposal splits into four areas:
 
 ### 2.1 Immediate Inflation Rate Reduction
 
-If this proposal passes annual inflation will reduce to 3% from the current rate of 5%.
+If this proposal passes, annual inflation will reduce to 3% from the current rate of 5%.
 The existing inflation system also includes a maximum inflation cap, which limits yearly inflation to a maximum of 5 billion `FLR`,  irrespective of inflation percentage and base inflatable supply.
 This proposal also reduces the hard cap for yearly inflation from 5 billion to 3 billion, to keep the cap in line with the decreased inflation rate.
 
@@ -67,11 +67,11 @@ This proposal seeks to exclude certain pools of tokens from the calculation of i
 The excluded pools are where `FLR` is either temporarily or permanently unavailable.
 The additional excluded pools would be:
 
-* **Burnt address** (`0x000000000000000000000000000000000000dEaD`): the `FLR` burned in deflationary actions is permanently removed from circulation and should not count towards the total network supply.
+* **Burn address** (`0x000000000000000000000000000000000000dEaD`): the `FLR` burned in deflationary actions is permanently removed from circulation and should not count towards the total network supply.
 * **Temporary pools of unearned rewards:** Consisting of tokens captured from protocol-level penalties, these pools hold unearned rewards in a temporary state.
   While a fraction is reallocated to incentivize core protocols, such as Block-Latency Feeds and FDC requests, the rest is permanently burned.
 
-* **[Flare Income Reinvestment Pools (FIRE):](#45-flare-income-reinvestment-entity)** `FLR` accrued in any such pools from e.g. fees until they are either burnt or redistributed.
+* **[Flare Income Reinvestment Pools (FIRE):](#45-flare-income-reinvestment-entity)** `FLR` accrued in any such pools from e.g. fees until they are either burned or redistributed.
   Since `FLR` in the pool is unavailable until distributed and tokens paid in are taken from the circulation, it is therefore appropriate to exclude them from the inflation calculation prior to reallocation.
 
 ## 3. Ongoing Supply Reduction
@@ -92,14 +92,14 @@ For Flare, a 60 gwei value is used to estimate the *average* gas fee for a trans
 
 Every transaction requires computational resources, disk space, and network bandwidth from block producers.
 To better reflect these infrastructure costs and align Flare with industry standards, this proposal suggests increasing the base transaction fee.
-More precisely, this proposal seeks to increase the base gas fee by 20X -- from 25 gwei to 500 gwei -- with the necessary modifications introduced by the ACP-176 mechanism after the v1.13.0 [node upgrade](https://github.com/flare-foundation/go-flare).
+More precisely, this proposal seeks to increase the base gas fee by 20x -- from 25 gwei to 500 gwei -- with the necessary modifications introduced by the ACP-176 mechanism after the v1.13.0 [node upgrade](https://github.com/flare-foundation/go-flare).
 Even with this adjustment, Flare’s transaction costs will remain orders of magnitude lower than those of comparable networks in both native and fiat terms.
 This change strengthens the token’s deflationary trajectory without compromising affordability.
 
 To understand the potential impact of this change on token supply: over the past six months, approximately 7.5M `FLR` was burned.
 Under the proposed fee structure, and assuming a conservative scenario of zero ecosystem growth, this figure would rise to roughly 300M `FLR`.
 With inflation being reduced to 3%, on an inflatable balance of 86B `FLR`, the gross inflation would be 2.58B `FLR`.
-Subtracting the 300M burnt `FLR` from this number brings gross inflation to 2.28B and thus the net inflation percentage to 2.66% rather than 3.0%.
+Subtracting the 300M burned `FLR` from this number brings gross inflation to 2.28B and thus the net inflation percentage to 2.66% rather than 3.0%.
 Given the current rapid expansion of the ecosystem, these projections are overly conservative.
 The Flare governance will closely monitor network activity and readjust the fee structure as needed to balance ecosystem growth with overall transaction costs.
 
@@ -112,7 +112,7 @@ By design, FIRE’s resources will expand in tandem with the network’s economi
 
 To request an FDC attestation, users must pay a fee in `FLR` to compensate data providers (and their delegators) for the associated workload.
 The fee also creates a prioritization mechanism for request processing while not congesting the request queue.
-Timely and accurate FDC attestations are critical for on-chain protocols, with two core drivers being FAssets and Flare Smart Accounts, each requiring at least one or two attestation per action (minting, redemption, Flare Smart Account Action invocation).
+Timely and accurate FDC attestations are critical for on-chain protocols, with two core drivers being FAssets and Flare Smart Accounts, each requiring at least one or two attestations per action (minting, redemption, Flare Smart Account Action invocation).
 
 FDC requests are available to all network projects, with growing adoption observed in recent months.
 Current use cases range from prediction markets to cross-chain payment metadata attestations for compliance.
@@ -134,7 +134,7 @@ This proposal seeks to adjust the base request cost in the following manner:
 | `EVMTransaction` | 1 | 20 |
 | `Web2Json` | 100 | 100 |
 
-Furthermore the fee redistribution mechanism will change as follows.
+Furthermore, the fee redistribution mechanism will change as follows.
 For each request, 10% of the fees will be distributed alongside inflation -- consistent with the current model -- while the remaining 90% will be directed to FIRE.
 Even with this new split, the absolute amount of fees going towards protocol rewards will be higher than before.
 Flare Governance will monitor the impact of these changes and may propose further changes in accordance to the methodology established in [FIP.11](https://proposals.flare.network/FIP/FIP_11.html) and [FIP.14](https://proposals.flare.network/FIP/FIP_14.html).
@@ -147,7 +147,7 @@ With a large (2 to 5 fold) increase in Payment attestations since the launch of 
 
 The upcoming FAssets upgrade simplifies the minting process by removing the need for two transactions and allowing minting directly to the core vault.
 As well as decreasing the minting time, this upgrade greatly increases the bridging capability.
-Additionally, it adds a layer of extendability, allowing users to compose bridging together with immediate transaction execution within the context of the Flare Smart Accounts.
+Furthermore, it adds a layer of extendability, allowing users to compose bridging together with immediate transaction execution within the context of the Flare Smart Accounts.
 The change in minting decreases the reliance on FAsset agents and changes their role to performing redemptions only.
 As the new deposit mechanism does not depend on the capital lockup from the agent side, its cost decreases.
 Instead of removing the minting fee, the existing fee will be reallocated to FIRE.
@@ -156,7 +156,7 @@ With the core vault that was already introduced in the FAssets v1.2, the capital
 Additionally, a large volume of `FXRP` bridging transactions were introduced to support the agents and collateral pool expected from expansion.
 To fund support for this FAsset infrastructure a portion (10%) of redemption fee will also be redirected to the FIRE incentive pool, with the majority still being kept by the agent and participants in the collateral pool to reward their participation.
 
-Additionally `FXRP` will allow a "shortcut" version of minting with a destination tag.
+Additionally, `FXRP` will allow a "shortcut" version of minting with a destination tag.
 With this shortcut, the minter will be able to permanently acquire a specific destination tag on the XRPL and core vault address as the entrypoint to mint directly to their designated Flare `0x` address.
 The destination tags will be available for registration directly from the FAssets system for a fixed governance controlled fee and then transferred and modified by their owners.
 The registration fee will be denominated in `FLR` and will start at 1000 `FLR`.
@@ -168,7 +168,7 @@ Redirecting fees to FIRE provides a natural mechanism for these funds to be rein
 
 ### 4.3 Flare Confidential Compute
 
-The upcoming addition of FCC on the network will heavily rely on the infrastructure providers to provide administration, registration, setup, machine maintenance, and validation, alongside with continuous oversight across the whole FCC stack.
+The upcoming addition of FCC on the network will heavily rely on the infrastructure providers to provide administration, registration, setup, machine maintenance, and validation, alongside continuous oversight across the whole FCC stack.
 All communication between on-chain users, deployed code, and hardware will be fully automated; infrastructure providers will perform message signing and machine deposits as core components of their role.
 
 To ensure long-term sustainability, each request, setup, and maintenance instruction issued to the FCC will incur a fee.
@@ -181,7 +181,7 @@ MEV is traditionally harvested by validators and their collaborators, effectivel
 
 Numerous initiatives have sought to mitigate MEV, or redirect its value back to users.
 Largely, these efforts have had small effects.
-Although there are some arguments to its benefits in decentralized systems, MEV remains an inherently suboptimal feature that, in an perfectly efficient system, would not exist.
+Although there are some arguments to its benefits in decentralized systems, MEV remains an inherently suboptimal feature that, in a perfectly efficient system, would not exist.
 
 In the current landscape, MEV revenues flow to a handful of entities with no mandate to support the underlying infrastructure.
 There is little evidence that this captured value is redirected towards initiatives that support the growth of the blockchain or the ecosystem.
@@ -204,7 +204,7 @@ It is therefore clear from the data that of all the elements in this proposal, c
 
 This proposal establishes a roadmap that modifies the consensus to a verifiable single builder system.
 The main goal of the single builder system migration is to designate an Entity (selected and monitored by the FIRE) to be the main builder of the blocks for the Flare Network.
-Initially this entity will be the Flare Foundation, but later multiple entities can compete for the designated builder spot by providing proof that their blocks are built in accordance with the network mandate.
+Initially, this entity will be the Flare Foundation, but later multiple entities can compete for the designated builder spot by providing proof that their blocks are built in accordance with the network mandate.
 The validator network and Flare System Protocol (FSP) entities will evolve through the transition.
 The contribution and requirement of the `FLR` token will stay the same: staked and delegated `FLR` provide votepower for entities across the ecosystem both as block validators and data providers, where the role of data providers will expand and become more and more prominent.
 
@@ -239,13 +239,13 @@ In case of discrepancy, security concerns or unavailability, FIRE will be able t
 
 Stage 2 upgrades the single builder model from Stage 1 to a fully transparent and decentralized method of MEV capture where block building is controlled by an algorithm running inside FCC deployment, or other similar secure deployments.
 
-In the second stage the block building algorithm will be made (partially) public, constantly audited and reviewed to ensure captured MEV is positive to the network.
+In the second stage, the block building algorithm will be made (partially) public, constantly audited and reviewed to ensure captured MEV is positive to the network.
 Additionally, blocks will be built within FCC to ensure compliance with the FIRE MEV mandate and prevent both censoring and malicious MEV.
 The existing validators will still cycle and propose blocks, while the network will move to a single builder system where the whole block building process will run inside FCC to ensure correctness.
 
 ##### Stage 3: Unified Builder-Proposer Mechanism
 
-Stage 3 upgrades the fully transparent system to a much more efficient version, where existing validators role becomes obsolete and fully migrates to the entity part already required by the FSP.
+Stage 3 upgrades the fully transparent system to a much more efficient version, where existing validators' role becomes obsolete and fully migrates to the entity part already required by the FSP.
 
 In this stage, the validator system will move to a single builder and proposer system where the FIRE assigned entity will be both building and proposing blocks.
 This will require further changes to the consensus algorithm to allow for a single block proposer designated by network governance.
@@ -309,8 +309,8 @@ The establishment and mandate of FIRE is authorized by this FIP.
 The administration of FIRE will be undertaken by the Flare Foundation who will over time put together a committee of members both internal and external to the Foundation to manage the entity.
 
 The decentralized governance of entities that hold (or in the case of FIRE potentially hold) a large amount of funds has historically been subject to many pitfalls and many forms of egregious exploitation.
-This is largely due to governance procedures generally being an activity that has very low community participation, leaving the system open to exploitation by small groups of large holders who may not have the wider communities interests or the long term interests of the project in mind.
-As such the passing of this FIP will establish a negative governance structure with a high participation threshold.
+This is largely due to governance procedures generally being an activity that has very low community participation, leaving the system open to exploitation by small groups of large holders who may not have the wider community's interests or the long term interests of the project in mind.
+As such, the passing of this FIP will establish a negative governance structure with a high participation threshold.
 This will allow the community to establish the ability to stop, this being the negative aspect, the actions of the Flare Foundation should it find those actions to be against the BROAD wishes of the community, this being the high participation aspect.
 This will work as follows.
 
@@ -322,7 +322,7 @@ The vote will be open to all `FLR` token holders and it must pass with at least 
 If such a vote passes in the affirmative the community will then have the ability to elect representatives drawn from the set of infrastructure providers that jointly operate on both Flare and Songbird.
 The purpose of picking only from those infrastructure providers that operate on both networks is that it is assumed that such infrastructure providers have the best interests of both the project and the community in mind.
 
-First a vote on Songbird will take place using `SGB` to pick the top eight vote winning infrastructure providers.
+First, a vote on Songbird will take place using `SGB` to pick the top eight vote winning infrastructure providers.
 These top eight infrastructure joint Flare and Songbird infrastructure providers selected using `SGB` will then be put to vote on Flare using `FLR` from which four representatives will be chosen by selecting those with the highest votes.
 
 Once these four representatives are chosen they will then be required to approve the suggested actions of FIRE such that neither the Flare Foundation nor any committee chosen to manage FIRE can take an action without also having the consent of the community representatives.
@@ -332,7 +332,7 @@ If joint governance of FIRE is established a new vote to select community repres
 ### 4.6 `RNat` Unvested Funds Redistribution
 
 This proposal changes the unvested Cross Chain incentive mechanism.
-Instead of being burnt, the unvested claimed fees are sent back to the Cross Chain Incentive Pool.
+Instead of being burned, the unvested claimed fees are sent back to the Cross Chain Incentive Pool.
 
 ## 5. Network Safety and Validator Sustainability
 

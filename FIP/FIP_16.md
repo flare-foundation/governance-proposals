@@ -10,7 +10,10 @@ title: FIP.16
 | Author             | Flare Foundation                            |
 | Created            | 27-Mar-2026                                 |
 | Document Status    | Final                                       |
-| Majority Condition | 50% (required)                              |
+| Majority Condition | 50% (required) 98.06% (obtained)            |
+| Voting Outcome     | [**Accepted**][ProposalLink] on 24-Apr-2026 |
+
+[ProposalLink]: https://portal.flare.network/proposal/view/51914424702816958886013892960058526100547147635160786098641945967853823562127?chainId=14
 
 ## 1. Brief Description
 

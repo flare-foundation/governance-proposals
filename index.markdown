@@ -66,6 +66,7 @@ Proposals aimed at improving the Flare network by being tested first on the Song
 |     10 | [Add Custom Feeds to FTSO](STP/STP_10.md)                                   |
 |     11 | [Add Support for FDC Web2 Attestations](STP/STP_11.md)                      |
 |     12 | [Introduce Process to Delist FTSO Feeds](STP/STP_12.md)                     |
+|     13 | [Introduce Flare Confidential Compute](STP/STP_13.md)                     |
 
 <style>
     table thead tr th:first-child {

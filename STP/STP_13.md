@@ -9,9 +9,12 @@ title: STP.13
 | :------------------ | :------------------------------------------ |
 | Author              | Flare Foundation                            |
 | Created             | 29-Jun-2026                                 |
-| Document Status     | Draft                                       |
-| Threshold Condition | 75% (required to reject)                    |
-| Majority Condition  | 50% (required to reject)                    |
+| Document Status     | Final                                       |
+| Threshold Condition | 75% (required to reject) 3.68% (obtained)   |
+| Majority Condition  | 50% (required to reject) 12.43% (obtained)  |
+| Voting Outcome      | [**Accepted**][ProposalLink] on 12-Jul-2026 |
+
+[ProposalLink]: https://portal.flare.network/proposal/view/99482489352199035902583237938299854023464286358415863587049119819700851628581?chainId=19
 
 ## 1. Brief Description
 

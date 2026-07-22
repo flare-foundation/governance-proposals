@@ -23,6 +23,7 @@ secret_detection:
 pages:
   needs: []
   image: jekyll/jekyll
+  tags: ["flarenetwork"]
   stage: deploy
   environment:
     name: production

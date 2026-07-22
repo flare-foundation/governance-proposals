@@ -22,7 +22,8 @@ secret_detection:
 
 pages:
   needs: []
-  image: jekyll/jekyll
+  image: ruby:3.1
+  tags: ["flarenetwork"]
   stage: deploy
   environment:
     name: production
@@ -34,18 +35,22 @@ pages:
   cache:
     key:
       files:
-      - requirements.txt
+      - Gemfile.lock
     paths:
     - .jekyll-cache
+    - vendor/bundle
   before_script:
   - if [ -d "public" ]; then echo "Directory ./public exists while it should not as it is used for docs artifacts" && exit 1; fi
-  - apk add yq
+  - bundle config set --local path vendor/bundle
+  - bundle install --jobs 4
   - |
-    yq eval -i '.url = strenv(CI_ENVIRONMENT_URL)' _config.yml
-    yq eval -i '.baseurl = strenv(BASEURL)' _config.yml
-  - cat _config.yml
+    cat > _config_ci.yml <<EOF
+    url: "${CI_ENVIRONMENT_URL}"
+    baseurl: "${BASEURL}"
+    EOF
+  - cat _config_ci.yml
   script:
-  - jekyll build
+  - bundle exec jekyll build --config _config.yml,_config_ci.yml
   artifacts:
     expire_in: 30 days
     paths:
